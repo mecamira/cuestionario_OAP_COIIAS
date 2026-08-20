@@ -3,7 +3,7 @@
    que se exporta, sin pasos intermedios de conversion. */
 
 .informe-barra-acciones {
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
   padding: 16px 20px; margin-bottom: 20px;
 }
 
@@ -22,20 +22,35 @@
 .informe-cabecera-texto h1 { font-size: 21px; }
 .informe-cabecera-texto p { margin-top: 4px; color: var(--tinta-suave); font-size: 13.5px; }
 
+/* Afordancia base de "esto se puede editar": borde punteado que aparece al
+   pasar el raton o al enfocar, para no ensuciar visualmente el informe
+   cuando nadie lo esta tocando. */
 .informe-editable {
-  font-size: 14.5px; line-height: 1.65; color: var(--tinta); white-space: pre-wrap;
-  border: 1.5px dashed transparent; border-radius: 6px; padding: 6px 8px; margin: 0 -8px 20px;
+  color: var(--tinta);
+  border: 1.5px dashed transparent; border-radius: 6px; padding: 6px 8px; margin: 0 -8px 16px;
   outline: none; cursor: text;
 }
 .informe-editable:hover, .informe-editable:focus { border-color: var(--linea-fuerte); background: var(--superficie-alt); }
-.informe-editable-pequeno { font-size: 13.5px; margin: 6px -8px 8px; color: var(--tinta-suave); }
+.informe-editable-texto { font-size: 14.5px; line-height: 1.65; white-space: pre-wrap; }
+.informe-editable-pequeno { font-size: 13.5px; color: var(--tinta-suave); margin: 6px -8px 8px; }
+.informe-editable-titulo { margin-bottom: 6px; }
+
+/* Ediciones dentro de una linea (nombre de dimension, etiqueta de nivel):
+   sin caja ni margen negativo, solo un subrayado punteado sutil. */
+.informe-editable-inline {
+  display: inline-block; border: none; border-bottom: 1.5px dashed transparent;
+  border-radius: 0; padding: 0 1px; margin: 0; cursor: text; outline: none;
+}
+.informe-editable-inline:hover, .informe-editable-inline:focus { border-bottom-color: currentColor; background: transparent; }
 
 .informe-resultado-global {
-  display: flex; flex-direction: column; align-items: flex-start; gap: 8px;
+  display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
   padding: 18px 20px; margin-bottom: 26px; border-radius: 8px; background: var(--superficie-alt);
 }
-.informe-marcador { font-family: var(--font-display); font-weight: 700; font-size: 30px; }
-.informe-resultado-global p { color: var(--tinta-suave); font-size: 13.5px; max-width: 60ch; }
+.informe-resultado-global .tier-pill { margin-bottom: 4px; }
+.informe-marcador { font-family: var(--font-display); font-weight: 700; font-size: 30px; margin: 4px 0; }
+.informe-resultado-global .informe-editable { max-width: 60ch; }
+.informe-resultado-global .informe-editable-texto { color: var(--tinta-suave); }
 
 .informe-seccion-titulo { font-size: 16px; margin-bottom: 14px; }
 .informe-dimension { break-inside: avoid; margin-bottom: 4px; }
@@ -56,7 +71,10 @@
     box-shadow: none; border: none; border-radius: 0; max-width: none;
     padding: 0; margin: 0;
   }
-  .informe-editable { border-color: transparent !important; background: transparent !important; padding: 0; margin: 0 0 16px; }
+  .informe-editable, .informe-editable-inline {
+    border-color: transparent !important; background: transparent !important; padding: 0; margin: 0 0 16px;
+  }
   .informe-editable-pequeno { margin: 4px 0 6px; }
+  .informe-editable-inline { display: inline; margin: 0; }
   @page { size: A4; margin: 18mm 16mm; }
 }

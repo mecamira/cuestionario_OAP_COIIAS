@@ -34,14 +34,38 @@ function textoDimensionInicial(nombre: string, pct: number): string {
   return `Buen nivel en "${nombre}". Los siguientes vídeos son para consolidar y dar un paso más.`;
 }
 
+/** Bloque de texto editable a mano. El contenido inicial se pinta una vez;
+ * los cambios solo se sincronizan a React en el blur (no en cada tecla),
+ * para no pelear el cursor con contentEditable. */
+function EditableBlock({
+  value,
+  onSave,
+  className = "informe-editable informe-editable-texto",
+  as: Tag = "div",
+}: {
+  value: string;
+  onSave: (texto: string) => void;
+  className?: string;
+  as?: "div" | "h1" | "h2" | "p" | "span";
+}) {
+  return (
+    <Tag
+      className={className}
+      contentEditable
+      suppressContentEditableWarning
+      onBlur={(e: React.FocusEvent<HTMLElement>) => onSave(e.currentTarget.textContent ?? "")}
+    >
+      {value}
+    </Tag>
+  );
+}
+
 export function ReportEditor() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const [respuesta, setRespuesta] = useState<Respuesta | null | undefined>(undefined);
   const inicializado = useRef(false);
-  const [saludo, setSaludo] = useState("");
-  const [cierre, setCierre] = useState("");
-  const [comentarios, setComentarios] = useState<Record<string, string>>({});
+  const [textos, setTextos] = useState<Record<string, string>>({});
 
   useEffect(() => {
     if (!id) return;
@@ -49,14 +73,25 @@ export function ReportEditor() {
       setRespuesta(r);
       if (r && !inicializado.current) {
         inicializado.current = true;
-        setSaludo(textoSaludoInicial(r));
-        setCierre(textoCierreInicial());
-        const iniciales: Record<string, string> = {};
+        const tier = cuestionario.resultado.tiers_globales.find((t) => t.id === r.resultado.tier);
+        const fecha = new Date().toLocaleDateString("es-ES", { day: "2-digit", month: "long", year: "numeric" });
+        const iniciales: Record<string, string> = {
+          cabecera_titulo: "Informe de diagnóstico digital",
+          cabecera_subtitulo: `${r.perfil.empresa} · ${fecha}`,
+          saludo: textoSaludoInicial(r),
+          tier_pill: tier?.label ?? "",
+          tier_titular: tier?.titular ?? "",
+          tier_cuerpo: tier?.descripcion ?? "",
+          cierre: textoCierreInicial(),
+        };
         for (const fila of r.resultado.dimensiones) {
           const dim = cuestionario.dimensiones.find((d) => d.id === fila.id);
-          if (dim) iniciales[fila.id] = textoDimensionInicial(dim.nombre, fila.pct);
+          if (dim) {
+            iniciales[`dim_nombre_${fila.id}`] = dim.nombre;
+            iniciales[`dim_comentario_${fila.id}`] = textoDimensionInicial(dim.nombre, fila.pct);
+          }
         }
-        setComentarios(iniciales);
+        setTextos(iniciales);
       }
     });
   }, [id]);
@@ -70,7 +105,10 @@ export function ReportEditor() {
 
   const r = respuesta;
   const tier = cuestionario.resultado.tiers_globales.find((t) => t.id === r.resultado.tier);
-  const fecha = new Date().toLocaleDateString("es-ES", { day: "2-digit", month: "long", year: "numeric" });
+
+  function guardarTexto(clave: string) {
+    return (texto: string) => setTextos((prev) => ({ ...prev, [clave]: texto }));
+  }
 
   function handleExportar() {
     document.title = `Informe - ${r.perfil.empresa}`;
@@ -83,39 +121,57 @@ export function ReportEditor() {
         <button className="dash-volver" onClick={() => navigate(`/dashboard/${id}`)}>
           ← Volver a la respuesta
         </button>
-        <button className="btn-primario" onClick={handleExportar}>
-          Exportar a PDF
-        </button>
+        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+          <p className="campo-nota" style={{ margin: 0, maxWidth: 260, textAlign: "right" }}>
+            Antes de guardar: en el diálogo de impresión, abre "Más ajustes" y desactiva "Encabezados y pies de
+            página" para que no salga la URL.
+          </p>
+          <button className="btn-primario" onClick={handleExportar}>
+            Exportar a PDF
+          </button>
+        </div>
       </div>
 
       <div className="informe-hoja">
         <div className="informe-cabecera">
           <img src="/logo-oap3.png" alt="Oficina Acelera Pyme · COIIAS" />
           <div className="informe-cabecera-texto">
-            <h1>Informe de diagnóstico digital</h1>
-            <p>
-              {r.perfil.empresa} · {fecha}
-            </p>
+            <EditableBlock
+              as="h1"
+              value={textos.cabecera_titulo ?? ""}
+              onSave={guardarTexto("cabecera_titulo")}
+              className="informe-editable informe-editable-titulo"
+            />
+            <EditableBlock
+              as="p"
+              value={textos.cabecera_subtitulo ?? ""}
+              onSave={guardarTexto("cabecera_subtitulo")}
+              className="informe-editable informe-editable-pequeno"
+            />
           </div>
         </div>
 
-        <div
-          className="informe-editable"
-          contentEditable
-          suppressContentEditableWarning
-          onBlur={(e) => setSaludo(e.currentTarget.textContent ?? "")}
-        >
-          {saludo}
-        </div>
+        <EditableBlock value={textos.saludo ?? ""} onSave={guardarTexto("saludo")} />
 
         {tier && (
           <div className="informe-resultado-global">
             <span className={`tier-pill tier-${tier.id}`}>
               <span className="punto" />
-              {tier.label}
+              <EditableBlock
+                as="span"
+                value={textos.tier_pill ?? ""}
+                onSave={guardarTexto("tier_pill")}
+                className="informe-editable-inline"
+              />
             </span>
             <div className="informe-marcador">{r.resultado.pct_global}/100</div>
-            <p>{tier.descripcion}</p>
+            <EditableBlock
+              as="h2"
+              value={textos.tier_titular ?? ""}
+              onSave={guardarTexto("tier_titular")}
+              className="informe-editable informe-editable-titulo"
+            />
+            <EditableBlock value={textos.tier_cuerpo ?? ""} onSave={guardarTexto("tier_cuerpo")} />
           </div>
         )}
 
@@ -128,7 +184,12 @@ export function ReportEditor() {
             return (
               <div className="barra-fila informe-dimension" key={fila.id}>
                 <div className="barra-cabecera">
-                  <span className="barra-nombre">{dim.nombre}</span>
+                  <EditableBlock
+                    as="span"
+                    value={textos[`dim_nombre_${fila.id}`] ?? dim.nombre}
+                    onSave={guardarTexto(`dim_nombre_${fila.id}`)}
+                    className="informe-editable-inline barra-nombre"
+                  />
                   <span className="barra-valor">
                     {fila.score} / {fila.max}
                   </span>
@@ -136,16 +197,11 @@ export function ReportEditor() {
                 <div className="barra-pista">
                   <div className={`barra-relleno ${claseBarra(fila.pct)}`} style={{ width: `${fila.pct}%` }} />
                 </div>
-                <div
+                <EditableBlock
+                  value={textos[`dim_comentario_${fila.id}`] ?? ""}
+                  onSave={guardarTexto(`dim_comentario_${fila.id}`)}
                   className="informe-editable informe-editable-pequeno"
-                  contentEditable
-                  suppressContentEditableWarning
-                  onBlur={(e) =>
-                    setComentarios((prev) => ({ ...prev, [fila.id]: e.currentTarget.textContent ?? "" }))
-                  }
-                >
-                  {comentarios[fila.id]}
-                </div>
+                />
                 {ids.map((vid) => {
                   const v = videoPorId(vid);
                   if (!v) return null;
@@ -163,22 +219,23 @@ export function ReportEditor() {
           })}
         </div>
 
-        <div
-          className="informe-editable"
-          contentEditable
-          suppressContentEditableWarning
-          onBlur={(e) => setCierre(e.currentTarget.textContent ?? "")}
-        >
-          {cierre}
-        </div>
+        <EditableBlock value={textos.cierre ?? ""} onSave={guardarTexto("cierre")} />
 
-        <a className="btn-primario informe-cta no-imprimir" href={cuestionario.plataforma_contenidos.url} target="_blank" rel="noopener noreferrer">
+        <a
+          className="btn-primario informe-cta no-imprimir"
+          href={cuestionario.plataforma_contenidos.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {cuestionario.plataforma_contenidos.nombre} →
         </a>
 
         <div className="informe-pie">
           <img src="/logo-feder.png" alt="FEDER · Fondo Europeo de Desarrollo Regional" />
-          <img src="/logo-cofinanciacion.png" alt="Cofinanciado por la Unión Europea · Ministerio de Hacienda · Fondos Europeos · red.es" />
+          <img
+            src="/logo-cofinanciacion.png"
+            alt="Cofinanciado por la Unión Europea · Ministerio de Hacienda · Fondos Europeos · red.es"
+          />
         </div>
       </div>
     </>
