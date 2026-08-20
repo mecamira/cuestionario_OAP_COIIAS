@@ -70,6 +70,20 @@ describe("firestore.rules > respuestas", () => {
     );
   });
 
+  test("crear autenticado (equipo con sesion activa) con datos validos: tambien permitido", async () => {
+    // Regresion: las reglas exigian request.auth == null, asi que alguien del
+    // equipo con sesion iniciada en el dashboard (mismo origen/pestana) no
+    // podia enviar el cuestionario publico sin perder su respuesta en
+    // silencio. Incidencia real detectada el 2026-08-20.
+    const db = testEnv.authenticatedContext("equipo-coiias-uid").firestore();
+    await assertSucceeds(
+      db.collection("respuestas").add({
+        ...respuestaValida(),
+        meta: { ...respuestaValida().meta, creado_en: (await import("firebase/firestore")).serverTimestamp() },
+      }),
+    );
+  });
+
   test("crear sin campos obligatorios: denegado", async () => {
     const db = testEnv.unauthenticatedContext().firestore();
     const { perfil: _perfil, ...sinPerfil } = respuestaValida();

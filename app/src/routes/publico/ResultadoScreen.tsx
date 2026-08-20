@@ -1,43 +1,27 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { cuestionario } from "../../lib/cuestionario";
 import { videoPorId } from "../../lib/videos";
 import { calcularResultado, claseBarra, idsRecomendadosDimension } from "../../lib/scoring";
 import type { MapaRespuestas } from "../../lib/scoring";
-import { submitRespuesta } from "../../lib/firestore";
 import type { PerfilEmpresa } from "../../types/respuesta";
 
 interface Props {
   perfil: PerfilEmpresa;
   respuestas: MapaRespuestas;
+  /** true si submitRespuesta se completo antes de llegar aqui, false si fallo,
+   * null si no se intento (Firebase no configurado). El guardado en si ya ha
+   * ocurrido (o fallado) en Cuestionario.tsx ANTES de montar esta pantalla —
+   * aqui solo se informa del resultado, no se reintenta. */
+  guardadoOk: boolean | null;
 }
 
-export function ResultadoScreen({ perfil, respuestas }: Props) {
+export function ResultadoScreen({ perfil, respuestas, guardadoOk }: Props) {
   const resultado = calcularResultado(respuestas);
-  const { plataforma_contenidos: plataforma, cta_resultado: cta, meta } = cuestionario;
+  const { plataforma_contenidos: plataforma, cta_resultado: cta } = cuestionario;
 
   const [numeroAnimado, setNumeroAnimado] = useState(0);
   const [email, setEmail] = useState(perfil.email);
   const [enviado, setEnviado] = useState(false);
-  const yaEnviadoRef = useRef(false);
-
-  // Guarda la respuesta en cuanto se llega al resultado, una sola vez,
-  // independientemente de si el usuario rellena el formulario de informe.
-  useEffect(() => {
-    if (yaEnviadoRef.current) return;
-    yaEnviadoRef.current = true;
-    submitRespuesta(perfil, respuestas, {
-      version_cuestionario: meta.version,
-      pct_global: resultado.pctGlobal,
-      tier: resultado.tier.id,
-      dimensiones: resultado.filas.map((f) => ({
-        id: f.dimension.id,
-        score: f.score,
-        max: f.max,
-        pct: f.pct,
-      })),
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   useEffect(() => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -68,6 +52,24 @@ export function ResultadoScreen({ perfil, respuestas }: Props) {
 
   return (
     <div className="pantalla panel">
+      {guardadoOk === false && (
+        <div
+          style={{
+            background: "var(--rojo-suave)",
+            color: "var(--rojo)",
+            borderRadius: 8,
+            padding: "10px 14px",
+            fontSize: 13.5,
+            marginBottom: 16,
+          }}
+        >
+          No hemos podido guardar tu respuesta automáticamente. Escríbenos a{" "}
+          <a href="mailto:otd@coiias.es" style={{ color: "inherit" }}>
+            otd@coiias.es
+          </a>{" "}
+          y te ayudamos.
+        </div>
+      )}
       <div className="resultado-cabecera">
         <span className={`tier-pill tier-${resultado.tier.id}`}>
           <span className="punto" />

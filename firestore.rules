@@ -2,11 +2,14 @@ rules_version = '2';
 
 // Reglas de acceso para el cuestionario de la OAP COIIAS.
 //
-// - `create` publico y sin autenticar: cualquiera puede enviar una
-//   respuesta del test, con una validacion de forma minima (no de negocio:
-//   las reglas no tienen acceso a data/cuestionario.json, asi que no pueden
-//   comprobar los 23 ids de pregunta exactos). Es una barrera anti-abuso,
-//   no la validacion completa.
+// - `create` publico: cualquiera puede enviar una respuesta del test, con
+//   una validacion de forma minima (no de negocio: las reglas no tienen
+//   acceso a data/cuestionario.json, asi que no pueden comprobar los 23 ids
+//   de pregunta exactos). Es una barrera anti-abuso, no la validacion
+//   completa. Deliberadamente NO exige request.auth == null: si lo hiciera,
+//   alguien del equipo con sesion iniciada en el dashboard (misma pestana u
+//   origen) no podria rellenar el cuestionario publico sin querer perder su
+//   propia respuesta en silencio — ya paso una vez.
 // - `read`/`update` solo para usuarios autenticados (cualquier cuenta del
 //   equipo COIIAS dada de alta en Firebase Auth): es lo que usa el
 //   dashboard privado.
@@ -20,7 +23,7 @@ service cloud.firestore {
   match /databases/{database}/documents {
 
     match /respuestas/{respuestaId} {
-      allow create: if request.auth == null && esRespuestaValida(request.resource.data);
+      allow create: if esRespuestaValida(request.resource.data);
       allow read, update: if request.auth != null;
       allow delete: if false;
     }
