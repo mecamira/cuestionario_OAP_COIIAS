@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { MarcaCabecera } from "../../components/MarcaCabecera";
 import { PieFinanciacion } from "../../components/PieFinanciacion";
 import { IntroScreen } from "./IntroScreen";
@@ -34,11 +34,18 @@ export function Cuestionario() {
 
   const plano = listaPreguntasPlano();
   const total = plano.length;
+  // Evita que un doble clic/doble toque durante los 220ms de transicion
+  // encole dos avances de pregunta y desborde el indice (plano[preguntaIdx]
+  // quedando undefined y rompiendo la pantalla).
+  const avanzando = useRef(false);
 
   function seleccionar(valor: RespuestaValor) {
+    if (avanzando.current) return;
+    avanzando.current = true;
     const actual = plano[preguntaIdx];
     setRespuestas((prev) => ({ ...prev, [actual.pregunta.id]: valor }));
     window.setTimeout(() => {
+      avanzando.current = false;
       if (preguntaIdx < total - 1) {
         setPreguntaIdx((i) => i + 1);
       } else {
@@ -48,6 +55,7 @@ export function Cuestionario() {
   }
 
   function atrasEnPregunta() {
+    if (avanzando.current) return;
     if (preguntaIdx === 0) {
       setPantalla("perfil");
     } else {
@@ -93,7 +101,7 @@ export function Cuestionario() {
             />
           )}
 
-          {pantalla === "pregunta" && (
+          {pantalla === "pregunta" && plano[preguntaIdx] && (
             <PreguntaScreen
               dimension={plano[preguntaIdx].dimension}
               pregunta={plano[preguntaIdx].pregunta}
