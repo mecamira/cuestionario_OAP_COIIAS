@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import { MarcaCabecera } from "../../components/MarcaCabecera";
 import { PieFinanciacion } from "../../components/PieFinanciacion";
 import { IntroScreen } from "./IntroScreen";
@@ -119,6 +120,14 @@ export function Cuestionario() {
         </div>
       </div>
       <PieFinanciacion />
+      <div style={{ textAlign: "center", paddingBottom: 24 }}>
+        <Link
+          to="/dashboard"
+          style={{ fontSize: 12, color: "var(--tinta-suave)", textDecoration: "underline" }}
+        >
+          Acceso equipo COIIAS →
+        </Link>
+      </div>
     </>
   );
 }
