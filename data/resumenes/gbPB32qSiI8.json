@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (87 min) sobre metodologías ágiles para la transformación digital, muy participativo y lleno de ejemplos reales. Sitúa el contexto: un cliente nuevo, conectado y cambiante (la línea de recomendaciones de Amazon como estándar de expectativa) en un entorno volátil donde ninguna empresa sabe dónde estará en un año, y aclara que transformación digital no es solo pasar el papel a PDF o irse al cloud: cambia organización, procesos y modelo de negocio. Explica design thinking con un caso visual (el responsable de tienda observando cómo los clientes llevan a los niños en el carrito para definir el problema real), destacando el poder de lo visual: la información compartida en la pared, aparentemente desorganizada, está organizada. Desarrolla Scrum para proyectos: ciclos cortos de una a cuatro semanas que siempre entregan algo revisable (los menús prioritarios del portal web salen a producción sin esperar a la web completa), frente a las fases de 12 meses de la banca tradicional. Presenta Kanban para procesos y servicios con una defensa entrañable de lo analógico: un tablero de postits y rotuladores cuesta diez euros y mejora flujos atascados (eso sí, compra los postits de marca, que los baratos se caen en otoño). Cierra con el papel de la cúpula directiva, ejemplificado en el giro digital de Mercadona.",
+  "temas": [
+    "metodologías ágiles",
+    "scrum",
+    "kanban",
+    "design thinking",
+    "ciclos cortos",
+    "cliente digital"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas de cualquier sector que quieren adoptar formas de trabajo ágiles sin ser tecnológicas."
+}

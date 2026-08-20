@@ -1,0 +1,18 @@
+{
+  "resumen": "Ponencia del Foro Asturias Digital 2026 de Idonial (Pedro Javier Sáez) sobre la inteligencia industrial que sale de la pantalla al mundo físico: IA embebida en robots y procesos. Repasa la historia de los humanoides desde el DARPA Robotics Challenge de 2011 (nacido de la constatación de que los entornos humanos, con escaleras y manillas, exigen forma humana) y el Atlas de Boston Dynamics, desmontando el mensaje comercial de que los humanoides son toda la robótica. Muestra en escenario un robot real: sensores de visión y percepción, procesador Nvidia Jetson Orin NX capaz de ejecutar modelos de IA medios, 16.000 dólares de coste, y responde con honestidad a la pregunta de si estamos listos para humanoides en fábrica: todavía no; hoy son sobre todo plataformas de investigación. Sitúa el mapa geopolítico (EE.UU., China, Corea) destacando que la catalana PAL Robotics compite en Europa con su modelo Talos. Explica el funcionamiento técnico: los modelos de lenguaje traducen órdenes («coge esa manzana») en acciones del robot —percibo, decido, actúo— y la clave está en el «cerebro» y en simular el mundo físico con datos sintéticos para validar que una operación no genere deformaciones, corrosión o fatiga. Reivindica el papel de las personas en esta transición.",
+  "temas": [
+    "robótica humanoide",
+    "IA embebida",
+    "Boston Dynamics",
+    "sistemas ciberfísicos",
+    "simulación",
+    "robots comerciales"
+  ],
+  "areas": [
+    "industria-4.0",
+    "inteligencia-artificial",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Industria interesada en el estado real de la robótica inteligente más allá del marketing de los humanoides."
+}

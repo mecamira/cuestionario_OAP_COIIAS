@@ -1,0 +1,17 @@
+{
+  "resumen": "Píldora tecnológica de 4 minutos sobre robótica colaborativa, presentada por un técnico del centro tecnológico Idonial. Explica qué diferencia a los cobots de los robots industriales tradicionales: en lugar de operar enjaulados, incorporan sensores, visión artificial y sistemas de control que detectan la presencia humana y ajustan su comportamiento, siendo flexibles y fáciles de programar. Recorre aplicaciones reales: ensamblaje junto a operarios en BMW reduciendo lesiones por movimientos repetitivos, empaquetado de vacunas en entornos estériles con trazabilidad blockchain, clasificación de paquetes en Amazon, cosecha de fruta con visión artificial sin dañarla, e incluso cobots baristas en cafeterías, mostrando que democratizan la automatización para las pymes. Cita un dato potente: hasta el 85% de las pymes que adoptan cobots recuperan la inversión en menos de un año. Reconoce los retos (certificaciones de seguridad, coste inicial, formación de los equipos) y dibuja el futuro: cobots que aprenden de sus errores, programación por gestos con realidad aumentada, control remoto en tiempo real vía 5G industrial, integración con IoT y un diseño ético que complemente empleos en lugar de eliminarlos.",
+  "temas": [
+    "cobots",
+    "robótica colaborativa",
+    "automatización",
+    "visión artificial",
+    "retorno de inversión",
+    "industria 4.0"
+  ],
+  "areas": [
+    "industria-4.0",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes industriales que se plantean automatizar tareas sin prescindir de sus operarios."
+}

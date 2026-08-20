@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (87 min) del ciclo de Office 365 dedicado a Microsoft Teams como plataforma unificada de comunicación y colaboración. Estructura sus dos caras: comunicación (chat individual y grupal —más útil profesionalmente de lo que parece—, llamadas, reuniones y videollamadas grabables) y colaboración (archivos y equipos). Explica la jerarquía con un ejemplo claro: el equipo «departamento de marketing» con canales por temática (emailing, campañas, eventos, leads) y pestañas que dan servicios a cada canal. Detalla los roles y sus límites: propietarios (añaden y eliminan usuarios, configuran el equipo), miembros (colaboran sin tocar configuración) e invitados externos a la organización (colaboran y ven archivos con más limitaciones). Repasa las pestañas por defecto (publicaciones y archivos no se pueden eliminar; la wiki sí) y la creación de pestañas con URLs seguras (solo https), por ejemplo para dar acceso directo al CRM web corporativo desde el canal. En reuniones muestra funciones útiles: listado de asistentes, bloqueo de la reunión pasado el tiempo de cortesía para evitar interrupciones, chat de reunión y reacciones (levantar la mano para pedir turno). Práctico y ordenado para adoptar Teams con criterio.",
+  "temas": [
+    "Microsoft Teams",
+    "equipos y canales",
+    "roles y permisos",
+    "reuniones online",
+    "colaboración",
+    "invitados externos"
+  ],
+  "areas": [
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Organizaciones que están adoptando Teams y quieren estructurarlo bien desde el principio."
+}

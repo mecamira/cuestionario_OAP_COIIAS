@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (82 min) sobre los fundamentos del marketing y su traslación al mundo digital, bajo la premisa de Steve Jobs: «en internet, hasta la empresa más pequeña puede parecer la más grande». Hace un recorrido histórico por la disciplina: la aparición de la segmentación de mercados (dejar de vender lo mismo a todos y tratar grupos homogéneos con necesidades propias), los referentes como Kotler, y el marketing mix de las 4 P (producto, precio, distribución y promoción) con su evolución posterior. Incluye píldoras aplicadas memorables: la psicología del color y los arquetipos de marca (por qué Coca-Cola nunca abandonará el rojo con Pepsi posicionada en azul, o los colores tierra del arquetipo explorador en la sección de caza y pesca), el marketing de bases de datos conectado al CRM (clave en mercados industriales donde los técnicos registran interacciones y presupuestos por cliente), y un ejemplo brillante de marketing de guerrilla: vinilos de anillas de libreta en el aparcamiento de bicicletas de una biblioteca, máxima visibilidad para el público objetivo con permiso municipal y un vinilo como única inversión. Termina con el marketing de contenidos (blog con categorías y etiquetas que crecen según el interés del usuario) y una reflexión de actualidad sobre las crisis de suministros, cerrando con Drucker.",
+  "temas": [
+    "fundamentos de marketing",
+    "marketing mix",
+    "segmentación",
+    "psicología del color",
+    "marketing de guerrilla",
+    "marketing de contenidos"
+  ],
+  "areas": [
+    "marketing-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Quien necesita una base sólida de marketing antes de lanzarse a las herramientas digitales."
+}

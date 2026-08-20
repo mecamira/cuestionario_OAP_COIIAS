@@ -1,0 +1,21 @@
+{
+  "resumen": "Primera sesión (93 min) de un bloque de dos webinars sobre Power Automate, con un marco introductorio y estratégico antes de tocar la herramienta: el porqué y el para qué de automatizar. Insiste en sistematizar antes de automatizar (plantillas, checklists, criterios de calidad en papel primero) porque automatizar un proceso mal definido solo multiplica el caos. Aporta una reflexión honesta sobre la motivación real de muchas automatizaciones actuales: no solo la eficiencia, también el FOMO corporativo («mi jefe quiere IA porque los demás la tienen»). Compara el panorama de herramientas no-code (Power Automate, Zapier, Make —antes Integromat—, n8n) por facilidad de uso, coste y planes gratuitos para aprender. Aterriza con un caso real trabajado con una asistente de RRHH: automatizar un bot que responda dudas de empleados sobre dos convenios colectivos distintos. Introduce la interfaz de Power Automate, la recomendación de trabajar con el navegador Edge por su integración con Copilot, y destaca las aprobaciones como el primer flujo que casi cualquier empresa debería implementar (por ejemplo, la aprobación en cascada para seleccionar un proveedor), con demostración guiada de creación del primer flujo.",
+  "temas": [
+    "Power Automate",
+    "automatización de procesos",
+    "no-code",
+    "sistematización previa",
+    "aprobaciones automatizadas",
+    "Zapier/Make/n8n"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "sustituye_a": [
+    "2eLwVE5fP1I",
+    "qMgvqT0IQcQ"
+  ],
+  "publico_objetivo": "Empresas que quieren empezar a automatizar procesos administrativos repetitivos sin programar."
+}

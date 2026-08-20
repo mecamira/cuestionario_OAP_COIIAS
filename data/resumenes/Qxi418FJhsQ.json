@@ -1,0 +1,17 @@
+{
+  "resumen": "Segunda sesión (100 min) del bloque de Power Automate, con un enfoque práctico sobre las dos versiones de la herramienta: Cloud y Escritorio. Muestra el uso de conectores organizados por favoritos, y una función destacable: pedir a Copilot dentro del propio Power Automate que genere una acción o fórmula Power FX describiendo en lenguaje natural lo que se necesita, con la advertencia honesta de que no siempre acierta a la primera. Recorre un ejemplo real construido paso a paso: leer una tabla de Excel, recorrerla con una estructura de bucle (for each), generar con IA un resumen de cada fila y enviarlo por correo, incluyendo cómo sustituir un fragmento de código Power FX obtenido directamente de ChatGPT cuando la interfaz visual no basta. Introduce la integración con Power Apps y Power Automate de escritorio para automatizar tareas locales del ordenador, más allá de la nube. Cierra con una reflexión estratégica y motivacional sobre el papel de la IA dentro de los procesos automatizados y las tendencias futuras del trabajo automatizado, aterrizando la teoría de la primera sesión en flujos reales construidos en directo.",
+  "temas": [
+    "Power Automate",
+    "Power Automate Desktop",
+    "Power Apps",
+    "Power FX",
+    "automatización con IA",
+    "flujos con bucles"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Profesionales que ya conocen los fundamentos de Power Automate y quieren construir flujos reales con apoyo de IA."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Píldora tecnológica de 7 minutos que dibuja el panorama competitivo de la IA generativa: el origen del concepto en Google, el papel de OpenAI (ChatGPT) y de Nvidia como fabricante del hardware, y la «carrera armamentística» entre empresas por modelos más versátiles, inteligentes y baratos. Explica la división clave del sector entre modelos cerrados (acceso controlado, sin publicar detalles internos, con control total sobre los datos que envían los usuarios) y modelos abiertos o locales, y por qué esto afecta al usuario: con herramientas como LM Studio cualquiera puede ejecutar modelos en su propio ordenador sin conexión a internet. Lo ilustra con el caso de Alicia, una psicóloga que no puede subir información sensible de pacientes a herramientas online, pero con un modelo local redacta informes a partir de sus notas ahorrando horas diarias sin comprometer la privacidad. Menciona los modelos abiertos Llama de Meta y DeepSeek R1 como ejemplos del cambio de paradigma, y cierra con la advertencia: si no pagas por el producto, el producto eres tú; la información es un activo valioso.",
+  "temas": [
+    "IA generativa",
+    "modelos abiertos vs cerrados",
+    "modelos locales",
+    "LM Studio",
+    "privacidad de datos",
+    "Llama/DeepSeek"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "ciberseguridad"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Profesionales que manejan datos sensibles y quieren usar IA generativa sin comprometer la privacidad."
+}

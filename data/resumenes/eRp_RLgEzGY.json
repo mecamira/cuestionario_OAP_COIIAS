@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar de cierre del ciclo de IA para marketing digital, centrado en campañas de publicidad online: social ads, email marketing y banners. Explica los tipos de campaña en redes sociales según objetivo (visitas a la web, descargas de app, generación de leads con formularios integrados —aclarando que un lead cuesta unos 2 € y es un interesado, no un cliente—) y estrategias de embudo: una primera campaña segmentada por intereses que regala un ebook, y una segunda de remarketing solo para quienes se suscribieron. Muestra herramientas de IA para el diseño de anuncios (generación de creatividades subiendo logo y foto de producto, con la advertencia honesta de que de seis diseños quizá uno sea bueno), la creación de vídeos publicitarios con Lumen5 a partir de un texto y plantillas, y la redacción de líneas de asunto eficaces para email marketing (cortas, 60-70 caracteres, con preguntas o admiraciones). Recomienda plataformas de email marketing con versión gratuita, incluidas las españolas Acumbamail y Mailrelay. Conecta con el webinar anterior de Google Ads para completar el mapa de la publicidad digital y cierra con la medición: saber cuántos de los que llegaron por la campaña convirtieron.",
+  "temas": [
+    "publicidad digital",
+    "social ads",
+    "email marketing",
+    "generación de leads",
+    "remarketing",
+    "creatividades con IA",
+    "Lumen5"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "marketing-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes que quieren lanzar sus primeras campañas de publicidad online con presupuestos ajustados y apoyo de IA."
+}

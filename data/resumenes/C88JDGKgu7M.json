@@ -1,0 +1,17 @@
+{
+  "resumen": "Taller extenso (174 min) que cierra el ciclo dedicado a Microsoft Teams, centrado en la gestión de proyectos y tareas. Parte de la teoría de priorización (matriz urgente/importante y el coste emocional de la mala asignación de tareas, ilustrado con el ejemplo cotidiano del tornillo de IKEA que acaba con relaciones de pareja) para aterrizar en Planner y las herramientas de tareas de Teams: el tablero kanban con tarjetas visuales que se arrastran entre columnas, columnas personalizadas o agrupadas por depósito o por persona asignada, y todo el detalle de las tarjetas (cambio de responsable y fecha límite, adjuntos, comentarios, etiquetas de colores). El formato es muy participativo, con vídeos demostrativos seguidos de concursos de preguntas para fijar conceptos, incluyendo un bloque sobre correo electrónico en Outlook (opciones de importancia, entrega diferida para programar envíos) y buenas prácticas de productividad y seguridad: compartir enlaces a documentos en la nube en lugar de adjuntos por email. Cierra con un mensaje de sostenibilidad digital: los recursos electrónicos consumen energía e impactan en el medio ambiente, y no son infinitos.",
+  "temas": [
+    "Microsoft Teams",
+    "Planner",
+    "kanban",
+    "gestión de tareas",
+    "priorización",
+    "Outlook",
+    "productividad"
+  ],
+  "areas": [
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Equipos que usan Teams y quieren organizar proyectos y tareas sin herramientas adicionales."
+}

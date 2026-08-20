@@ -1,0 +1,17 @@
+{
+  "resumen": "Workshop práctico (139 min) sobre la digitalización del sector de la construcción e ingeniería mediante el flujo de trabajo que va desde el escaneo láser 3D hasta el modelo BIM. Explica la evolución desde la topografía clásica de captura de puntos discretos —con el riesgo de tener que volver a campo si falta un dato— hasta los equipos de captura masiva de datos (escáner láser con nube de puntos), incluyendo la medición de precisión de elementos concretos con ocular en el mismo sistema de coordenadas. Incluye una demostración en directo completa: descarga de los datos del escáner, postprocesado de la nube de puntos con software específico, visualización y edición de nubes, y modelado BIM a partir de la nube. Se subraya la idea clave de que un modelo BIM no es un dibujo 3D sino una base de datos interoperable con propiedades (costes, materiales, modificaciones), y se dan consejos de eficiencia como no escanear a 360° detalles innecesarios. Cierra con una reflexión sobre gestión del cambio: la dificultad de cambiar métodos de replanteo en cuadrillas veteranas y la necesidad de compromiso de la dirección para implantar estas tecnologías.",
+  "temas": [
+    "BIM",
+    "escaneo láser 3D",
+    "nube de puntos",
+    "digitalización de la construcción",
+    "modelado digital",
+    "gestión del cambio"
+  ],
+  "areas": [
+    "industria-4.0",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "avanzado",
+  "publico_objetivo": "Ingenierías, constructoras y técnicos de topografía interesados en digitalizar levantamientos y proyectos con BIM."
+}

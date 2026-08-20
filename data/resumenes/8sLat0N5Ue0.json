@@ -1,0 +1,16 @@
+{
+  "resumen": "Segundo webinar (95 min) del bloque de ecosistema y agentes, centrado en pasar del prompt suelto a sistemas automatizados. Enseña un criterio práctico de elección de modelo de IA según el caso de uso: Gemini como opción barata y potente para analizar documentos en desarrollos propios, frente a modelos más caros para el uso personal diario donde se prioriza la calidad. Demuestra en directo, con total transparencia, que toda la presentación y el vídeo del webinar están generados al completo con IA (incluida una recreación de la voz e imagen de Sam Altman como broma ilustrativa), para mostrar el estado del arte en generación de vídeo e imagen. Compara tres formas de resolver el mismo problema —crear una presentación—: a mano con PowerPoint, con una herramienta dedicada como Gamma, o dejando que un agente en el navegador tome las decisiones de diseño de principio a fin. Aborda también los modelos en local como opción cuando el control de la información es prioritario, con la contrapartida de menor potencia. Sesión práctica y demostrativa, continuación directa del webinar de ecosistemas digitales.",
+  "temas": [
+    "agentes de IA",
+    "elección de modelo de IA",
+    "generación de vídeo e imagen con IA",
+    "Gemini",
+    "modelos locales",
+    "automatización de presentaciones"
+  ],
+  "areas": [
+    "inteligencia-artificial"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Profesionales que ya usan IA generativa básica y quieren dar el salto a la automatización con agentes."
+}

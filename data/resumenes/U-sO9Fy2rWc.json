@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (79 min) sobre realidad virtual y aumentada aplicadas a la industria, con demostraciones en directo. Sitúa las XR entre las tecnologías habilitadoras de la smart factory, donde el gran reto no es captar ni almacenar datos sino sacarles partido, y las personas siguen siendo el centro. Explica la evolución del hardware: de las gafas dependientes de un ordenador con gráfica potente a los dispositivos autónomos actuales que han disparado la experiencia de usuario. Detalla los casos de uso industriales de la realidad virtual en formación: capacitación de pilotos y maquinistas ante emergencias, protocolos sanitarios de enfermería, manipulación de cargas y evaluación de equipos, con la clave de que permite reproducir experiencias difíciles de recrear en la vida real por riesgo o coste. Destaca un beneficio estratégico: reducir la dependencia de personas concretas ante la fuga de talento, capacitando rápidamente a empleados para picos de demanda. Incluye dos demos reales: un recorrido por una experiencia de realidad virtual desarrollada por la ponente y una demostración paso a paso de asistencia remota a la operación con realidad aumentada (instrucciones ancladas al espacio físico sobre válvulas y equipos, con documentación en contexto). Cierra con la conexión hacia el metaverso como tendencia.",
+  "temas": [
+    "realidad virtual",
+    "realidad aumentada",
+    "formación inmersiva",
+    "asistencia remota",
+    "smart factory",
+    "metaverso"
+  ],
+  "areas": [
+    "industria-4.0",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas industriales que quieren evaluar la XR para formación, operación y asistencia técnica."
+}

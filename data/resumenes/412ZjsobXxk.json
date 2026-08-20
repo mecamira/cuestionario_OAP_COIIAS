@@ -1,0 +1,15 @@
+{
+  "resumen": "Píldora tecnológica de 3 minutos que ordena los conceptos de la realidad extendida (XR), término que engloba tres tecnologías. Realidad virtual: inmersión total en un mundo digital con gafas (y trajes hápticos que transmiten sensaciones físicas), con casos de uso como la formación de 20.000 tripulantes de cabina de Lufthansa en salas digitales que ahorran vuelos y hoteles, entrenamientos en fábricas de BMW o los partidos de la NBA vividos desde casa como a pie de pista. Realidad aumentada: elementos digitales superpuestos al mundo físico a través del móvil o gafas, como códigos QR en museos, cadenas de ADN en 3D en libros escolares, filtros de Instagram o Pokémon Go. Realidad mixta: superposición que además entiende el espacio físico (suelo, paredes, muebles), permitiendo que lo digital interactúe con el entorno; se ilustra con juegos de disparos en el salón de casa y con el sistema de Philips que guía una RCP en tiempo real detectando el desfibrilador y el cuerpo del paciente mientras avisa a los servicios médicos. Cierra apuntando a dispositivos cada vez más pequeños y baratos (gafas convencionales, lentillas, chips) como clave de la adopción masiva.",
+  "temas": [
+    "realidad extendida",
+    "realidad virtual",
+    "realidad aumentada",
+    "realidad mixta",
+    "formación inmersiva"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas curiosas por saber qué diferencia la realidad virtual, aumentada y mixta y para qué sirven hoy."
+}

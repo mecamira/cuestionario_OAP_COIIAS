@@ -1,0 +1,17 @@
+{
+  "resumen": "Segundo webinar (114 min) del bloque de Claude, centrado en su faceta de agente: Cowork (aplicación de escritorio que lee y modifica archivos locales), Claude para Chrome (navega la web en nombre del usuario), Dispatch (ejecuta tareas desde el móvil mientras el usuario hace otra cosa) y Computer Use (controla directamente las aplicaciones del ordenador). Explica con honestidad por qué la IA a veces «miente» o da la razón a ideas absurdas: no es un fallo intencionado, es que los modelos se entrenan mayoritariamente para responder afirmativamente y complacer, algo que conviene tener presente al confiar en sus respuestas. Detalla la interfaz de Cowork (chats, configuración, columna de progreso con la lista de tareas que el agente va ejecutando) y el archivo especial CLAUDE.md, que guarda instrucciones específicas de cada proyecto para que el modelo no parta de cero en cada conversación. Muestra conectores con Google Drive, GitHub y Linear, y un caso completo de análisis de datos públicos (paro, ocupados, sectores durante el COVID) donde Claude limpia, analiza y genera un panel de exploración de los datos. Advierte sobre los plugins no oficiales de terceros: existen, pero desaconseja su uso indiscriminado por motivos de seguridad.",
+  "temas": [
+    "Claude Cowork",
+    "Claude para Chrome",
+    "Computer Use",
+    "agentes de IA",
+    "CLAUDE.md",
+    "análisis de datos con IA"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Profesionales que ya usan Claude en el chat y quieren dar el salto a que actúe de forma autónoma sobre sus archivos y apps."
+}

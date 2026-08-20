@@ -1,0 +1,18 @@
+{
+  "resumen": "Píldora tecnológica de 6 minutos sobre la Industria 4.0 o cuarta revolución industrial: la integración de automatización, IoT, IA, robótica y big data en los procesos industriales hasta llegar a las fábricas inteligentes, donde las máquinas se comunican entre sí y optimizan procesos en tiempo real. Explica su ruptura con la producción en masa tradicional: fabricar productos personalizados a menor coste y con mayor rapidez. Ilustra las aplicaciones con casos reales: cobots que ensamblan piezas junto a operarios en automoción, mantenimiento predictivo con sensores IoT (Siemens monitorizando turbinas en todo el mundo), optimización logística con big data (Amazon) y personalización en masa (las fábricas automatizadas de zapatillas de Adidas). Aborda los dos grandes retos: la ciberseguridad (un ataque a una planta conectada puede parar la producción y poner en riesgo a los trabajadores) y la falta de talento (el 60% de las empresas no encuentra personal cualificado). Cierra con tendencias: gemelos digitales (General Electric simulando motores aéreos), IA avanzada para decisiones en tiempo real, 5G para comunicación entre dispositivos y la integración con la sostenibilidad y la economía circular.",
+  "temas": [
+    "industria 4.0",
+    "fábrica inteligente",
+    "IoT",
+    "mantenimiento predictivo",
+    "cobots",
+    "gemelos digitales",
+    "personalización en masa"
+  ],
+  "areas": [
+    "industria-4.0",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes industriales que quieren una panorámica rápida de qué es la Industria 4.0 y qué oportunidades ofrece."
+}

@@ -1,0 +1,16 @@
+{
+  "resumen": "Jornada (120 min) sobre estrategia empresarial en la economía digital: cómo la tecnología transforma los modelos de negocio y qué opciones hay para crear nuevos. Presenta un marco de análisis de la empresa digital con áreas transversales —estrategia y go-to-market, innovación de producto, transformación de procesos y, en el centro, el cliente (B2B o B2C)—. Desde la experiencia del ponente (años en soporte de Microsoft), advierte contra el error clásico de comprar un producto tecnológico (ERP, gestor documental) y personalizarlo hasta que ni el fabricante lo soporta: mejor adaptar procesos a estándares. Defiende que la tecnología se ha democratizado: la decisión ya no es solo del CIO, sino del director financiero, comercial o de RRHH, dueños de los procesos; la nube se justifica en términos de negocio, no técnicos. Compara el marketing tradicional (anuncios de TV sin retorno medible) con el digital (feedback y trazabilidad completa de cada clic). Aborda la gestión del cambio como clave del éxito: involucrar a la gente durante el proyecto para que la tecnología cubra el 100% del proceso, con workshops de identificación de procesos y herramientas. Incluye ejemplos de impacto regulatorio (ley de plásticos) como recordatorio de que la estrategia exige revisar requisitos continuamente.",
+  "temas": [
+    "estrategia digital",
+    "modelos de negocio",
+    "gestión del cambio",
+    "transformación de procesos",
+    "marketing medible",
+    "adopción tecnológica"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Gerentes y directivos de pymes que quieren replantear su estrategia y modelo de negocio en clave digital."
+}

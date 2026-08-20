@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (64 min) sobre ciberseguridad empresarial centrado en las amenazas cotidianas y su prevención, impartido por especialistas en seguridad con enfoque de concienciación. Su tesis: aunque las herramientas del cibercrimen evolucionan, los patrones psicológicos son invariables: la ingeniería social sigue siendo el método principal. Desarrolla escenarios reales paso a paso: cómo un atacante llega hasta su víctima combinando ingeniería social con OSINT (investigación en fuentes abiertas), ejemplificado con la recopilación de contactos de una gran empresa; el escenario del infiltrado interno (espionaje industrial o empleados descontentos que deciden actuar); y los ataques de denegación de servicio, mostrados en un mapa de ataques en tiempo real y con la honestidad de que los DDoS volumétricos son de los más difíciles de mitigar. Aporta soluciones concretas (filtrado DNS tipo Umbrella para detectar conexiones a sitios maliciosos) y responde preguntas prácticas como los riesgos de subir documentación a servicios gratuitos tipo WeTransfer aceptando condiciones sin leerlas. Sus cuatro reglas de oro finales pivotan sobre la primera: el eslabón más débil es el ser humano: de nada sirven firewalls y sistemas de detección si alguien vestido de repartidor deja caer un USB trampa en la oficina y un empleado lo conecta.",
+  "temas": [
+    "ciberseguridad",
+    "ingeniería social",
+    "OSINT",
+    "amenaza interna",
+    "DDoS",
+    "concienciación"
+  ],
+  "areas": [
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que quieren entender cómo piensan los atacantes para proteger a su eslabón más débil: las personas."
+}

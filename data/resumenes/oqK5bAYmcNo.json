@@ -1,0 +1,16 @@
+{
+  "resumen": "Jornada de cierre del ciclo «Lanza tu Startup», centrada en el diseño práctico del modelo de negocio. Recupera las reglas del manifiesto de Steve Blank, destacando la de salir del edificio: las hipótesis no validadas se convierten en opiniones consensuadas y verdades absolutas dentro del equipo, y solo la información de la vida real las contrasta. Trabaja el Business Model Canvas de Osterwalder explicando sus bloques como respuestas al quién (segmentos de cliente y captación), qué (propuesta de valor: por qué nos van a comprar a nosotros y no a otro), cómo (actividades, recursos y socios clave) y cuánto (ingresos y estructura de costes), ilustrado con el caso Nespresso (ingresos por cápsulas, costes en comunicación, café y logística). Repasa patrones de modelos de negocio y técnicas de creatividad para reinventar un mismo producto, con ejemplos de clientes desatendidos (tallas grandes que no encuentran producto en tienda), programas de fidelización de aerolíneas y el caso Glovo como unicornio español y el cambio de percepción social sobre su modelo. Incluye información final sobre las ayudas del Kit Digital, incluida la línea de IA para empresas de más de 50 empleados.",
+  "temas": [
+    "business model canvas",
+    "propuesta de valor",
+    "patrones de modelo de negocio",
+    "segmentos de cliente",
+    "validación",
+    "creatividad"
+  ],
+  "areas": [
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Emprendedores y responsables de desarrollo de negocio que quieren estructurar su modelo con el Canvas."
+}

@@ -1,0 +1,15 @@
+{
+  "resumen": "Píldora tecnológica de 2 minutos sobre los NFTs (tokens no fungibles): activos digitales únicos almacenados en una blockchain que, a diferencia de las criptomonedas intercambiables entre sí, no se pueden intercambiar de igual manera, lo que los convierte en herramienta de propiedad digital. Explica su aplicación en el arte digital: antes cualquiera podía copiar y pegar una imagen de internet, pero con un NFT el propietario puede demostrar que posee el original, con autenticidad verificada en la cadena. Repasa otras oportunidades: artículos digitales únicos que se compran y venden en videojuegos, y las regalías automáticas que artistas y creadores reciben cada vez que su NFT se revende, asegurando ingresos a largo plazo por sus creaciones. Concluye que los NFTs están redefiniendo lo que significa poseer algo en el mundo digital.",
+  "temas": [
+    "NFT",
+    "tokens no fungibles",
+    "propiedad digital",
+    "arte digital",
+    "blockchain"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Creadores y empresas que quieren entender rápidamente qué es un NFT y para qué sirve."
+}

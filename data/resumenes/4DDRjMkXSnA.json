@@ -1,0 +1,17 @@
+{
+  "resumen": "Cuarta jornada (91 min) del ciclo de análisis de datos con herramientas Microsoft, dedicada a los fundamentos del lenguaje DAX para crear medidas en Excel y Power BI. Explica por qué DAX es imprescindible: sin él, tanto Power BI como las tablas dinámicas de Excel conectadas a un modelo de datos se limitan a «pinchar y arrastrar» campos, lo que solo permite sumas simples. Con ejemplos progresivos muestra cálculos que exigen DAX: variaciones porcentuales cuyo total de columna no es la suma de las filas, comparaciones temporales de un año contra el anterior, y conteos correctos como cuántas tiendas no vendieron nada en el año mostrado. Enseña además a crear columnas calculadas con condiciones (clasificar tiendas en small, medium o large según metros cuadrados), a decidir en qué tabla guardar cada medida y cómo nombrarlas, y el concepto clave de contexto: una misma medida se recalcula automáticamente por mes, semana, tipo o año según dónde se use. Trabaja en paralelo sobre Power BI y sobre Excel con modelo de datos, mostrando que el conocimiento es transferible entre ambas herramientas. Dirigido a profesionales que ya conocen lo básico de Power BI y quieren dar el salto a cálculos personalizados.",
+  "temas": [
+    "DAX",
+    "medidas",
+    "Power BI",
+    "Excel",
+    "modelo de datos",
+    "columnas calculadas",
+    "contexto de cálculo"
+  ],
+  "areas": [
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "avanzado",
+  "publico_objetivo": "Usuarios de Power BI o Excel con modelo de datos que necesitan cálculos más allá de arrastrar campos."
+}

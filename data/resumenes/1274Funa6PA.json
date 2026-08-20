@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar (100 min) que conecta la transformación digital con los nuevos modelos de negocio de la era digital. Enumera las causas de fracaso de estos procesos: dirección poco implicada, objetivos no basados en datos, pensar que el plan es un fin y no una iteración continua, falta de equipo interno dedicado, poca concreción en objetivos, tiempos y recursos, y presupuesto. Propone incorporar filosofía agile (sprints con variaciones funcionales incrementales) y lean startup (mínimos productos viables) a las iniciativas de transformación. Recorre el mapa tecnológico: gobierno del dato e inteligencia de negocio (¿de dónde vienen los datos, tienen calidad, están alineados con la política?), blockchain, realidad extendida, IoT como clave de la hibridación de activos industriales, fabricación aditiva e hiperautomatización sobre el mapa de procesos. Ilustra la «metamorfosis digital» con casos: el supermercado que te rellena la nevera (mismo servicio, distinta manera), Netflix (del VHS a domicilio a la plataforma: mismo vídeo bajo demanda, modelo de negocio distinto) y un proyecto real de monitorización de fingers de aeropuerto donde lo importante no es el avión sino el mantenimiento de la infraestructura. Cubre casos en Industria 4.0, movilidad, smart cities y sistemas de pago e identificación.",
+  "temas": [
+    "transformación digital",
+    "modelos de negocio",
+    "agile y lean",
+    "gobierno del dato",
+    "IoT",
+    "hiperautomatización",
+    "casos de éxito"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "industria-4.0"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas que quieren pasar de digitalizar procesos a replantear su modelo de negocio."
+}

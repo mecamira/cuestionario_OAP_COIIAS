@@ -1,0 +1,16 @@
+{
+  "resumen": "Jornada online (82 min) sobre RPA (automatización robótica de procesos) organizada por la Oficina de Transformación Digital del COIIAS. Aborda las preguntas prácticas que se hace una empresa: qué es un RPA y si tiene sentido en tu negocio, cuánto tarda en amortizarse el ahorro que produce, qué sectores y áreas de la empresa se benefician más de la robotización, y la duda clave que frena a muchas pymes: si hay que cambiar los sistemas informáticos para implantar RPAs (los robots software trabajan sobre las aplicaciones existentes, imitando al usuario). La automatización libera al trabajador de procesos administrativos monótonos y repetitivos (como generar respuestas automáticas a correos) para centrarse en tareas de valor, comunicando y ejecutando acciones entre los sistemas de la empresa. Incluye la presentación de la herramienta Bezzier Hammer, un «RPA vitaminado», con ejemplos de casos de éxito reales de implantación.",
+  "temas": [
+    "RPA",
+    "automatización de procesos",
+    "robots software",
+    "retorno de inversión",
+    "casos de éxito"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas con procesos administrativos repetitivos que se preguntan si un RPA les encaja y cuánto ahorra."
+}

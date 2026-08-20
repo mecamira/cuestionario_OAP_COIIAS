@@ -1,0 +1,15 @@
+{
+  "resumen": "Píldora tecnológica de 6 minutos que explica qué es la IA generativa dejando fuera el ruido mediático. Diferencia la IA tradicional (analiza datos y toma decisiones para una tarea específica, como el filtro de spam de Gmail, que no sirve para nada más) de la generativa, que tras aprender patrones de cantidades ingentes de datos puede comprender y generar texto, audio e imágenes de forma flexible. Introduce el concepto de modelo fundacional y recorre las principales familias: los GPT (transformadores generativos preentrenados como ChatGPT o DeepSeek R1), entrenados con información de internet e indicados para generar texto coherente y código; los autoencoders, usados para detección de anomalías (diagnóstico médico por imagen, fraude financiero); y los modelos de difusión, especializados en imágenes y vídeos fotorrealistas. Señala que la principal barrera de adopción en pymes es la percepción de complejidad y la velocidad del campo, y que quienes integren estos sistemas tendrán ventaja competitiva significativa. Cierra mencionando las limitaciones: fiabilidad de la información, derechos de autor de los datos de entrenamiento y coste energético y medioambiental.",
+  "temas": [
+    "IA generativa",
+    "modelos fundacionales",
+    "GPT",
+    "modelos de difusión",
+    "IA tradicional vs generativa"
+  ],
+  "areas": [
+    "inteligencia-artificial"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Cualquier profesional que quiera entender en pocos minutos qué es la IA generativa y en qué se diferencia de la IA clásica."
+}

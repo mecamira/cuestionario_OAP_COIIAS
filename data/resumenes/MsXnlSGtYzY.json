@@ -1,0 +1,19 @@
+{
+  "resumen": "Webinar sobre las obligaciones legales de una empresa en su presencia en internet, impartido con enfoque divulgativo y casos reales de sanciones. Aclara la confusión habitual entre protección de datos y cookies: son obligaciones distintas, y cumplir una no exime de la otra; tampoco vale copiar textos legales estándar de otra web. Repasa el marco normativo: RGPD y LOPDGDD (deber de información al recoger datos personales, finalidades, destinatarios, medidas de seguridad) y la LSSI (ley de servicios de la sociedad de la información) que regula el aviso legal y las comunicaciones comerciales. Explica el consentimiento de cookies y las novedades en los banners («aceptar o rechazar y suscribirse»: rechazar cookies puede llevar a un muro de pago), y el envío de publicidad: un correo electrónico publicado en un listado oficial no es una fuente de acceso público utilizable para enviar publicidad, ilustrado con un procedimiento sancionador real sobre viviendas de uso turístico. Analiza sanciones de la AEPD a pequeños negocios (3.000 € por carecer de banner de cookies y vulnerar el deber de información), mostrando que la Agencia no solo persigue a grandes empresas. Termina aterrizando un checklist de cumplimiento para la web de una pyme.",
+  "temas": [
+    "RGPD",
+    "LSSI",
+    "cookies",
+    "aviso legal",
+    "comunicaciones comerciales",
+    "sanciones AEPD",
+    "deber de información"
+  ],
+  "areas": [
+    "administracion-digital",
+    "presencia-web-y-ecommerce",
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Cualquier pyme o autónomo con página web o que envíe comunicaciones comerciales por medios digitales."
+}

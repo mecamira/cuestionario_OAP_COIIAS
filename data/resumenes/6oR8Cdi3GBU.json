@@ -1,0 +1,17 @@
+{
+  "resumen": "Jornada de sensibilización (111 min) sobre los servicios y herramientas de oficina virtual compatibles con el Kit Digital, orientada a lograr una colaboración eficaz en la pyme. Diferencia la comunicación síncrona y asíncrona con sus ventajas e inconvenientes (las reuniones deben tener objetivo y duración acotada), y repasa funcionalidades útiles como la transcripción automática de reuniones, que permite localizar los puntos tratados mejor que una grabación. Trata la conectividad como requisito de base (diferencias reales entre operadores propietarios de red y virtuales). Recorre el ecosistema de herramientas colaborativas: pizarras virtuales en tiempo real (Miro, Mural), mapas mentales y diagramas de flujo, y gestores de trabajo en equipo tipo Basecamp, Slack o Microsoft Teams, insistiendo en que hay mucha oferta parecida y hay que elegir según las necesidades propias. El mensaje de fondo es que la digitalización modifica procesos: si un equipo no colabora de palabra, un Trello no lo arreglará; conviene hacer un pequeño plan de transformación digital propio antes de que un agente digitalizador te venda algo que no necesitas. Explica cómo encajar estas soluciones en la categoría de oficina virtual del Kit Digital.",
+  "temas": [
+    "oficina virtual",
+    "Kit Digital",
+    "herramientas colaborativas",
+    "comunicación síncrona y asíncrona",
+    "Teams/Slack",
+    "teletrabajo"
+  ],
+  "areas": [
+    "productividad-y-colaboracion",
+    "ayudas-y-financiacion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes que quieren organizar el trabajo colaborativo digital y aprovechar el Kit Digital para financiarlo."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Cuarto webinar (90 min) del itinerario de IA en el trabajo diario, con un recorrido deliberadamente honesto por Copilot dentro de Microsoft 365: qué hace bien, qué no tanto, y cómo sacarle partido real sin caer en el marketing. Muestra ejemplos concretos en Outlook (redactar respuestas breves para declinar una reunión proponiendo alternativas de horario, con tono ajustable) y en reuniones (generar transcripción con tareas, responsables y fechas límite estructuradas automáticamente). En el bloque de datos, advierte de una limitación real: Copilot puede darte errores de contexto si los datos no coinciden con lo esperado, y enseña a usarlo dentro de Power Query para detectar y visualizar errores de importación, pedirle que proponga cómo corregirlos de forma repetible, y sugerir automáticamente qué medidas DAX o qué KPIs crear a partir de una simple captura del modelo de datos. Dirigido a establecer expectativas realistas: identificar en qué aplicaciones y tareas aporta más valor y evitar los errores más comunes de esperar de Copilot más de lo que hoy puede ofrecer con fiabilidad.",
+  "temas": [
+    "Copilot",
+    "Microsoft 365",
+    "Outlook con IA",
+    "Power BI",
+    "expectativas realistas de IA",
+    "DAX"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas con licencias Microsoft 365 que quieren saber qué pueden esperar realmente de Copilot."
+}

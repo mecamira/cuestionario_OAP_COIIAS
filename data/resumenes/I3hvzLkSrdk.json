@@ -1,0 +1,16 @@
+{
+  "resumen": "Tercera jornada (90 min) del ciclo de análisis de datos con Microsoft, centrada en la visualización de cuadros de mando y la comparación honesta entre Excel y Power BI. Trabaja sobre un modelo de datos de ventas multicanal (tienda física, online, catálogo, reseller) con tablas de productos y ubicaciones, mostrando primero qué hay debajo: cómo se organizan las tablas conectadas antes de mostrar nada. Demuestra la potencia interactiva: segmentadores y filtros que condicionan todos los elementos de la página recalculando al instante más de dos millones de líneas al cambiar de año, la creación de páginas con tablas y visuales, y el modo pantalla completa de cualquier elemento visual (no hace falta darle a cada gráfico el tamaño mínimo legible: el usuario que sabe manejarse lo expande cuando lo necesita). Llega a una conclusión equilibrada y útil: Excel puede alcanzar resultados similares (con tablas dinámicas intermedias y ocultando información) pero de forma más costosa; Power BI es más potente, con más alcance y más sencillo para construir interactividad: y aún así Excel sigue siendo necesario para lo que Power BI no hace. Ideal para decidir qué herramienta usar en cada situación.",
+  "temas": [
+    "visualización de datos",
+    "Excel vs Power BI",
+    "segmentadores y filtros",
+    "cuadros de mando",
+    "interactividad",
+    "modelo de datos"
+  ],
+  "areas": [
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Usuarios de Excel que dudan si les compensa dar el salto a Power BI para sus informes."
+}

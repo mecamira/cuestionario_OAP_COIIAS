@@ -1,0 +1,18 @@
+{
+  "resumen": "Quinto webinar del ciclo de IA para marketing digital, dedicado al posicionamiento natural en buscadores (SEO) con ayuda de IA. Explica el método completo: investigar qué frases usa el cliente potencial para buscar tus productos (con el Planificador de palabras clave de Google Ads —la mejor herramienta, aunque requiere cuenta— y alternativas sin registro), analizando volúmenes reales de búsqueda (ejemplo: «placas solares» 2.900 búsquedas/mes frente a «paneles»), y colocar esas palabras clave estratégicamente en la web: URLs cortas con la palabra clave separada por guion medio, etiqueta título (la más importante: si solo pudieras cambiar una, sería esa), encabezados y etiquetas ALT de imágenes descriptivas con la palabra clave. Enseña a usar ChatGPT para generar contenido SEO: convertir la transcripción de un vídeo de YouTube en un artículo estructurado con subtítulos, y pedir ideas y costes por clic de palabras clave por país (España frente a Latinoamérica, EE.UU. o Japón). Insiste en que el contenido debe ser de calidad, fiable y centrado en las personas para que Google lo premie. Sesión práctica con ejercicios en directo sobre negocios reales.",
+  "temas": [
+    "SEO",
+    "palabras clave",
+    "Google Keyword Planner",
+    "etiquetas título y ALT",
+    "contenido SEO con IA",
+    "posicionamiento en Google"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "marketing-digital",
+    "presencia-web-y-ecommerce"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes con web que quieren atraer tráfico orgánico y aprender SEO práctico con apoyo de IA."
+}

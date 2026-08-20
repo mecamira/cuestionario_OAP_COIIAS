@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (77 min) de introducción rigurosa a la computación cuántica y sus aplicaciones a corto y medio plazo, impartido con la Universidad de Oviedo. Explica con claridad qué problemas aborda: las clases de complejidad computacional (lo que un ordenador clásico resuelve en tiempo razonable frente a lo que la cuántica puede acelerar), reconociendo honestamente que los límites exactos son aún problema abierto. Presenta los algoritmos con ventaja demostrada matemáticamente (Grover para búsqueda, Shor para factorización) y su gran limitación práctica: romper una clave RSA actual requeriría millones de qubits cuando los ordenadores actuales tienen muchísimos menos, además de los problemas de conectividad entre qubits, ruido y decoherencia que hacen de la optimización de circuitos «casi más un arte que una ciencia». Señala las aplicaciones más cercanas: simulación de sistemas cuánticos (química, materiales, procesos físicos) y optimización con quantum annealing. Destaca el trabajo español: un simulador cuántico de 38 qubits desarrollado con el CTIC y colaboraciones con centros tecnológicos, de las mayores capacidades de Europa. Responde a la pregunta de si habrá ordenadores cuánticos domésticos con la lección de historia de IBM y su predicción errada sobre los ordenadores clásicos: el acceso será vía servicios en la nube.",
+  "temas": [
+    "computación cuántica",
+    "qubits",
+    "algoritmos cuánticos",
+    "criptografía",
+    "simulación",
+    "quantum annealing"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "avanzado",
+  "publico_objetivo": "Perfiles técnicos y empresas industriales que quieren una visión realista del estado de la computación cuántica."
+}

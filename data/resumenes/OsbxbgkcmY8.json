@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar (92 min) dedicado íntegramente a la técnica de redacción de prompts eficaces para sistemas de IA generativa como ChatGPT, Copilot y Google Gemini. Dirigido a profesionales de cualquier sector interesados en mejorar la eficiencia de sus tareas, enseña a dominar la estructura de un buen prompt para maximizar el potencial de estas herramientas: cómo dar contexto, definir rol y audiencia, especificar formato de salida y acotar la respuesta; estrategias de comunicación efectiva con la IA aplicadas a tareas concretas del día a día laboral; y el uso de la IA como apoyo en la toma de decisiones basada en datos. El objetivo final es que el asistente aplique estos patrones de manera sistemática para ser más productivo, obteniendo a la primera respuestas útiles en lugar de resultados genéricos que exigen múltiples reintentos.",
+  "temas": [
+    "prompts",
+    "prompt engineering",
+    "ChatGPT",
+    "Copilot",
+    "Gemini",
+    "comunicación con IA",
+    "productividad"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Cualquier profesional que use asistentes de IA y quiera obtener mejores resultados con prompts bien construidos."
+}

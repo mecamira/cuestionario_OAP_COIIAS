@@ -1,0 +1,16 @@
+{
+  "resumen": "Cuarta sesión (86 min) del ciclo «Lanza tu startup», sobre customer discovery y la validación de la solución mediante MVP, con foco en el análisis de mercados. Enseña las estimaciones de Fermi para dimensionar mercados con resultados aproximados sin datos perfectos, usando el ejercicio clásico de los afinadores de piano de Chicago trasladado a la validación de una app. Clasifica los tipos de mercado con sus estrategias: mercado nuevo (el problema existe pero el cliente no es consciente o no hay solución), mercado existente (pelearse con competidores), mercado resegmentado y mercado clon (trasladar un modelo probado a otra zona geográfica o sector), subrayando que elegir bien el tipo condiciona todo lo demás. Ilustra con casos: Google frente a los portales sobrecargados de los 90 (una página en blanco con dos botones), el «fenómeno de las flechas en la espalda» del pionero (Rio, el primer MP3, cazado por Apple, que entendió mejor el modelo complementándolo con iTunes y cuya evolución llegó hasta Spotify), y modelos de formación low-cost tipo ThePowerMBA (500 euros frente a una escuela de negocios) como ejemplo de resegmentación. Incluye reflexiones sobre tecnologías emergentes (metaverso, NFTs) como mercados en formación.",
+  "temas": [
+    "customer discovery",
+    "MVP",
+    "tipos de mercado",
+    "estimaciones de Fermi",
+    "mercado clon",
+    "casos de innovación"
+  ],
+  "areas": [
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Emprendedores que necesitan dimensionar su mercado y elegir la estrategia de entrada adecuada."
+}

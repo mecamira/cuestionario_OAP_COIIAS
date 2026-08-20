@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (78 min) del ciclo de Office 365 con buenas prácticas para optimizar el correo con Outlook y OWA. Establece el criterio profesional de destinatarios: en «Para» solo quienes deben hacer algo con el email; en copia, quienes están por información. Incluye un bloque de seguridad aplicada al correo: reconocer phishing (nadie legítimo pide cambios de clave por email, cuidado con los saludos genéricos tipo «estimado cliente», errores gramaticales de traducción automática y mensajes que presionan a decidir en pocas horas) y no facilitar información personal. Enseña organización con carpetas y categorías combinadas, con el ejemplo real de una compañera que gestiona dos proyectos del mismo proveedor con una carpeta y dos categorías. Repasa funciones prácticas: respuestas automáticas de ausencia programables por intervalo (dejarlo listo antes de las vacaciones para no olvidarlo el viernes a las dos), configuración de firmas (cuando la organización no las impone corporativamente) y la delegación de calendario con matices importantes de privacidad: las citas marcadas como privadas (el médico) solo muestran «cita privada» salvo que se conceda expresamente ese permiso. Sesión de cierre del ciclo de cinco webinars de competencias en Office 365.",
+  "temas": [
+    "Outlook",
+    "correo electrónico",
+    "phishing",
+    "organización del correo",
+    "respuestas automáticas",
+    "delegación de calendario"
+  ],
+  "areas": [
+    "productividad-y-colaboracion",
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Cualquier profesional que gestione volumen de correo y quiera hacerlo con orden y seguridad."
+}

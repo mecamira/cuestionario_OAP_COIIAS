@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 5 minutos sobre cómo responder a cibercrímenes y ciberincidentes, con un mensaje central: sufrir un ciberataque no es señal de debilidad, la empresa es una víctima, y ocultarlo (algo muy común por miedo reputacional) es como tapar con una pegatina el golpe del coche. Diferencia cibercrimen (acto delictivo digital: robo de datos, fraude, ransomware) de ciberincidente (cualquier evento que comprometa la seguridad, intencionado o accidental). Explica el plan de respuesta: contener primero (desconectar sistemas afectados, cambiar contraseñas comprometidas), analizar después (causa, alcance, prevención), notificar a las autoridades (unidades especializadas de Policía Nacional y Guardia Civil) e informar con transparencia a clientes y proveedores para cumplir la normativa y proteger la confianza. Recuerda el teléfono 017 de INCIBE, servicio gratuito de asesoramiento ante incidentes. Lo aterriza con el caso práctico de una pyme que recibe phishing: un empleado hace clic, se instala malware, y el plan de respuesta permite desconectar el equipo, avisar al personal, analizar el alcance, notificar y reforzar filtros y formación. Responder bien es un acto de liderazgo, no solo técnico.",
+  "temas": [
+    "respuesta a incidentes",
+    "ransomware",
+    "phishing",
+    "INCIBE 017",
+    "notificación de brechas",
+    "plan de contingencia"
+  ],
+  "areas": [
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes que quieren saber qué hacer, paso a paso, el día que sufran un ciberataque."
+}

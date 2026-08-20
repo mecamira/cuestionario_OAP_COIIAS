@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (98 min) sobre Google Workspace como ecosistema para digitalizar la forma de trabajar, presentado por una especialista con siete años de experiencia en este entorno. Explica la filosofía 360º de Google Cloud (Chrome, GCP, Maps y Workspace) y su gran ventaja: independencia total del servidor y de la oficina: se accede a todo desde el navegador con la cuenta, sincronizado en tiempo real entre dispositivos (contestar un chat desde el móvil o el Chrome indistintamente), con la reflexión honesta sobre el riesgo de hiperconexión. Muestra la administración: la consola que despliega aplicaciones a los usuarios del dominio y la gestión de múltiples cuentas en el mismo Chrome. Hace demo interactiva de las herramientas: Docs, Sheets (formatos, tablas dinámicas, validación de datos, conexión con BigQuery, complementos), Slides, Meet (videoconferencia con levantar la mano y compartir pantalla) y Forms, incluyendo su uso educativo para exámenes puntuados. Destaca el control de la compartición: cada objeto de Drive tiene un enlace configurable, con opciones de bloqueo de descarga, impresión y copia para documentos sensibles. Una visión completa de la alternativa de Google a Microsoft 365 para pymes.",
+  "temas": [
+    "Google Workspace",
+    "trabajo en la nube",
+    "Drive",
+    "colaboración",
+    "administración de dominio",
+    "Google Meet"
+  ],
+  "areas": [
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes que valoran el ecosistema de Google como plataforma de trabajo colaborativo."
+}

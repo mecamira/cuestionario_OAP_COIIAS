@@ -1,0 +1,17 @@
+{
+  "resumen": "Taller extenso (204 min) del ciclo de Microsoft Teams sobre gestión inteligente del correo y las videoconferencias. Usa datos impactantes para motivar el cambio de hábitos: el tiempo diario que consume el email, la huella de carbono de los correos innecesarios (solo los emails de «gracias» del Reino Unido equivalen a 16.000 toneladas de CO2 al año) y el principio de que cada correo es una interrupción que roba productividad al receptor. Enseña técnicas concretas de Outlook: anclar correos importantes, limpiar el historial de búsquedas, opciones de privacidad, y el asistente de programación para reservar salas físicas de reuniones. En videoconferencias aborda la atención (estudios sobre cuántos minutos aguanta el foco, el concepto de daily meetings de 5 minutos, combinar reuniones presenciales y remotas), la seguridad (limitar la grabación de reuniones a personas de la organización) y trucos de productividad como el uso de doble pantalla para compartir contenido mientras se consultan notas. Incluye la recomendación de Microsoft Authenticator como gestor de contraseñas y doble factor. Formato participativo con vídeos y concursos entre bloques.",
+  "temas": [
+    "email",
+    "Outlook",
+    "videoconferencias",
+    "reuniones eficaces",
+    "productividad",
+    "sostenibilidad digital",
+    "seguridad"
+  ],
+  "areas": [
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Profesionales saturados de correo y reuniones que quieren recuperar tiempo con mejores hábitos y Teams."
+}

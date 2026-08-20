@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (62 min) que desmonta una creencia extendida: los perfiles técnicos sobrevaloran su nivel de Excel por usarlo a diario, pero muy pocos lo usan de forma realmente eficiente. Con demostraciones en directo evidencia la diferencia: seleccionar miles de registros con atajos de teclado en un clic frente a arrastrar el ratón, rangos dinámicos con funciones de desplazamiento que se adaptan solos al crecer los datos frente a referencias rígidas, y la personalización completa de la interfaz (ocultar cuadrículas, encabezados y cinta según el uso final, incluso acotar lo que el usuario puede tocar para convertir la hoja en una pequeña aplicación a prueba de errores). Enseña el acabado profesional de los gráficos (un gráfico es una caja vacía donde se montan componentes, no un formato predefinido) y el trabajo con datos externos: cargar tablas de otros archivos y extraer en segundos las categorías únicas de miles de registros repetidos. La motivación se resume en el testimonio de un alumno: una tarea de cuatro horas cada lunes pasó a ser un botón a las 9:03: pura cuestión de saber que existe otra manera. Incluye test de nivel real y presentación de los cursos de Experto en Excel del COIIAS.",
+  "temas": [
+    "Excel",
+    "productividad",
+    "atajos y selección",
+    "rangos dinámicos",
+    "gráficos profesionales",
+    "automatización"
+  ],
+  "areas": [
+    "productividad-y-colaboracion",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Profesionales que usan Excel a diario y sospechan que podrían sacarle mucho más partido."
+}

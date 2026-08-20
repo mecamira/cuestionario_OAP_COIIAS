@@ -1,0 +1,19 @@
+{
+  "resumen": "Jornada (120 min) sobre la doble cara de la IA en la ciberseguridad de las pymes industriales: como herramienta de defensa y como nueva fuente de riesgos. Comienza situando el Reglamento Europeo de Inteligencia Artificial y el equilibrio entre desarrollo y regulación que busca Europa, junto al RGPD y la LOPD en el tratamiento de datos personales. Explica de forma didáctica cómo funciona la IA (modelos y datasets, con ejemplos visuales de qué pasa cuando un modelo no conoce un concepto) para entender sus limitaciones. Aborda los desafíos de la ciberseguridad industrial: la convergencia IT/OT y los riesgos del uso no formado de herramientas generalistas como ChatGPT en las empresas (empleados que las usan sin control ni formación, necesidad de mecanismos de supervisión continua al tratarse de tecnología emergente). Analiza los nuevos vectores de amenaza: deepfakes y noticias falsas generadas con IA (con ejercicios en los que el público debe distinguir contenido real de fabricado), daños reputacionales virales a marcas (casos Nestlé/KitKat y Ryanair) y el debate sobre propiedad intelectual en el entrenamiento de modelos. Defiende la detección de amenazas en tiempo real basada en aprendizaje automático, que identifica patrones sospechosos en sistemas y usuarios anticipándose a los ataques.",
+  "temas": [
+    "IA y ciberseguridad",
+    "Reglamento IA",
+    "deepfakes",
+    "desinformación",
+    "convergencia IT/OT",
+    "RGPD",
+    "reputación de marca"
+  ],
+  "areas": [
+    "ciberseguridad",
+    "inteligencia-artificial",
+    "industria-4.0"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes industriales que quieren entender los riesgos y oportunidades que la IA introduce en su seguridad."
+}

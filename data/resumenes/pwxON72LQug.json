@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (88 min) sobre los dos pilares del marketing de cualquier organización: el estratégico y el operativo. En la parte estratégica desarrolla el análisis de situación con DAFO (con la máxima de que las oportunidades no se controlan pero sí se aprovechan: «la suerte te tiene que pillar trabajando»), el mapa de empatía para entender el esfuerzo que hace el cliente por resolver su problema y los resultados que espera, y el estudio de mercado como seguro antirriesgos: saber si el mercado es suficiente antes de lanzar campañas. Explica las arquitecturas de marca de los fabricantes (marcas específicas del mismo proveedor con entidad propia, como las líneas de higiene femenina y masculina). En la parte operativa aterriza la ejecución: concretar características del producto (crítico al elegir intermediarios cuando hay requisitos higiénico-sanitarios o de temperatura), fijar precios adecuados y planificar la distribución. Recorre la evolución del control de gestión: de los cuadros de mando e indicadores de los 2000 a la minería de datos y la IA predictiva desde 2010, insistiendo en que registrar, planificar y evaluar el pasado es fundamental. Cierra con storytelling y storydoing: inspirar al cliente para que la marca entre en su historia, en lugar de forzar likes.",
+  "temas": [
+    "marketing estratégico",
+    "marketing operativo",
+    "DAFO",
+    "estudio de mercado",
+    "precio y distribución",
+    "storytelling"
+  ],
+  "areas": [
+    "marketing-digital",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes que quieren ordenar su marketing separando la estrategia del día a día operativo."
+}

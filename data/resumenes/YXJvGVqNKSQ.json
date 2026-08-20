@@ -1,0 +1,17 @@
+{
+  "resumen": "Sexto y último webinar (93 min) del itinerario de IA en el trabajo diario, dedicado al Model Context Protocol (MCP): el estándar que elimina el ir y venir manual de copiar datos, pegarlos en un chat de IA y traer la respuesta de vuelta a la herramienta. Explica de forma accesible el papel de MCP como puente entre la IA y los sistemas externos (en el ejemplo, Power BI): el usuario mantiene el control de qué puede ver y hacer la IA sobre sus datos, mientras se elimina la necesidad de ir cambiando entre aplicaciones, bases de datos y repositorios para obtener una respuesta fundamentada y actualizada. Contrasta el modo de trabajo anterior (escribir fórmulas DAX a mano, buscar documentación, probar) con el nuevo paradigma: preguntar directamente y que la IA, conectada vía MCP, genere el código o la consulta necesaria. Incluye una demostración práctica con datos sucios a propósito (regiones y canales mal escritos) para mostrar cómo un asistente conectado por MCP puede generar directamente la consulta de Power Query de limpieza correspondiente. Cierra el itinerario reconociendo que aún se están evaluando distintos proveedores de IA para la gestión de datos propia de la oficina.",
+  "temas": [
+    "Model Context Protocol",
+    "MCP",
+    "integración de IA con datos",
+    "Power BI",
+    "agentes conectados",
+    "DAX"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "avanzado",
+  "publico_objetivo": "Profesionales de datos y BI que quieren entender hacia dónde evoluciona la conexión entre IA y herramientas de trabajo."
+}

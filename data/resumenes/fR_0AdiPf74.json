@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (59 min) de recorrido por las aplicaciones colaborativas de Microsoft Office 365 y presentación del ciclo formativo asociado. Presenta Teams como mucho más que un chat corporativo («más que WhatsApp»): canales con múltiples hilos de comunicación, archivos adjuntos organizados, y la capacidad de integrar dentro de Teams otras aplicaciones de Office 365 y externas (gestión de vídeos, información corporativa) para convertirlo en el punto de encuentro único del equipo. Repasa funciones poco conocidas de Outlook, como la caducidad de correos: marcar un mensaje urgente para que, si el destinatario no lo abre antes de una hora determinada, aparezca como expirado y no lo lea a destiempo. Muestra Planner para gestión de proyectos: asignación flexible de miembros, tareas con filtros por estado o persona, y control del responsable sobre quién entra y sale del plan. Presenta Forms para encuestas a clientes (valorar calidad de atención o diversidad de producto con análisis de respuestas ya incorporado, contestables en cinco minutos desde la nube) y OneNote como memoria del proyecto: quien se incorpora mañana accede a todo el histórico automáticamente. El mensaje final: muchas empresas pagan Office 365 sin que nadie les haya explicado el potencial que ya tienen a su disposición.",
+  "temas": [
+    "Office 365",
+    "Teams",
+    "Planner",
+    "Forms",
+    "OneNote",
+    "colaboración",
+    "productividad"
+  ],
+  "areas": [
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que pagan Office 365 y solo usan el correo y el Word, sin explotar sus herramientas colaborativas."
+}

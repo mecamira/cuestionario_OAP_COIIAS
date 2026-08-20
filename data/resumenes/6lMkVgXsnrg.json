@@ -1,0 +1,19 @@
+{
+  "resumen": "Webinar divulgativo (83 min) sobre tres tecnologías disruptivas para la industria: big data, inteligencia artificial y computación cuántica, con ejemplos prácticos. En big data explica el valor del análisis masivo de datos y sus riesgos (información maliciosa o errónea que contamina los modelos entrenados con ella), y repasa aplicaciones en salud (gestión de pacientes) y sobre todo marketing (publicidad dirigida analizando millones de patrones de compra). En IA ordena los conceptos con la jerarquía más aceptada —la IA engloba el machine learning y este al deep learning—, explica cómo se entrena una máquina para una tarea, qué son las redes neuronales y técnicas como el transfer learning (reutilizar redes potentes ya entrenadas y especializarlas, habitual en visión artificial). Incluye una reflexión sobre el oligopolio de los grandes modelos tipo ChatGPT, cuyo coste de entrenamiento es inasumible para una pyme, frente a las funcionalidades que sí se pueden implementar a menor escala. La parte de computación cuántica introduce qubits, superposición y medición con explicaciones para profanos, y casos donde la combinación de las tres tecnologías aborda problemas inabordables con la computación clásica.",
+  "temas": [
+    "big data",
+    "inteligencia artificial",
+    "machine learning",
+    "deep learning",
+    "computación cuántica",
+    "visión artificial",
+    "innovación industrial"
+  ],
+  "areas": [
+    "tecnologias-emergentes",
+    "inteligencia-artificial",
+    "industria-4.0"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes industriales curiosas por entender qué pueden aportar el big data, la IA y la computación cuántica."
+}

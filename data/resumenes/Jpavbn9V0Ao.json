@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (90 min) sobre el futuro de internet: la Web 3.0 y la tecnología blockchain. Repasa la evolución de internet desde los años 80 y presenta la «internet del valor»: una arquitectura descentralizada donde los datos dejan de ser posesión de las grandes compañías (eliminando los silos de información) y pasan al usuario. Explica los fundamentos de blockchain de forma accesible: todos los nodos guardan el historial completo de transacciones, consultable por cualquiera (transparencia que contrasta con el euro, cuyas transacciones solo conoce el banco central), y los datos son inalterables e imborrables, a diferencia de una base de datos tradicional donde un administrador podría modificar registros sin dejar rastro demostrable. Aborda las criptomonedas (Bitcoin y Ethereum sin banco central detrás, frente a las monedas digitales estatales como la china) y aterriza casos de uso más allá de las finanzas: certificación de diplomas académicos que un reclutador puede verificar al instante contra falsificaciones, y sellado de datos de sensores IoT para garantizar que nadie los ha alterado a posteriori. Subraya la accesibilidad: una pyme puede incorporar certificación blockchain instalando un plugin, sin convertirse en entidad autorizada. Con ejemplos palpables que bajan la teoría al mundo real.",
+  "temas": [
+    "Web 3.0",
+    "blockchain",
+    "descentralización",
+    "criptomonedas",
+    "certificación digital",
+    "inmutabilidad"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas curiosas por entender blockchain más allá de las criptomonedas y sus usos prácticos."
+}

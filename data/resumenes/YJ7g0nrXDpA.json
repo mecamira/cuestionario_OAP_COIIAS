@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (77 min) provocador y lleno de casos reales que defiende que la transformación digital «no va de ocio sino de negocio»: no se trata de efectos wow tecnológicos sino de mejorar el modelo. Desmonta el marketing tecnológico (el origen comercial de términos como cloud, PaaS y SaaS frente a palabros vacíos como big quit) y estructura el análisis en siete puntos: entorno competitivo, modelo de negocio, procesos, relación, comunicación y experiencia de cliente, y modelo de organización y cultura. Cuenta proyectos de primera mano: Prosol (el café de Mercadona), una papelería famosa cuyo dispensador exterior de material escolar en domingo —imitado luego por colegios— demuestra que transformación digital es mejorar el entorno competitivo y la experiencia de cliente, y un proyecto de 2018 para una marca de coches que aprovecha la conectividad de la centralita para crear una app de comunicación con los conductores. Explica IA, machine learning y deep learning con una analogía memorable sobre cómo los algoritmos (y las personas) aprenden. Termina con las claves y errores capitales: tener web, CRM y redes no es transformarse (es estar «en espera»), no aislar el proyecto en el informático, no crear un puesto solo para eso porque va de modelo y cultura, y no subestimar a los competidores pequeños que empiezan a hacer cosas chulas.",
+  "temas": [
+    "transformación digital",
+    "modelo de negocio",
+    "experiencia de cliente",
+    "cultura organizativa",
+    "phygital",
+    "errores comunes"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Gerentes escépticos o desorientados con la transformación digital que quieren verla desde el negocio."
+}

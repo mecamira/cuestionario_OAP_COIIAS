@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (60 min) de presentación del programa Experto en Power BI del COIIAS, que en sí mismo es una clase magistral condensada del flujo de trabajo completo. Con el ejemplo práctico de una cartera de inmuebles muestra: trabajo con múltiples orígenes de datos, resumir miles de valores repetidos en listados cerrados de tipos, extraer año y mes de fechas de venta para análisis temporal por provincia, y sobre todo el papel de Power Query (componente tanto de Power BI como de Excel, aunque muchos usuarios lo desconocen) para transformar exportaciones rígidas de programas de nóminas o financieros cuya estructura los hace inmanejables: los datos no están mal, están mal estructurados. Presenta el modelo de datos como pieza central y las medidas DAX para cálculos complejos, y en visualización enseña técnicas avanzadas: rankings de proveedores y comerciales, y cuadros de mando reutilizables donde un selector cambia el concepto analizado (costes, ingresos o margen) sin duplicar el informe, bajando desde el volumen total de ventas por meses, productos y países hasta el análisis por tienda concreta. Explica el temario y formato del curso completo, con la ventaja de que lo aprendido vale igualmente para Excel.",
+  "temas": [
+    "Power BI",
+    "Power Query",
+    "DAX",
+    "cuadros de mando",
+    "transformación de datos",
+    "formación"
+  ],
+  "areas": [
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Profesionales que evalúan formarse a fondo en Power BI y quieren ver el potencial completo de la herramienta."
+}

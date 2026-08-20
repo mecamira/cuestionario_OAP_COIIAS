@@ -1,0 +1,16 @@
+{
+  "resumen": "Taller (161 min) del ciclo de Microsoft Teams dedicado a crear y gestionar espacios colaborativos. Comienza motivando el trabajo en equipos multidisciplinares con el famoso caso del carrito de supermercado de IDEO (rediseñarlo en cinco días aplicando design thinking) y lo traslada a Teams: crear un equipo temporal por proyecto donde unificar archivos y comunicaciones durante meses. Explica la estructura de equipos y canales con demostraciones en vídeo seguidas de concursos para fijar lo aprendido: canales estándar y canales privados (con su SharePoint asociado y acceso restringido a miembros seleccionados), y la personalización de canales con pestañas según la función de cada área: Power BI para finanzas, Forms para quien hace encuestas, con la recomendación general de añadir OneNote para notas y Planner para tareas. Cubre también los formatos de publicación: anuncios destacados con formato para comunicaciones importantes (arranque de proyecto, feedback de cliente) frente a conversaciones planas para el día a día, y la inclusión de adjuntos. Sesión partida en dos bloques con pausas, pensada para adoptar Teams como espacio único de trabajo del equipo.",
+  "temas": [
+    "Microsoft Teams",
+    "equipos y canales",
+    "canales privados",
+    "colaboración",
+    "pestañas y aplicaciones",
+    "comunicación interna"
+  ],
+  "areas": [
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que empiezan con Teams y quieren estructurar bien sus equipos, canales y espacios de proyecto."
+}

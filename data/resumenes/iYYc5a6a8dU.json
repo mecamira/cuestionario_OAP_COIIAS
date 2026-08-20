@@ -1,0 +1,18 @@
+{
+  "resumen": "Taller extenso (160 min) sobre experiencia de usuario (UX) y diseño de interfaces (UI) en un contexto donde la relación con el cliente es digital. Distingue UX de CX (customer experience): la CX considera a todas las personas que tocan la compañía (el CEO que compra las licencias importa tanto como el técnico que usa el software), mientras la UX se centra en el usuario final. Explica los niveles de actuación (interacción concreta, journey completo y relaciones/estrategia, donde la directiva debe liderar) y el modelo de madurez de la organización centrada en el consumidor. Aporta conceptos aplicables: diseñar «momentos de gloria» que compensen los «momentos de dolor» (la bebida gratis durante la espera que salva una mariscada de 200 euros), y la diferencia entre requerimientos funcionales (qué hace el producto: envío a domicilio, pago digital) y no funcionales (cómo funciona: velocidad de carga, compatibilidad de navegadores, accesibilidad), cuya mala gestión hace que los usuarios abandonen. En la parte práctica muestra optimización con datos: tests A/B de botones (contraste, copy, posición) y mapas de calor con Hotjar para detectar si los usuarios llegan a los elementos críticos. Advierte contra copiar informes de Amazon: cada negocio tiene su público y su contexto. Incluye el caso de un servicio de recomendación de ropa por suscripción y su gestión de las devoluciones.",
+  "temas": [
+    "UX",
+    "UI",
+    "customer experience",
+    "tests A/B",
+    "mapas de calor",
+    "requerimientos no funcionales",
+    "diseño centrado en el usuario"
+  ],
+  "areas": [
+    "presencia-web-y-ecommerce",
+    "marketing-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas con web o app que quieren mejorar la conversión y percepción de marca cuidando la experiencia de usuario."
+}

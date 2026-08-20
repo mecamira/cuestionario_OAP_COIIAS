@@ -1,0 +1,17 @@
+{
+  "resumen": "Quinto webinar (90 min) del itinerario de IA en el trabajo diario, sobre el paso de tener datos a tomar decisiones con ellos usando Excel y Power BI como plataformas de análisis inteligente. Parte de un ejercicio de pensamiento crítico: ante un dato aislado («el canal online se hunde»), la primera conclusión sin contexto puede ser errónea, y solo con más contexto se afina la lectura real de la situación. Repasa capacidades de tabla dinámica que la mayoría desconoce por falta de práctica, y aborda un problema estructural habitual: empresas que, a pesar de tener ERP o CRM, siguen manejando ficheros Excel manuales dispersos y sin centralizar. Enseña a usar la IA como «analista» sobre los datos con prompts concretos y reutilizables: detectar anomalías, analizar ventas por región, evaluar rendimiento comercial y por canal, identificar productos clave, analizar devoluciones y generar recomendaciones de negocio con responsable, fecha límite y KPI de seguimiento asociados, cerrando el ciclo de forma que las recomendaciones se puedan revisar y mejorar. El objetivo declarado: construir narrativas de datos que realmente influyan en la toma de decisiones, no solo informes que nadie lee.",
+  "temas": [
+    "análisis de negocio con IA",
+    "Excel y Power BI",
+    "detección de anomalías",
+    "narrativas de datos",
+    "toma de decisiones",
+    "prompts de análisis"
+  ],
+  "areas": [
+    "datos-y-business-intelligence",
+    "inteligencia-artificial"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Analistas, controllers y responsables de área que quieren pasar del informe a la decisión apoyándose en IA."
+}

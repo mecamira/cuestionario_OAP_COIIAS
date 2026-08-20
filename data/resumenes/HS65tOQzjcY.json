@@ -1,0 +1,18 @@
+{
+  "resumen": "Segundo webinar del ciclo de IA para marketing digital, dedicado a crear y gestionar una marca con ayuda de herramientas de inteligencia artificial. Recorre los ingredientes de la identidad de marca (nombre, paleta de colores, tipografía y logo) y enseña técnicas y herramientas concretas para cada uno: tipologías de nombres (inspirados en fundadores como Disney, descriptivos, inventados) y generadores gratuitos como el de Shopify; elección y combinación de paletas de colores con herramientas tipo Coolors; y tipos de logo (isotipo, logotipo, imagotipo, isologo, con ejemplos como Lacoste). Propone un método de trabajo: antes de ir al generador de logos, pedir ideas razonadas a ChatGPT —que sugiere conceptos y su porqué, como una impresora 3D con una hoja verde emergiendo, o un diseño inspirado en El Principito— y luego trasladarlas al diseñador o herramienta explicando qué transmite el logo. La segunda parte aborda la reputación de marca online: la importancia de responder todas las opiniones (buenas y malas) para demostrar escucha, y cómo usar la IA para redactar respuestas adecuadas, especialmente ante críticas negativas, que son las más delicadas. Sesión práctica con ejercicios en directo.",
+  "temas": [
+    "branding",
+    "naming",
+    "diseño de logo",
+    "paleta de colores",
+    "reputación online",
+    "gestión de opiniones",
+    "IA generativa"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "marketing-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Emprendedores y pymes que quieren crear o renovar su marca sin presupuesto de agencia, apoyándose en IA."
+}

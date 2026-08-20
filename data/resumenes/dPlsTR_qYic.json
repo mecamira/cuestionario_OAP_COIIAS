@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar práctico (90 min) sobre los GPTs personalizados de ChatGPT: cómo configurar versiones a medida del asistente para automatizar y optimizar tareas específicas o repetitivas del propio puesto de trabajo, sin necesidad de conocimientos técnicos avanzados. Dirigido a profesionales de cualquier sector, enseña a comprender de qué manera ChatGPT puede personalizarse y configurarse para tareas concretas del negocio, a crear GPTs propios con instrucciones, conocimiento y comportamiento ajustados a las necesidades del entorno laboral, y a ganar autonomía y eficiencia incorporándolos al flujo de trabajo diario. Continúa la línea de los webinars de ChatGPT básico y avanzado de la OAP, dando el paso de usar la herramienta genérica a construir asistentes especializados reutilizables para el equipo.",
+  "temas": [
+    "GPTs personalizados",
+    "ChatGPT",
+    "automatización de tareas",
+    "asistentes IA",
+    "productividad"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Profesionales que ya usan ChatGPT y quieren crear asistentes personalizados para tareas repetitivas de su trabajo."
+}

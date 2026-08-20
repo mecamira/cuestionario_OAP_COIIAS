@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 5 minutos sobre la fabricación aditiva (impresión 3D): construir objetos añadiendo material capa a capa en lugar de retirarlo, lo que reduce desperdicios y permite geometrías antes imposibles de fabricar. Repasa aplicaciones por sectores: prótesis personalizadas e implantes biocompatibles en medicina, componentes ligeros y complejos en aeroespacial (menos peso sin perder resistencia, mejor consumo de combustible), y prototipos, piezas finales y repuestos bajo demanda en automoción, eliminando moldes costosos y grandes inventarios. Expone los desafíos con honestidad: coste inicial de los equipos (barrera para pymes), limitaciones de precisión y durabilidad de las piezas, variedad de materiales aún menor que en la manufactura tradicional, y falta de experiencia en las empresas, que convierte la formación en ventaja competitiva. Cierra con las tendencias: automatización combinando impresión 3D con IA y robótica hacia fábricas casi autónomas, personalización masiva (zapatos y ropa a medida) y sostenibilidad, produciendo solo lo necesario y fabricando localmente para reducir la huella de carbono.",
+  "temas": [
+    "fabricación aditiva",
+    "impresión 3D",
+    "prototipado",
+    "personalización",
+    "sostenibilidad industrial"
+  ],
+  "areas": [
+    "industria-4.0",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas industriales que se plantean si la impresión 3D encaja en su producción o desarrollo de producto."
+}

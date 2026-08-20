@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar (86 min) sobre aplicaciones de los drones en la industria, impartido por un operador profesional. Recorre los tipos de drones y la normativa (incluida la crítica a la regulación española que no distinguía uso profesional con seguros y pilotos titulados del uso recreativo de un chaval con un juguete, y el marco europeo que lo cambia). Explica los trabajos según el sensor embarcado: fotografía de alta resolución para inspección (mejor que vídeo por su capacidad de ampliación; el vídeo para inspecciones en directo con el inspector viendo lo mismo que el piloto), termografía para plantas fotovoltaicas (detección de células defectuosas por sus fallas térmicas), multiespectral, y LiDAR para mediciones avanzadas: modelos digitales del terreno, evolución de taludes comparando nubes de puntos de vuelos periódicos, y cubicaje de acopios en canteras con un 15% más de precisión que la fotogrametría (crítico cuando se facturan miles de toneladas). Muestra la inspección inteligente con patrones: el dron que reconoce un aislador de catenaria y dispara automáticamente la mejor foto. Incluye anécdotas de seguridad (un accidente pagado por el fabricante, la inviabilidad de paracaídas en drones de 15-20 kg) y un coloquio técnico con los asistentes sobre mediciones reales.",
+  "temas": [
+    "drones",
+    "inspección industrial",
+    "termografía",
+    "LiDAR",
+    "fotogrametría",
+    "normativa de vuelo",
+    "aerogeneradores"
+  ],
+  "areas": [
+    "industria-4.0",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas industriales, canteras y gestores de infraestructuras que evalúan servicios con drones."
+}

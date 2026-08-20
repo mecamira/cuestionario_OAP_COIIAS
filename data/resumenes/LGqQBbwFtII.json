@@ -1,0 +1,18 @@
+{
+  "resumen": "Jornada (123 min) sobre ciberseguridad específica para la pyme industrial, impartida por un especialista con décadas de experiencia en automatización. Parte de casos reales de ataques a empresas industriales y de servicios (ransomware que cifró los sistemas de plantas de alimentación, extorsiones a operadores de movilidad urbana) para mostrar que el secuestro de datos afecta también a fábricas. Explica la diferencia crucial entre proteger sistemas de información (IT) y entornos de operación (OT): un especialista en ciberseguridad informática se pierde en una fábrica ante PCs con SCADA, PLCs y reguladores; y la realidad de las plantas dista del modelo ideal estratificado y segmentado (redes que se degradan con los años, documentación y planos desactualizados, cableados sin rigor). Ilustra las consecuencias físicas de los ciberincidentes industriales con casos como explosiones con víctimas y casas calcinadas, elevando la ciberseguridad de problema informático a problema de seguridad física. Aborda la cadena de suministro: la gran empresa exige ya protección a sus proveedores pymes, incluso planteándose ayudar a pagarla. Cierra con buenas prácticas de resiliencia para la pyme industrial: inyectar la ciberseguridad en los procesos, porque una parada de operaciones significa directamente dejar de vender.",
+  "temas": [
+    "ciberseguridad industrial",
+    "IT/OT",
+    "ransomware",
+    "SCADA y PLC",
+    "cadena de suministro",
+    "resiliencia",
+    "seguridad física"
+  ],
+  "areas": [
+    "ciberseguridad",
+    "industria-4.0"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes industriales y responsables de planta que necesitan proteger sus entornos de fabricación conectados."
+}

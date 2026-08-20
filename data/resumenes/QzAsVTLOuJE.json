@@ -1,0 +1,22 @@
+{
+  "resumen": "Primer webinar (90 min) de un itinerario de seis sesiones sobre integración de la IA en el trabajo diario, dedicado a sacarle más partido a Excel. Parte de un diagnóstico habitual: la mayoría de profesionales usa solo una fracción del potencial de Excel. Enseña a trabajar con conjuntos de datos grandes (más de dos millones de filas) sin depender del límite visual de la hoja, y funciones modernas que sustituyen a las clásicas con ventajas claras (equivalentes actuales de BUSCARV con arrays dinámicos, FILTRAR). Presenta LAMBDA junto con LET como una de las incorporaciones más potentes de los últimos años para crear funciones propias reutilizables. Dedica un bloque a la limpieza y unificación de datos que llegan de fuentes distintas (mayúsculas/minúsculas inconsistentes, espacios sobrantes) mostrando primero cómo se resolvía «a pelo» y después con Power Query, con el contraste explícito entre hacerlo a mano en decenas de pasos y dejar que Copilot genere la misma limpieza en siete pasos automatizados y documentados. Cierra con el uso de la IA como asistente externo para resolver dudas de fórmulas en segundos. Primera sesión de un itinerario que continúa con Power Query, documentación, Copilot, análisis de negocio y MCP.",
+  "temas": [
+    "Excel avanzado",
+    "funciones modernas",
+    "LAMBDA",
+    "Power Query",
+    "limpieza de datos",
+    "Copilot",
+    "IA para fórmulas"
+  ],
+  "areas": [
+    "datos-y-business-intelligence",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "sustituye_a": [
+    "d6LSIbnp5V8",
+    "pNEIryh-Hfw"
+  ],
+  "publico_objetivo": "Profesionales que usan Excel a diario de forma básica y quieren dominar sus funciones modernas con ayuda de IA."
+}

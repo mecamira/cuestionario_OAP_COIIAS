@@ -1,0 +1,15 @@
+{
+  "resumen": "Webinar (95 min) organizado con AJE Asturias y Cadabit sobre agentes de IA como nueva fuerza de trabajo en la empresa: sistemas capaces de actuar de forma autónoma, ejecutar tareas complejas y apoyar decisiones, más allá de los chatbots o análisis puntuales. Explica el diseño de agentes con árboles de decisión (si ocurre esto, se activa esta acción; si ocurre aquello, otra) y la importancia de dejar puntos de control humano para validar que el agente hace bien su trabajo, apoyándose en la trazabilidad clara que dejan los agentes de cada paso que ejecutan. Incluye demostraciones en directo muy tangibles: un agente que recibe un encargo de presupuesto industrial y decide a quién debe contactar según el contexto, y otro que compara y compra en Amazon el mejor producto según un criterio dado, gestionando una lista de tareas mientras el usuario hace otra cosa en paralelo. Reconoce con honestidad el estado incipiente de la tecnología: los agentes actuales aún son creados de forma aislada por cada empresa, y el siguiente paso será conectarlos entre sí para que compartan memoria y contexto. Toda la presentación del webinar está generada con IA como ejercicio demostrativo.",
+  "temas": [
+    "agentes de IA",
+    "automatización de decisiones",
+    "árboles de decisión",
+    "trazabilidad",
+    "casos de uso para pymes"
+  ],
+  "areas": [
+    "inteligencia-artificial"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes que ya usan IA generativa básica y quieren entender cómo dar el salto a agentes que ejecutan tareas de forma autónoma."
+}

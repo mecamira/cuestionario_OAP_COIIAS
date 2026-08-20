@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (51 min) que muestra, mediante un caso de éxito real, cómo las herramientas de data analytics mejoran la productividad de un negocio desde el CEO hasta las posiciones operativas (con datos de mejoras de eficiencia de hasta el 64%). Define el cuadro de mando como herramienta funcional, no decorativa: debe responder a las preguntas que realmente hacen el comité de dirección, los clientes o el consejo de familia, con el símil del destornillador de mango bonito que no atornilla. Insiste en la usabilidad: desarrollos orientados al tipo de usuario que los usará, intuitivos y acotados para evitar errores. Desarrolla el caso: previsión de ventas a 12 meses por cliente, familia y zona geográfica que alimenta la planificación de producción, maquinaria y personal; simulación de hipótesis (¿qué pasa con la cifra final si subo precios en estas familias y zonas, o si suben los costes energéticos y de mano de obra?); digitalización de las auditorías diarias de calidad que pasaban por hoja de papel, técnico que transcribe y responsable que resume; y automatización del servicio de atención al cliente (correos con adjuntos procesados automáticamente). El mensaje final: convertir el conocimiento del negocio en herramientas prácticas del día a día.",
+  "temas": [
+    "data analytics",
+    "cuadro de mando",
+    "previsión de ventas",
+    "simulación de escenarios",
+    "automatización de procesos",
+    "productividad"
+  ],
+  "areas": [
+    "datos-y-business-intelligence",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Gerentes de pymes que quieren ver con un caso real qué aporta el análisis de datos a la gestión diaria."
+}

@@ -1,0 +1,58 @@
+{
+  "4DDRjMkXSnA": {
+    "resumen": "Cuarta jornada (91 min) del ciclo de análisis de datos con herramientas Microsoft, dedicada a los fundamentos del lenguaje DAX para crear medidas en Excel y Power BI. Explica por qué DAX es imprescindible: sin él, tanto Power BI como las tablas dinámicas de Excel conectadas a un modelo de datos se limitan a «pinchar y arrastrar» campos, lo que solo permite sumas simples. Con ejemplos progresivos muestra cálculos que exigen DAX: variaciones porcentuales cuyo total de columna no es la suma de las filas, comparaciones temporales de un año contra el anterior, y conteos correctos como cuántas tiendas no vendieron nada en el año mostrado. Enseña además a crear columnas calculadas con condiciones (clasificar tiendas en small, medium o large según metros cuadrados), a decidir en qué tabla guardar cada medida y cómo nombrarlas, y el concepto clave de contexto: una misma medida se recalcula automáticamente por mes, semana, tipo o año según dónde se use. Trabaja en paralelo sobre Power BI y sobre Excel con modelo de datos, mostrando que el conocimiento es transferible entre ambas herramientas. Dirigido a profesionales que ya conocen lo básico de Power BI y quieren dar el salto a cálculos personalizados.",
+    "temas": ["DAX", "medidas", "Power BI", "Excel", "modelo de datos", "columnas calculadas", "contexto de cálculo"],
+    "areas": ["datos-y-business-intelligence"],
+    "nivel": "avanzado",
+    "publico_objetivo": "Usuarios de Power BI o Excel con modelo de datos que necesitan cálculos más allá de arrastrar campos."
+  },
+  "-QwnQDcg_gw": {
+    "resumen": "Píldora tecnológica de 3 minutos que explica qué es el e-commerce, cómo funciona y por qué consolidarlo es una necesidad para cualquier negocio. Presenta el comercio electrónico como una tienda abierta 24 horas accesible desde cualquier parte del mundo, y repasa las tres vías principales de aplicarlo: tienda online propia sin intermediarios (como hace Nike para controlar toda la experiencia del cliente), marketplaces como Amazon o Etsy para ganar visibilidad sin gran inversión inicial, y venta directa desde redes sociales como Instagram o Facebook con catálogos interactivos. Cierra con las tendencias que marcan el futuro del sector: compras por voz con asistentes como Alexa, realidad aumentada para probar productos antes de comprarlos y recomendaciones personalizadas basadas en compras anteriores, apuntando a experiencias de compra cada vez más inmediatas e intuitivas.",
+    "temas": ["ecommerce", "tienda online", "marketplaces", "social commerce", "tendencias de compra"],
+    "areas": ["presencia-web-y-ecommerce"],
+    "nivel": "basico",
+    "publico_objetivo": "Negocios que aún no venden online y quieren una introducción rápida al comercio electrónico."
+  },
+  "HCt7mttdU3Q": {
+    "resumen": "Píldora tecnológica de 4 minutos sobre cómo usar la IA generativa de forma práctica siendo consciente de sus limitaciones. Recorre usos concretos por perfil profesional: una periodista que resume un informe de 100 páginas en segundos, un equipo de marketing que genera palabras clave y hace lluvia de ideas para campañas, desarrolladores que generan código y detectan errores, científicos que analizan datos y diseñan experimentos, profesores que crean contenido educativo interactivo y creativos que superan el bloqueo de la página en blanco con modelos como DALL-E o Stable Diffusion. La segunda mitad aborda los riesgos con claridad: las alucinaciones (afirmaciones falsas que obligan a revisar siempre el contenido generado), los sesgos heredados de los datos de entrenamiento, y el uso criminal de la IA en estafas con imágenes y vídeos falsos o voces sintéticas clonadas a partir de grabaciones. Concluye con dos consejos: verificar siempre lo generado y proteger la información propia y de los seres queridos al compartir contenido en internet.",
+    "temas": ["IA generativa", "casos de uso", "alucinaciones", "sesgos", "deepfakes", "estafas con IA"],
+    "areas": ["inteligencia-artificial", "ciberseguridad"],
+    "nivel": "basico",
+    "publico_objetivo": "Profesionales que quieren una visión equilibrada de los beneficios y riesgos de la IA generativa."
+  },
+  "ytF-JiIKjew": {
+    "resumen": "Píldora tecnológica de 2 minutos que explica qué es un CRM (Customer Relationship Management) y por qué importa incluso a la empresa más pequeña. Parte de situaciones cotidianas —clientes interesados que se pierden por falta de seguimiento, información dispersa en correos y notas sueltas— para presentar el CRM como una libreta de direcciones superpotenciada: centraliza datos de contacto, interacciones previas, compras y fase del proceso de venta de cada cliente. Explica su valor por áreas: en ventas permite saber en qué etapa está cada cliente potencial; en marketing, personalizar ofertas según intereses reales; en atención al cliente, responder rápido sin que el cliente repita su historia. Desmonta el mito de que es cosa de grandes empresas citando opciones gratuitas o de bajo coste como HubSpot o Zoho CRM, y subraya la clave del éxito: la herramienta solo es útil si todo el equipo la adopta y mantiene la información actualizada.",
+    "temas": ["CRM", "gestión de clientes", "seguimiento comercial", "HubSpot", "Zoho"],
+    "areas": ["marketing-digital", "estrategia-y-transformacion-digital"],
+    "nivel": "basico",
+    "publico_objetivo": "Pymes que pierden oportunidades de venta por gestionar los clientes con correos y hojas sueltas."
+  },
+  "HIHeusSG24E": {
+    "resumen": "Píldora tecnológica de 4 minutos sobre la automatización de procesos con BPM (Business Process Management). Explica que BPM es una metodología estructurada que va más allá de digitalizar un proceso manual: permite diseñarlo, optimizarlo y automatizarlo siguiendo un ciclo de vida continuo de cuatro fases —modelado (flujo, roles, datos, integraciones y documentos), ejecución (el sistema genera programas automáticamente a partir del diseño), monitorización (indicadores y cuellos de botella) y optimización—, creando mejora continua alineada con los objetivos estratégicos. Lo ilustra con la aprobación de gastos: de correos y un Excel de control a un flujo automatizado empleado→supervisor→finanzas con notificaciones y validaciones en cada paso y dato único integrado con el resto de aplicaciones. Enumera los beneficios (eficiencia, transparencia en tiempo real, cumplimiento normativo, flexibilidad gracias al low-code/no-code y mejor experiencia de cliente) y casos reales como el cribado automático de candidaturas en RRHH o el alta estructurada de nuevos productos con validaciones de marketing, calidad y logística.",
+    "temas": ["BPM", "automatización de procesos", "flujos de trabajo", "low-code", "mejora continua"],
+    "areas": ["estrategia-y-transformacion-digital", "productividad-y-colaboracion"],
+    "nivel": "basico",
+    "publico_objetivo": "Empresas con procesos manuales repetitivos (aprobaciones, altas, validaciones) que quieren automatizarlos."
+  },
+  "EWya5oOwDgw": {
+    "resumen": "Píldora tecnológica de 3 minutos que explica el SEO (Search Engine Optimization) con el dato de partida de que el 75% de las personas nunca pasa de la primera página de Google. Usa el símil de la tienda: sin SEO tu web está en un callejón oscuro; con él, en la calle principal de internet. Divide el trabajo en dos frentes. Dentro de la web: palabras clave bien ubicadas en título, descripción y contenido; URLs limpias y amigables (mejor /mejores-para-correr que /id134); contenido de calidad que realmente responda las dudas del usuario; y velocidad de carga por debajo de 3 segundos. Fuera de la web: backlinks de sitios relevantes que Google interpreta como señales de confianza, y la difusión en redes sociales como señal de relevancia. Recomienda herramientas gratuitas para empezar: Google Search Console, Ubersuggest para palabras clave y el plugin Yoast SEO para WordPress.",
+    "temas": ["SEO", "palabras clave", "backlinks", "velocidad de carga", "Google Search Console"],
+    "areas": ["marketing-digital", "presencia-web-y-ecommerce"],
+    "nivel": "basico",
+    "publico_objetivo": "Negocios con web que quieren entender en pocos minutos cómo aparecer más arriba en Google."
+  },
+  "n3rqDHXCfqU": {
+    "resumen": "Píldora tecnológica de 6 minutos sobre los sistemas ERP (Enterprise Resource Planning), impartida por un implantador profesional. Define el ERP como el software que gestiona las principales áreas de la empresa en un solo sistema, evitando herramientas aisladas que no comparten información. Detalla sus características esenciales: base de datos única y dato único (se introduce una sola vez), control de permisos, adaptabilidad a cambios fiscales (Verifactu, factura electrónica) y capacidad de exportar los datos. Clasifica los ERP por instalación (on-premise con control total frente a nube con menor inversión y actualizaciones automáticas) y por alcance (genéricos como SAP o Navision frente a verticales especializados por sector). Repasa el mercado español: SAP para gran empresa, Microsoft Dynamics con su integración con Office/Teams/Copilot, Oracle NetSuite, Sage, Wolters Kluwer A3, Cegid, y el open source Odoo en plena expansión. Da consejos de implantación: elegir implantador de confianza, invertir tiempo en la fase de consultoría y formación inicial, y no pretender que el ERP lo haga todo: integrarlo con CRM, BPM o intranets, cada herramienta para lo suyo.",
+    "temas": ["ERP", "gestión empresarial", "SAP", "Dynamics", "Odoo", "implantación de software", "dato único"],
+    "areas": ["estrategia-y-transformacion-digital", "administracion-digital"],
+    "nivel": "basico",
+    "publico_objetivo": "Pymes que gestionan ventas, almacén y administración con programas aislados y se plantean un ERP."
+  },
+  "-nvR1-PKMPc": {
+    "resumen": "Píldora tecnológica de 7 minutos que dibuja el panorama competitivo de la IA generativa: el origen del concepto en Google, el papel de OpenAI (ChatGPT) y de Nvidia como fabricante del hardware, y la «carrera armamentística» entre empresas por modelos más versátiles, inteligentes y baratos. Explica la división clave del sector entre modelos cerrados (acceso controlado, sin publicar detalles internos, con control total sobre los datos que envían los usuarios) y modelos abiertos o locales, y por qué esto afecta al usuario: con herramientas como LM Studio cualquiera puede ejecutar modelos en su propio ordenador sin conexión a internet. Lo ilustra con el caso de Alicia, una psicóloga que no puede subir información sensible de pacientes a herramientas online, pero con un modelo local redacta informes a partir de sus notas ahorrando horas diarias sin comprometer la privacidad. Menciona los modelos abiertos Llama de Meta y DeepSeek R1 como ejemplos del cambio de paradigma, y cierra con la advertencia: si no pagas por el producto, el producto eres tú; la información es un activo valioso.",
+    "temas": ["IA generativa", "modelos abiertos vs cerrados", "modelos locales", "LM Studio", "privacidad de datos", "Llama/DeepSeek"],
+    "areas": ["inteligencia-artificial", "ciberseguridad"],
+    "nivel": "intermedio",
+    "publico_objetivo": "Profesionales que manejan datos sensibles y quieren usar IA generativa sin comprometer la privacidad."
+  }
+}

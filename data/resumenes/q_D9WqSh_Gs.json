@@ -1,0 +1,19 @@
+{
+  "resumen": "Webinar del ciclo de IA departamental dedicado al área de Tecnologías de la Información. Repasa los casos de uso de IA en TI: asistentes de programación como GitHub Copilot y Microsoft Copilot, detección de anomalías y optimización de infraestructura y operaciones de red (más propio de medianas y grandes empresas), plataformas de análisis de grandes volúmenes de datos como Splunk para logs y transacciones, y automatización de la resolución de incidencias que interrumpen el trabajo diario. Un bloque destacado trata la ciberseguridad con IA: monitorización del tráfico de red, registros de sistema y comportamiento de usuarios para detectar actividades sospechosas (con herramientas tipo Darktrace), incluyendo capacidad proactiva de activar alertas y automatizar respuestas. También cubre el mantenimiento predictivo en entornos industriales con sensores IoT conectados al ERP (casos reales de trazabilidad de packaging y control de cadena de frío) para evitar paradas de fábrica. Se recomienda seguir fuentes especializadas (el blog de Michael Franklin sobre IA aplicada a TI) y se comenta la paradoja de que TI es de los departamentos que menos IA generativa adopta pese a ser el más técnico, con referencias a incidentes recientes de gran repercusión.",
+  "temas": [
+    "IA en TI",
+    "GitHub Copilot",
+    "ciberseguridad con IA",
+    "detección de anomalías",
+    "mantenimiento predictivo",
+    "IoT",
+    "gestión de incidencias"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "ciberseguridad",
+    "industria-4.0"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Responsables de sistemas e informática de pymes que quieren aplicar IA a desarrollo, operaciones y seguridad."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (77 min) de introducción al Internet de las Cosas (IoT) con la arquitectura completa de una solución y casos reales. Explica el esquema general: captura de datos con sensores y actuadores cada vez más pequeños gracias a la nanotecnología (temperatura, humedad, vibraciones, ruido, casi cualquier variable), comunicaciones y plataforma de explotación. Da criterios prácticos de diseño: en ubicaciones sin toma eléctrica se necesitan dispositivos a batería de bajo consumo; hay que valorar coste de dispositivos, madurez del ecosistema de fabricantes y costes de suscripción de las redes. Compara las tecnologías de comunicación (NB-IoT y LTE-M de operadoras frente a LoRa y Sigfox, mencionando los problemas de solvencia de esta última) con diagramas de características. Desarrolla el caso estrella del mantenimiento predictivo: frente al mantenimiento programado que genera sobrecostes (visitas de más) o averías (visitas de menos), monitorizar vibraciones de cojinetes, niveles de aceite y consumos permite intervenir cuando hace falta. Muestra en directo una plataforma real de monitorización de pacientes hospitalarios (visión por planta, alertas por paciente) y la infraestructura LoRaWAN del ponente: servidor de red, gateways desplegados y registro de dispositivos, animando a los asistentes a crear cuentas gratuitas y experimentar.",
+  "temas": [
+    "IoT",
+    "sensores",
+    "mantenimiento predictivo",
+    "LoRa/NB-IoT",
+    "arquitectura de soluciones",
+    "monitorización"
+  ],
+  "areas": [
+    "industria-4.0",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas industriales y de servicios que quieren entender qué necesitan para montar una solución IoT."
+}

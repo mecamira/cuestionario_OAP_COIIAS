@@ -1,0 +1,18 @@
+{
+  "resumen": "Primer taller (151 min) del ciclo de Microsoft Teams, dedicado a la compartición y colaboración documental sin depender del email. Cuantifica el problema con la participación del público: documentos que van por la versión 10 u 11 a base de reenviar adjuntos (un día o dos de trabajo por versión) frente a la coedición en la nube. Explica el ecosistema OneDrive/SharePoint/Teams: documentos personales sincronizados con la nube, acceso desde el explorador de archivos para quien prefiere las carpetas de toda la vida (con la reflexión de que si la red funciona bien no es necesario), y compartición segura mediante enlaces organizados en equipos y canales. Enseña búsqueda avanzada de documentos con operadores (comillas para coincidencia exacta, OR ante la duda, guion para excluir términos como «-2023») y la colaboración mediante comentarios y menciones en Word, Excel y PowerPoint, útil especialmente para redactores en la base del escalafón de un equipo. Dedica un bloque a la seguridad de los datos: el volumen de información personal, financiera y comercial que circula en colaboraciones con freelances y externos («data es el nuevo petróleo, pero también la nueva preocupación»), la obligación legal de protegerla, y la autenticación multifactor con Microsoft Authenticator.",
+  "temas": [
+    "colaboración documental",
+    "OneDrive",
+    "SharePoint",
+    "coedición",
+    "versionado",
+    "búsqueda avanzada",
+    "seguridad de datos"
+  ],
+  "areas": [
+    "productividad-y-colaboracion",
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Equipos que aún colaboran reenviando adjuntos por correo y quieren pasar a la coedición en la nube."
+}

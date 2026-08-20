@@ -1,0 +1,17 @@
+{
+  "resumen": "Primer webinar (111 min) del bloque dedicado a Claude, la IA de Anthropic, centrado en integrarlo en el día a día más allá del chat puntual. Explica los tres niveles de personalización (instrucciones, proyectos y estilos) y cómo Claude mantiene memoria entre conversaciones para comportarse como un asistente que realmente conoce al usuario y su contexto, no como una herramienta que se reinicia en cada mensaje. Muestra la generación directa de documentos profesionales (Excel, PowerPoint, Word, PDF) desde el propio chat, y los conectores con Google Workspace, Microsoft 365 y Slack para trabajar sobre información real sin copiar y pegar. Presenta los Skills como forma de automatizar flujos recurrentes propios, y las apps móviles con voz e integración nativa en iOS y Android. Incluye una demostración transparente: buena parte de la presentación del propio webinar fue generada hablando con Claude a partir de la documentación del ponente, mostrando en vivo cómo trabajar con documentos densos (el BOE como ejemplo deliberadamente farragoso) y respondiendo con honestidad a las limitaciones reales de los planes gratuitos frente a los de pago cuando se agota la cuota de uso durante la propia sesión en directo.",
+  "temas": [
+    "Claude",
+    "personalización de IA",
+    "memoria de conversación",
+    "generación de documentos",
+    "conectores Google/Microsoft/Slack",
+    "Skills"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Profesionales que quieren pasar de usar Claude como chat puntual a integrarlo como asistente habitual de trabajo."
+}

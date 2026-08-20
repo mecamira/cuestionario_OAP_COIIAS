@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (76 min) de sensibilización sobre el cambio de paradigma hacia los modelos cloud, que responde a las preguntas clave: qué es la nube, qué beneficios ofrece, si se puede subir todo y si cualquier empresa es candidata. Explica los modelos de servicio con claridad de responsabilidades: en IaaS el proveedor se ocupa de servidores, almacenamiento, comunicaciones y virtualización (si un disco falla, lo repone él). Argumenta los beneficios: menor mantenimiento, mejor continuidad de negocio, sin renovaciones de equipamiento y pago por uso. Su aportación más valiosa es el análisis de riesgos aplicado: evalúa el ransomware con probabilidad moderada e impacto potencialmente catastrófico (quedarse sin datos puede cerrar la empresa), ilustrado con el ataque real que paró el CSIC casi un mes y con un mapa en vivo de la «pandemia digital» de ataques constantes. Desmonta el error típico de las pymes al comparar costes: contrastar la nube contra servidores amortizados de hace años sin valorar los riesgos ni la imagen completa es un análisis engañoso que siempre concluye «déjalo en local». Responde dudas sobre privacidad y cifrado de datos en tránsito (SSL) y en reposo.",
+  "temas": [
+    "cloud",
+    "IaaS",
+    "análisis de riesgos",
+    "ransomware",
+    "costes TI",
+    "continuidad de negocio"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes con servidores locales envejecidos que dudan si dar el paso a la nube."
+}

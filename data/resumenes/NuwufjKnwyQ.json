@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (95 min) que descubre Power BI de principio a fin: conectar, transformar y visualizar datos para tomar decisiones. Contextualiza la solidez de la herramienta: aunque parezca simple arrastrar y soltar, detrás está la tecnología de SQL Server (integración, análisis, reporting) que Microsoft lleva décadas puliendo. Describe el flujo de trabajo completo desde el escritorio a la nube y al móvil, donde muchos directivos consultan a diario el resumen de gestión. En la demostración práctica desde cero cubre: conexión a orígenes (ficheros y bases de datos, explicando la diferencia entre importar los datos o mantener conexión en vivo con DirectQuery), la importancia de definir bien los tipos de datos de cada columna, combinación de datos de orígenes distintos (expandir país y ciudad dentro de la estructura de cliente), y el modelo de datos: tabla de hechos con las transacciones del negocio y tablas maestras (clientes, productos, proveedores) que las describen. En visualización muestra formato condicional con reglas y colores, y los objetos visuales con inteligencia artificial que Power BI incluye de serie, capaces de analizar automáticamente los factores que explican un dato. La aplicación de escritorio es gratuita y se actualiza mensualmente.",
+  "temas": [
+    "Power BI",
+    "modelado de datos",
+    "conexión a datos",
+    "DirectQuery",
+    "visualización",
+    "IA en informes"
+  ],
+  "areas": [
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Profesionales sin experiencia en BI que quieren un recorrido completo por Power BI antes de empezar."
+}

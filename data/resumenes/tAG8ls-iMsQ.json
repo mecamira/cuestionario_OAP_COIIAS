@@ -1,0 +1,18 @@
+{
+  "resumen": "Segunda jornada (95 min) del ciclo de análisis de datos con herramientas Microsoft, dedicada a Power Query, el motor de automatización del tratamiento de datos presente tanto en Excel como en Power BI. Taller práctico de principio a fin: conexión a archivos y comprensión de los pasos aplicados automáticamente (con criterio para eliminar los que no interesan y quedarse con la lectura en bruto), y el concepto central: cada vez que se lea el archivo se ejecutan todos los pasos en la misma secuencia, llegando siempre al mismo resultado: el trabajo de limpieza se hace una vez y queda automatizado para siempre. Resuelve casos reales típicos: archivos de texto técnicamente correctos pero inutilizables tal cual, extracción de datos con espacios traicioneros (el paso a paso de descubrir que había dos espacios donde parecía uno), códigos postales que pierden el cero inicial al importar (en España no existen códigos de cuatro cifras), y la corrección automática de países mal escritos en 15.000 registros mediante una tabla de equivalencias que también corregirá los registros futuros, con las decisiones de criterio que implica («¿País Bas es País Vasco o Países Bajos?»). Muestra el potencial de productividad: procesos que consumían horas de retrabajo manual quedan resueltos en una actualización.",
+  "temas": [
+    "Power Query",
+    "automatización de datos",
+    "limpieza de datos",
+    "ETL",
+    "Excel",
+    "Power BI",
+    "corrección automática"
+  ],
+  "areas": [
+    "datos-y-business-intelligence",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Profesionales que dedican horas a limpiar y restructurar los mismos datos cada mes en Excel."
+}

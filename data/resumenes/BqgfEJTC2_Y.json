@@ -1,0 +1,17 @@
+{
+  "resumen": "Primera jornada del ciclo «Lanza tu Startup» de la OAP del COIIAS, dedicada a entender qué es realmente una startup y en qué se diferencia de una empresa tradicional. Se define la startup como organización temporal que busca (no ejecuta) un modelo de negocio recurrente y escalable en un espacio de alta incertidumbre, y se desgrana el significado de cada término de esa definición. Se introduce el modelo Lean Startup como marco del ciclo: diseño del modelo de negocio, desarrollo de clientes, validación mediante MVP, iteración y pivotaje cuando el mercado responde distinto a lo esperado. Se contextualiza el entorno VUCA (volatilidad, incertidumbre), la amenaza global de competidores de cualquier parte del mundo y la necesidad de salir rápido al mercado y aprender rápido para levantar barreras de entrada. Se ilustran los conceptos con casos reales como WhatsApp (destrucción del negocio de SMS, ofertas de compra de Tencent y adquisición por Facebook) y los inicios de la telefonía móvil. También se repasa el marco normativo español (ley de startups, ley de emprendedores) y el ecosistema de apoyo al emprendimiento.",
+  "temas": [
+    "startup",
+    "lean startup",
+    "modelo de negocio",
+    "MVP",
+    "pivotar",
+    "entorno VUCA",
+    "emprendimiento"
+  ],
+  "areas": [
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Emprendedores, intraemprendedores y autónomos que quieren desarrollar una idea de negocio con metodología."
+}

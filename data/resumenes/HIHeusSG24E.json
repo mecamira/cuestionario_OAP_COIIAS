@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 4 minutos sobre la automatización de procesos con BPM (Business Process Management). Explica que BPM es una metodología estructurada que va más allá de digitalizar un proceso manual: permite diseñarlo, optimizarlo y automatizarlo siguiendo un ciclo de vida continuo de cuatro fases —modelado (flujo, roles, datos, integraciones y documentos), ejecución (el sistema genera programas automáticamente a partir del diseño), monitorización (indicadores y cuellos de botella) y optimización—, creando mejora continua alineada con los objetivos estratégicos. Lo ilustra con la aprobación de gastos: de correos y un Excel de control a un flujo automatizado empleado→supervisor→finanzas con notificaciones y validaciones en cada paso y dato único integrado con el resto de aplicaciones. Enumera los beneficios (eficiencia, transparencia en tiempo real, cumplimiento normativo, flexibilidad gracias al low-code/no-code y mejor experiencia de cliente) y casos reales como el cribado automático de candidaturas en RRHH o el alta estructurada de nuevos productos con validaciones de marketing, calidad y logística.",
+  "temas": [
+    "BPM",
+    "automatización de procesos",
+    "flujos de trabajo",
+    "low-code",
+    "mejora continua"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas con procesos manuales repetitivos (aprobaciones, altas, validaciones) que quieren automatizarlos."
+}

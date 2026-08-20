@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (92 min) para entender los smart contracts (contratos inteligentes) desde cero. Arranca con la analogía clásica de la máquina expendedora: entrada específica (dinero), verificación automática y salida predeterminada (producto y cambio), que es exactamente la lógica condicional de un contrato inteligente ejecutado sobre blockchain. Explica el contexto: los intermediarios financieros actuales encarecen las transacciones, y la mitad de la población mundial carece de cuenta bancaria, lo que da sentido a sistemas descentralizados. Detalla las propiedades de la tecnología: libro mayor distribuido y replicado casi en tiempo real entre participantes, sin control de una entidad única, seguro, privado, indeleble, transparente, auditable y basado en consenso. Responde a la pregunta práctica de cómo puede una empresa implementarlos y si son rentables frente al sistema establecido, con una advertencia jurídica importante: son idóneos para transacciones sencillas y automáticas, pero los matices contractuales deben quedar perfectamente tipificados en la lógica condicional y no siempre se ajustan a la normativa existente. Incluye una introducción a los NFTs (tokens únicos no fungibles registrados en redes como Ethereum con identificador y metadatos) como aplicación relacionada.",
+  "temas": [
+    "smart contracts",
+    "blockchain",
+    "descentralización",
+    "NFT",
+    "aplicabilidad legal",
+    "transacciones automáticas"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas curiosas por saber si los contratos inteligentes tienen aplicación real en sus transacciones."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Primer webinar del ciclo de seis jornadas sobre herramientas de IA aplicadas al marketing digital, dedicado a la investigación de mercado. Presenta y prueba en directo tres herramientas gratuitas (con versiones de pago) para investigar clientes, tendencias y competencia, haciendo ejercicios reales: análisis del entorno con el marco PESTEL mediante GPTs especializados de ChatGPT, búsquedas de mercado con citas de fuentes verificables (con ejemplos locales como sidrerías asturianas o consultorías de ingeniería, incluyendo ideas de exportación), y análisis de volumen de búsquedas y coste por clic para dimensionar mercados (ejemplo de lámparas de techo: 60.000 búsquedas mensuales en España). Enseña el método de trabajo: preguntar a varias herramientas, anotar y contrastar los resultados, aprovechar las fuentes citadas para descargar estudios detallados, y quedarse con datos en números. Insiste en una advertencia transversal: la IA falla, exagera y a veces inventa, por lo que hay que revisar manualmente todo antes de tomarlo como base de decisiones; la IA es un asistente, no un sustituto del criterio humano. Útil como punto de partida de cualquier estrategia comercial o plan de negocio.",
+  "temas": [
+    "investigación de mercado",
+    "IA aplicada a marketing",
+    "análisis PESTEL",
+    "análisis de competencia",
+    "volumen de búsquedas",
+    "GPTs especializados"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "marketing-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes y emprendedores que quieren estudiar su mercado y competencia con herramientas de IA gratuitas."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (74 min) sobre cómo afrontar la actualización digital de los sistemas de una empresa sin morir en el intento, ahora que los grandes proveedores (Google, AWS, Microsoft) ofrecen entornos de bajo coste. Estructura el proyecto por fases. Definición: identificar todos los procesos, con la advertencia realista de que la mayoría de empresas no tienen la funcionalidad documentada, sino en la cabeza de las personas. Decisión de recursos: si no eres una tecnológica, buscar proveedores externos pero reteniendo el conocimiento dentro de casa: que quienes lideren las plataformas sean siempre personas de la empresa, no externos. Ejecución iterativa: entregas mensuales a negocio para probar avances y ajustar, evitando poner en producción algo que ya nació obsoleto. Despliegue: pilotos con conjuntos controlados de usuarios o clientes antes de la apertura general. Aborda también los costes recurrentes de la nube (recursos que se pagan mes a mes y pueden dispararse, con necesidad de CAPEX definido y recuperación acotada) y la continuidad de negocio: planes de recuperación que contemplan el ransomware con copias de seguridad aisladas, porque una copia conectada al sistema original puede quedar infectada y arruinar la recuperación.",
+  "temas": [
+    "actualización de sistemas",
+    "migración tecnológica",
+    "gestión de proyectos TI",
+    "cloud",
+    "ransomware y backups",
+    "retención del conocimiento"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "ciberseguridad"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes con sistemas envejecidos que planean renovarlos y quieren hacerlo con método y sin sustos."
+}

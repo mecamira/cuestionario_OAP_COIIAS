@@ -1,0 +1,17 @@
+{
+  "resumen": "Taller práctico (118 min) sobre cuadros de mando de marketing digital para aumentar la rentabilidad de la web. Argumenta el porqué: un cuadro de mando que llega semanalmente al correo educa en el uso de datos, evita procrastinar y permite decidir con criterio qué campañas parar o potenciar. Distingue la medición cuantitativa (qué está pasando: Google Analytics 4) de la cualitativa (por qué pasa: grabaciones de sesión con Hotjar o Clarity, entrevistas a usuarios). Enseña principios de visualización de datos con ejemplos de antes y después: quitar efectos y colores innecesarios, ordenar y etiquetar para que el gráfico se entienda de un vistazo sin fatiga. La parte central es un taller en directo con Looker Studio (Google): conectar la cuenta de Google Analytics 4, copiar una plantilla de cuadro de mando y personalizarla (logotipo, colores), corregir errores típicos de configuración (confundir fuente/medio de la sesión con el de la conversión) y analizar fuentes de tráfico orgánico detectando anomalías de clasificación. Incluye recomendaciones según el momento de madurez digital de cada empresa y recursos para profundizar en GA4 y visualización.",
+  "temas": [
+    "cuadro de mando",
+    "Looker Studio",
+    "Google Analytics 4",
+    "analítica web",
+    "visualización de datos",
+    "toma de decisiones con datos"
+  ],
+  "areas": [
+    "datos-y-business-intelligence",
+    "marketing-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes con web activa que quieren medir su marketing digital y tomar decisiones basadas en datos."
+}

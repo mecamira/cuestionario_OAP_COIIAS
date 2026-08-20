@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (69 min) sobre la digitalización de las obras de construcción y montajes, el sector a la cola en avance digital según los informes. Arranca con una broma reveladora: ¿qué diferencia real hay entre el jefe de obra del complejo de lanzamiento del Ariane 6 y el de El Escorial hace 400 años? Se centra en proyectos con incertidumbres relevantes (obras, montajes industriales complejos, mantenimiento de infraestructuras) y en el factor identificado como clave del futuro del sector: la colaboración digital y la movilidad basada en el teléfono móvil. Presenta la herramienta EPC-Tracker usada en obras de todo el mundo: lee la planificación y el presupuesto existentes (ficheros en formatos habituales, sin repetir trabajo) y construye una base de datos —«una estantería de casilleros» con actividades y mediciones— sobre la que el personal de obra reporta avances e incidencias desde el móvil, cargándose automáticamente y disponibles para todos: si la obra está en Bolivia y la oficina técnica en Madrid (caso real), se acabaron los papeles escaneados al final del día y el informe de cuatro horas del viernes. Aporta resultados reales: una obra de más de 800 millones de dólares con coordinación «mágica» entre ingeniería y constructora españolas, un hospital en Canarias, y la reducción medible de los gastos de contingencia gracias al control diario.",
+  "temas": [
+    "digitalización de obras",
+    "construcción",
+    "movilidad",
+    "control de obra",
+    "planificación y costes",
+    "colaboración digital"
+  ],
+  "areas": [
+    "industria-4.0",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas de construcción, montajes industriales e ingenierías que gestionan obras con papel y Excel."
+}

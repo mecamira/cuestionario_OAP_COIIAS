@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (85 min) que abre el ciclo de Office 365: qué es Microsoft 365 y cómo ayuda a transformar digitalmente el puesto de trabajo. Plantea el contexto del modern workplace: cada área (RRHH, marketing, fabricación) debe replantearse cómo empoderar empleados, involucrar clientes y optimizar operaciones, invirtiendo en tecnologías que conecten a las personas desde cualquier lugar. Analiza las necesidades del trabajo colaborativo y el vicio universal de resolverlo todo por email (el 98% de los usuarios), mostrando qué herramienta cubre cada necesidad. Recorre de forma ágil todo el ecosistema: correo, OneDrive, SharePoint, la ofimática online, OneNote (destacando su buscador frente al cuaderno físico donde había que rebuscar por fechas), Planner, Stream, Forms, Sway, To-Do, Teams, Visio online para diagramas vinculados a datos, Lists, y la Power Platform: Power Automate, Power Apps y Power BI, con sus miles de conectores a orígenes de datos locales y en la nube para crear informes dinámicos y decidir con datos. Subraya las ventajas transversales: aplicaciones adaptadas a cualquier dispositivo y sistema, trabajo sin conexión con sincronización posterior, y la integración entre todas las herramientas como una plataforma relacionada, no aplicaciones sueltas. Ideal como mapa general antes de profundizar.",
+  "temas": [
+    "Office 365",
+    "modern workplace",
+    "herramientas colaborativas",
+    "Power Platform",
+    "OneNote",
+    "transformación del puesto de trabajo"
+  ],
+  "areas": [
+    "productividad-y-colaboracion",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que quieren una visión completa de lo que incluye Microsoft 365 antes de adoptarlo o exprimirlo."
+}

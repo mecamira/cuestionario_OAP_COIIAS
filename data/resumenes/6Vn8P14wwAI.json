@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (81 min) sobre el metaverso aplicado al sector industrial, con un enfoque de negocio y abundantes proyectos reales del ponente. Usa la analogía de El lobo de Wall Street para explicar que no hace falta entender toda la tecnología subyacente, sino saber usar la herramienta del momento para hacer negocio, y conecta el metaverso con la Web3 y el internet de las cosas como forma de enlazar todas las partes de la cadena de valor. Recorre casos sorprendentes y reales: vehículos conectados donde la experiencia de conducción genera nueva economía (servicios de terceros, smart contracts que en escenarios futuros podrían incluso detener un coche conducido ebrio), un metaverso terapéutico para centros de rehabilitación diseñado con psicólogos y antropólogos usando tecnología gaming (estudiar hacia dónde dirige la mirada el avatar de un paciente ante estímulos como harina en una cocina), programas de salud infantil con ligas escolares de alimentación saludable verificadas vía blockchain con beneficios sociales para los colegios, y servicios funerarios digitales con avatares, salas virtuales y presencia holográfica a distancia en tanatorios. Un recorrido provocador para abrir la mente a modelos de negocio phygital.",
+  "temas": [
+    "metaverso",
+    "Web3",
+    "IoT",
+    "vehículo conectado",
+    "gamificación",
+    "nuevos modelos de negocio"
+  ],
+  "areas": [
+    "tecnologias-emergentes",
+    "industria-4.0"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas industriales y de servicios que quieren ver aplicaciones reales del metaverso más allá del hype."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (88 min) sobre la legalización de los entornos digitales de la empresa: cumplir la normativa en webs, apps, plataformas de servicio y software SaaS, tanto si son el negocio como si lo complementan. Establece la regla básica: todas las empresas —pymes, startups y empresarios individuales— necesitan textos legales en su web o aplicación; no hacerlo supone riesgo de sanción y de daño reputacional, incluida la obligación legal de comunicar públicamente incidencias de protección de datos a la AEPD y a los usuarios afectados. Explica por qué no valen las plantillas: la política de privacidad debe ser explícita y específica para cada tratamiento concreto, y los generadores de textos legales incluyen descargos de responsabilidad que evidencian su nula fiabilidad jurídica. Repasa las condiciones generales de contratación (el texto donde más barbaridades se cometen) con un caso real disuasorio: una web sancionada con unos 9.000 € (rebajados a 6.000 con pronto pago) por no actualizar el plazo de desistimiento de 14 días pese a tener todos los demás textos correctos. Aborda también el uso de herramientas como WhatsApp para comunicaciones con clientes: nombrar los servicios tecnológicos en los destinatarios de la política de privacidad y aplicar medidas de seguridad adecuadas.",
+  "temas": [
+    "textos legales web",
+    "política de privacidad",
+    "condiciones de contratación",
+    "RGPD",
+    "sanciones",
+    "apps y SaaS"
+  ],
+  "areas": [
+    "administracion-digital",
+    "presencia-web-y-ecommerce"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Cualquier empresa con web, app o tienda online que dude de si sus textos legales están en regla."
+}

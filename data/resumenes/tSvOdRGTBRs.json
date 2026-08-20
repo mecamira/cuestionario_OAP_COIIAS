@@ -1,0 +1,16 @@
+{
+  "resumen": "Jornada online (58 min) sobre desarrollo de apps para empresas, impartida por la directora de una consultora asturiana especializada con 16 años de experiencia. Explica la decisión técnica fundamental: aplicaciones nativas (desarrollo específico por plataforma: máximo aprovechamiento de Android/iOS, mayor robustez y compatibilidad futura, pero más tiempo e inversión) frente a híbridas (un solo desarrollo multiplataforma, más económico). Repasa tecnologías de interacción con el entorno: NFC, realidad aumentada (la app de IKEA para ver el mueble en tu casa, Pokémon Go) y Bluetooth para comunicar con dispositivos. Estructura el proyecto con el símil de construir una casa: definir qué problema soluciona, qué datos se tratarán, si hay integraciones con terceros y —fundamental— quién usará la app: empleados, un grupo cerrado controlado o el consumidor final, porque cambia todo el planteamiento. Muestra casos reales desarrollados (información estadística para managers de eventos, servicios de movilidad para huéspedes de hoteles) y deja dos avisos valiosos: cuando la app fracasa suele fracasar el modelo de negocio, no la app; y para el gran público, el marketing para que la gente conozca e instale tu app es casi tan importante como el propio desarrollo.",
+  "temas": [
+    "apps móviles",
+    "nativas vs híbridas",
+    "NFC y realidad aumentada",
+    "gestión de proyectos",
+    "modelos de negocio móviles"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "presencia-web-y-ecommerce"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que se plantean desarrollar una app y quieren decidir con criterio técnico y de negocio."
+}

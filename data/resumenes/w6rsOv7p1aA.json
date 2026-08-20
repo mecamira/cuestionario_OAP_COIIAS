@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (51 min) introductorio sobre qué es BIM y su importancia para técnicos, impartido por Javier Calvo, BIM Manager y director académico del título especialista BIM de la Universidad de León. Aclara qué es y qué no es BIM: no son programas de dibujo novedosos sino bases de datos con objetos inteligentes que asocian información geométrica, funcional, técnica y económica; académicamente, un modelo tridimensional paramétrico que reconstruye la obra reduciendo coste y plazo, cambiando el proceso lineal por uno cíclico. Argumenta la oportunidad profesional (47 ofertas de empleo BIM activas en España en una búsqueda) y las ventajas frente al CAD: detectar en modelo los conflictos que en obra se convierten en chapuzas (la foto del falso techo imposible lleno de tuberías «buscándose la vida»), sobrecostes y retrasos. Presenta la teoría del «BIM BAM BOOM»: por cada euro de diseño (BIM) se gastan varios en construcción (BAM) y desde 60 en los 60-80 años de operación y mantenimiento (BOOM): por eso los propietarios acabarán exigiendo modelos BIM bajo protocolo e ISO 19650. Da consejos prácticos (trabajar con archivos pequeños vinculados y chequearlos en Navisworks, no un archivo gigante que no se mueve) y lanza el reto: ¿cuánto tiempo puedes permitirte no estar donde tus clientes acabarán exigiendo?",
+  "temas": [
+    "BIM",
+    "modelo paramétrico",
+    "ISO 19650",
+    "ciclo de vida del edificio",
+    "detección de conflictos",
+    "empleo técnico"
+  ],
+  "areas": [
+    "industria-4.0"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Técnicos e ingenieros de construcción e industria que aún trabajan en CAD y oyen hablar de BIM."
+}

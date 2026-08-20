@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 3 minutos que explica el SEO (Search Engine Optimization) con el dato de partida de que el 75% de las personas nunca pasa de la primera página de Google. Usa el símil de la tienda: sin SEO tu web está en un callejón oscuro; con él, en la calle principal de internet. Divide el trabajo en dos frentes. Dentro de la web: palabras clave bien ubicadas en título, descripción y contenido; URLs limpias y amigables (mejor /mejores-para-correr que /id134); contenido de calidad que realmente responda las dudas del usuario; y velocidad de carga por debajo de 3 segundos. Fuera de la web: backlinks de sitios relevantes que Google interpreta como señales de confianza, y la difusión en redes sociales como señal de relevancia. Recomienda herramientas gratuitas para empezar: Google Search Console, Ubersuggest para palabras clave y el plugin Yoast SEO para WordPress.",
+  "temas": [
+    "SEO",
+    "palabras clave",
+    "backlinks",
+    "velocidad de carga",
+    "Google Search Console"
+  ],
+  "areas": [
+    "marketing-digital",
+    "presencia-web-y-ecommerce"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Negocios con web que quieren entender en pocos minutos cómo aparecer más arriba en Google."
+}

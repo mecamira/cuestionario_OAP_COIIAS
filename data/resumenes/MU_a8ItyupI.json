@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (90 min) dedicado al Design Thinking, la metodología para desarrollar ideas y proyectos innovadores centrados en el cliente. Presenta la empatía con el cliente como método de innovación dentro de las empresas: comprender en profundidad sus necesidades reales, frustraciones y contexto antes de diseñar soluciones. Recorre el enfoque característico de la metodología —empatizar, definir el problema correcto, idear en abundancia, prototipar rápido y barato, y testear con usuarios reales—, mostrando cómo este ciclo iterativo reduce el riesgo de construir productos o servicios que nadie quiere, y cómo puede aplicarse tanto a nuevos productos como a la mejora de procesos y servicios internos en pymes de cualquier sector.",
+  "temas": [
+    "design thinking",
+    "innovación centrada en el cliente",
+    "empatía",
+    "prototipado",
+    "ideación"
+  ],
+  "areas": [
+    "emprendimiento-e-innovacion",
+    "habilidades-y-liderazgo"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que quieren un método estructurado para innovar partiendo de las necesidades del cliente."
+}

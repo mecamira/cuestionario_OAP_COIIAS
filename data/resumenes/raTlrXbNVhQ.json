@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 5 minutos sobre ciberresiliencia en entornos cloud, explicada desde cero. Aclara qué es la nube (centros de datos físicos de proveedores como Microsoft, Amazon o Google, accesibles por internet) y responde la pregunta clave de a quién pertenecen los datos: siguen siendo propiedad de la empresa, que comparte con el proveedor la responsabilidad de protegerlos. Define la ciberresiliencia como la capacidad de anticiparse, resistir y recuperarse de incidentes de ciberseguridad o interrupciones, saliendo fortalecido. Detalla las prácticas esenciales: copias de seguridad automatizadas, redundancia geográfica, planes de recuperación ante desastres, cifrado, autenticación multifactor, gestión de accesos y monitorización continua. Subraya el modelo de responsabilidad compartida (el proveedor asegura la infraestructura; la seguridad de datos y configuraciones recae en tu organización) y lo ilustra con un caso práctico de ransomware: con estrategia de ciberresiliencia se detecta, se aíslan los sistemas afectados y se restauran los datos desde una copia reciente, manteniendo el negocio en marcha; sin ella, las operaciones se detienen con pérdidas económicas y reputacionales.",
+  "temas": [
+    "ciberresiliencia",
+    "cloud",
+    "copias de seguridad",
+    "responsabilidad compartida",
+    "ransomware",
+    "recuperación ante desastres"
+  ],
+  "areas": [
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes con datos y aplicaciones en la nube que quieren prepararse ante incidentes y caídas de servicio."
+}

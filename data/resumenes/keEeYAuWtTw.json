@@ -1,0 +1,17 @@
+{
+  "resumen": "Workshop (92 min) sobre gestión documental combinada con IA generativa, centrado en la extracción automática de datos concretos de documentos ya digitalizados, no en redactar documentos nuevos. Aborda de entrada la sensibilidad legal del sector (histórico clínico, casos de despachos de abogados, RGPD) y cómo las herramientas del mercado ya empiezan a conciliarse con la legislación vigente. Su caso de uso central: en lugar de simplemente buscar un documento, pedir a la herramienta que extraiga un dato concreto de todos los documentos a la vez («sácame el DNI, importe y fecha de todas las facturas del último mes y medio»), con ejemplos aplicados muy variados: contratos tipo de comunidades de vecinos para saber cuándo vencen y planificar mantenimiento, o el escenario más delicado de un histórico clínico digitalizado donde la herramienta detecta automáticamente los menores de edad y los clasifica en una carpeta aparte tras un proceso de verificación que antes hacía una persona. Explica la ventaja de tener la documentación ya integrada en una base de conocimiento: la misma extracción se puede repetir miles de veces variando los campos solicitados según lo que se necesite cada vez, sin volver a revisar los documentos manualmente.",
+  "temas": [
+    "gestión documental",
+    "extracción de datos con IA",
+    "IA generativa aplicada a documentos",
+    "RGPD",
+    "casos sectoriales sensibles"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion",
+    "administracion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas que gestionan grandes volúmenes de documentos (facturas, contratos, expedientes) y necesitan extraer datos concretos sin revisión manual."
+}

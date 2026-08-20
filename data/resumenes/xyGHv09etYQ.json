@@ -1,0 +1,17 @@
+{
+  "resumen": "Píldora tecnológica de 6 minutos sobre la firma digital y sus sistemas. Explica que la firma digital garantiza autenticidad e integridad de un documento electrónico mediante criptografía: una huella única vinculada al firmante y al documento, generada a partir de certificados emitidos por autoridades certificadoras como la FNMT. Repasa el marco legal (reglamento europeo eIDAS 910/2014 y ley de firma electrónica) y los requisitos prácticos en España: certificado digital de proveedor autorizado, software compatible y dispositivo seguro (DNI electrónico o token USB). Recorre aplicaciones por sectores: contratos y acuerdos comerciales sin reuniones presenciales, obligatoriedad ante la Administración (trámites tributarios, licitaciones), banca y finanzas (autorización de operaciones cumpliendo RGPD y eIDAS) y seguros y servicios legales. Señala los desafíos (infraestructura, resistencia al cambio, dependencia de entidades certificadoras, interoperabilidad) y las tendencias: integración con plataformas de gestión documental y flujos de trabajo para firmar y validar automáticamente, IA para detectar patrones de firma sospechosos y prevenir fraudes, y blockchain para registros descentralizados a prueba de manipulaciones.",
+  "temas": [
+    "firma digital",
+    "certificado digital",
+    "eIDAS",
+    "FNMT",
+    "criptografía",
+    "trámites electrónicos"
+  ],
+  "areas": [
+    "administracion-digital",
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que quieren entender los fundamentos legales y técnicos de la firma digital antes de implantarla."
+}

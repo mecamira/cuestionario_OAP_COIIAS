@@ -1,0 +1,19 @@
+{
+  "resumen": "Webinar sobre el papel habilitador de la nube en la transformación digital de la pyme y cómo plantear una migración con garantías de resiliencia. Se explica el contexto de las Oficinas Acelera Pyme y, a partir de casos reales asturianos (como empresas que montaron su propio CPD y acabaron abandonándolo), por qué mantener servidores propios (correo, backups, licencias, parcheado) resulta caro y frágil frente al modelo de suscripción cloud. Se repasan los modelos de servicio (IaaS, PaaS, SaaS), el low-code como forma de desarrollar aplicaciones sobre la nube, y la comparación práctica entre los grandes proveedores (AWS, Azure, Google Cloud) con criterios para elegir. La parte central aborda la resiliencia: planes de contingencia y recuperación ante desastres, CPD de respaldo replicado en la nube que el proveedor mantiene actualizado, estrategias de backup para SaaS (correo, CRM), la importancia de leer la letra pequeña de los contratos (posibilidad de extraer tus datos, tiempos de restauración) y el ahorro en mantenimiento que supone delegar en el fabricante. Útil para decidir qué cargas llevar a la nube, con qué proveedor y cómo protegerse ante caídas del servicio.",
+  "temas": [
+    "cloud computing",
+    "IaaS/PaaS/SaaS",
+    "migración a la nube",
+    "continuidad de negocio",
+    "backup y recuperación",
+    "AWS vs Azure vs Google Cloud",
+    "low-code"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "ciberseguridad",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes y responsables de TI que se plantean migrar servicios a la nube o reforzar la continuidad de su negocio digital."
+}

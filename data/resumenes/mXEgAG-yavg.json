@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (81 min) del ciclo de Office 365 sobre gestión de tareas con Planner y To-Do, aclarando cuándo usar cada una: Planner para planes de equipo, To-Do para las tareas personales. Motiva con un caso cotidiano: organizar las tareas transversales de una oficina que antes se repartían en una reunión con pizarra o con un correo al que todos responden «yo ya hice mi parte»: Planner lo resuelve con un tablero compartido. Explica la mecánica de Planner: el hub central, la creación de planes asociados a grupos de Microsoft 365 (los miembros del grupo entran automáticamente, con matices de administración sobre quién puede crear planes), cubos de tareas con etiquetas, listas de comprobación y seguimiento de progreso, y la vista de programación en calendario (solo visible si las tareas tienen fechas). En To-Do muestra las listas inteligentes («Mi día» para planificar la jornada), listas personalizadas y un truco de integración muy práctico: marcar un correo de Outlook con la bandera lo convierte automáticamente en tarea de To-Do, uniendo correo y gestión personal de pendientes. Segunda sesión del ciclo de cinco webinars de Office 365.",
+  "temas": [
+    "Planner",
+    "To-Do",
+    "gestión de tareas",
+    "tableros de equipo",
+    "integración con Outlook",
+    "productividad personal"
+  ],
+  "areas": [
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Equipos y profesionales que gestionan tareas por correo y quieren pasar a tableros y listas organizadas."
+}

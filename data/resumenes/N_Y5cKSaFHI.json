@@ -1,0 +1,18 @@
+{
+  "resumen": "Charla informativa práctica sobre el Programa UNICO Demanda Bono Pyme, la ayuda del Gobierno de España que subvenciona con hasta 3.000 € la implantación de servicios de conectividad digital en pymes. Explica los requisitos (compatible con haber pedido el Kit Digital), el plazo de solicitud y el procedimiento paso a paso, incluyendo dónde consultar las categorías de soluciones canjeables con sus condiciones, funcionalidades exigidas e importes máximos, y cómo localizar proveedores en el catálogo de la plataforma Acelera Pyme. Repasa con casos de uso reales las soluciones subvencionables: IP fija (mejor rendimiento y combinable con firewalls o VPNs frente a las plataformas gratuitas de acceso remoto), centralita virtual (importe de unos 100 € por usuario durante 12 meses, con claro ahorro frente a la centralita tradicional), backup gestionado en servidores ubicados en territorio nacional o europeo por protección de datos, y comunicaciones para oficina. Aclara dudas frecuentes de los asistentes, como la diferencia entre gestionar los backups en un NAS propio o en el proveedor, y ofrece el asesoramiento gratuito de la OAP del COIIAS para evaluar qué solución conviene a cada empresa antes de solicitar la ayuda.",
+  "temas": [
+    "Bono Pyme UNICO",
+    "ayudas públicas",
+    "conectividad",
+    "IP fija",
+    "centralita virtual",
+    "backup gestionado",
+    "Kit Digital"
+  ],
+  "areas": [
+    "ayudas-y-financiacion",
+    "administracion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes y autónomos que quieren solicitar ayudas públicas para mejorar su conectividad digital."
+}

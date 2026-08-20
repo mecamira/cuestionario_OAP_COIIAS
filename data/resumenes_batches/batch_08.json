@@ -1,0 +1,58 @@
+{
+  "EZK3y27ox6g": {
+    "resumen": "Píldora tecnológica de 1 minuto sobre la tokenización: el proceso de convertir un activo físico o digital en un token dentro de una blockchain. Explica su gran aportación: dividir activos grandes o costosos en partes pequeñas para facilitar su compra y venta, como ser dueño de una fracción de un edificio o de una obra de arte. Esto democratiza la inversión, permitiendo participar en mercados como el inmobiliario o el de coleccionables sin grandes cantidades de dinero. Añade que también pueden tokenizarse servicios (suscripciones, licencias) intercambiables en la blockchain de forma transparente, segura y sin intermediarios, y sitúa la tokenización como una de las grandes promesas de la Web3 cuyo impacto en la economía global apenas comienza.",
+    "temas": ["tokenización", "blockchain", "inversión fraccionada", "Web3", "activos digitales"],
+    "areas": ["tecnologias-emergentes"],
+    "nivel": "basico",
+    "publico_objetivo": "Curiosos e inversores que quieren entender en un minuto qué es tokenizar un activo."
+  },
+  "6_e1cu6nEX4": {
+    "resumen": "Píldora tecnológica de 2 minutos sobre los NFTs (tokens no fungibles): activos digitales únicos almacenados en una blockchain que, a diferencia de las criptomonedas intercambiables entre sí, no se pueden intercambiar de igual manera, lo que los convierte en herramienta de propiedad digital. Explica su aplicación en el arte digital: antes cualquiera podía copiar y pegar una imagen de internet, pero con un NFT el propietario puede demostrar que posee el original, con autenticidad verificada en la cadena. Repasa otras oportunidades: artículos digitales únicos que se compran y venden en videojuegos, y las regalías automáticas que artistas y creadores reciben cada vez que su NFT se revende, asegurando ingresos a largo plazo por sus creaciones. Concluye que los NFTs están redefiniendo lo que significa poseer algo en el mundo digital.",
+    "temas": ["NFT", "tokens no fungibles", "propiedad digital", "arte digital", "blockchain"],
+    "areas": ["tecnologias-emergentes"],
+    "nivel": "basico",
+    "publico_objetivo": "Creadores y empresas que quieren entender rápidamente qué es un NFT y para qué sirve."
+  },
+  "3g34xMtTwPQ": {
+    "resumen": "Píldora tecnológica de 1 minuto sobre el papel de la criptografía en la seguridad de los datos y de las transacciones blockchain. Explica el sistema de doble clave: la clave pública funciona como una dirección que puedes compartir, mientras la clave privada es tu contraseña secreta que asegura que solo tú accedas a tus activos digitales. Lo ilustra con Bitcoin, la primera criptomoneda descentralizada: cada transacción está protegida criptográficamente para que solo el propietario legítimo pueda gastar sus fondos, y queda registrada en la blockchain de forma inmutable, sin posibilidad de alterarla o eliminarla. Destaca el equilibrio que aporta la criptografía: privacidad de las transacciones y, al mismo tiempo, transparencia del sistema, lo que hace al ecosistema confiable, resistente y accesible.",
+    "temas": ["criptografía", "clave pública y privada", "blockchain", "Bitcoin", "seguridad de datos"],
+    "areas": ["ciberseguridad", "tecnologias-emergentes"],
+    "nivel": "basico",
+    "publico_objetivo": "Quien quiera entender en un minuto cómo la criptografía protege los datos y las criptomonedas."
+  },
+  "yKyMQqRxfOA": {
+    "resumen": "Píldora tecnológica de 1 minuto sobre blockchain como tecnología que impulsa la Web3. La define como un libro de contabilidad digital distribuido en miles de ordenadores: cada transacción se almacena en un bloque conectado a los anteriores formando una cadena, y una vez dentro no puede alterarse ni eliminarse, lo que garantiza transparencia y seguridad. Explica su papel en la Web3: un internet descentralizado donde las transacciones las verifica una red de usuarios en lugar de una entidad central, eliminando intermediarios como bancos o redes sociales. Cierra con el ejemplo de los contratos inteligentes: programas que se ejecutan automáticamente al cumplirse condiciones, como una compraventa de vivienda resuelta de forma instantánea y segura sin la burocracia tradicional.",
+    "temas": ["blockchain", "Web3", "descentralización", "contratos inteligentes"],
+    "areas": ["tecnologias-emergentes"],
+    "nivel": "basico",
+    "publico_objetivo": "Quien busque una explicación exprés de qué es blockchain y por qué sustenta la Web3."
+  },
+  "gi6AbSljqK0": {
+    "resumen": "Píldora tecnológica de 1 minuto sobre la evolución de internet de la Web 2.0 a la Web 3.0. Describe la Web 2.0 como la era de la interacción: los usuarios crean y comparten contenido en plataformas como Facebook, YouTube o Twitter, pero son las plataformas centralizadas quienes controlan los datos, generando dependencia de las grandes corporaciones. La Web3 propone descentralizar la web devolviendo el control al usuario: con tecnologías como blockchain, cada persona es dueña de sus datos y activos digitales sin depender de terceros, por ejemplo mediante una identidad digital propia utilizable en múltiples plataformas de forma segura y privada. Presenta este cambio como la construcción de un internet más justo donde la propiedad de los datos y las decisiones vuelven a manos de los usuarios.",
+    "temas": ["Web 2.0", "Web 3.0", "descentralización", "identidad digital", "propiedad de los datos"],
+    "areas": ["tecnologias-emergentes"],
+    "nivel": "basico",
+    "publico_objetivo": "Quien quiera situar en un minuto qué cambia entre el internet actual y la Web3."
+  },
+  "raTlrXbNVhQ": {
+    "resumen": "Píldora tecnológica de 5 minutos sobre ciberresiliencia en entornos cloud, explicada desde cero. Aclara qué es la nube (centros de datos físicos de proveedores como Microsoft, Amazon o Google, accesibles por internet) y responde la pregunta clave de a quién pertenecen los datos: siguen siendo propiedad de la empresa, que comparte con el proveedor la responsabilidad de protegerlos. Define la ciberresiliencia como la capacidad de anticiparse, resistir y recuperarse de incidentes de ciberseguridad o interrupciones, saliendo fortalecido. Detalla las prácticas esenciales: copias de seguridad automatizadas, redundancia geográfica, planes de recuperación ante desastres, cifrado, autenticación multifactor, gestión de accesos y monitorización continua. Subraya el modelo de responsabilidad compartida (el proveedor asegura la infraestructura; la seguridad de datos y configuraciones recae en tu organización) y lo ilustra con un caso práctico de ransomware: con estrategia de ciberresiliencia se detecta, se aíslan los sistemas afectados y se restauran los datos desde una copia reciente, manteniendo el negocio en marcha; sin ella, las operaciones se detienen con pérdidas económicas y reputacionales.",
+    "temas": ["ciberresiliencia", "cloud", "copias de seguridad", "responsabilidad compartida", "ransomware", "recuperación ante desastres"],
+    "areas": ["ciberseguridad"],
+    "nivel": "basico",
+    "publico_objetivo": "Pymes con datos y aplicaciones en la nube que quieren prepararse ante incidentes y caídas de servicio."
+  },
+  "VEM_8jLVYOc": {
+    "resumen": "Píldora tecnológica de 4 minutos sobre robótica colaborativa, presentada por un técnico del centro tecnológico Idonial. Explica qué diferencia a los cobots de los robots industriales tradicionales: en lugar de operar enjaulados, incorporan sensores, visión artificial y sistemas de control que detectan la presencia humana y ajustan su comportamiento, siendo flexibles y fáciles de programar. Recorre aplicaciones reales: ensamblaje junto a operarios en BMW reduciendo lesiones por movimientos repetitivos, empaquetado de vacunas en entornos estériles con trazabilidad blockchain, clasificación de paquetes en Amazon, cosecha de fruta con visión artificial sin dañarla, e incluso cobots baristas en cafeterías, mostrando que democratizan la automatización para las pymes. Cita un dato potente: hasta el 85% de las pymes que adoptan cobots recuperan la inversión en menos de un año. Reconoce los retos (certificaciones de seguridad, coste inicial, formación de los equipos) y dibuja el futuro: cobots que aprenden de sus errores, programación por gestos con realidad aumentada, control remoto en tiempo real vía 5G industrial, integración con IoT y un diseño ético que complemente empleos en lugar de eliminarlos.",
+    "temas": ["cobots", "robótica colaborativa", "automatización", "visión artificial", "retorno de inversión", "industria 4.0"],
+    "areas": ["industria-4.0", "tecnologias-emergentes"],
+    "nivel": "basico",
+    "publico_objetivo": "Pymes industriales que se plantean automatizar tareas sin prescindir de sus operarios."
+  },
+  "EA_OffNsZLA": {
+    "resumen": "Píldora tecnológica de 5 minutos sobre cómo la IA mejora la ciberseguridad de las pequeñas empresas. Muestra que la IA ya está presente en herramientas cotidianas: filtros de correo que bloquean phishing, antivirus que reconocen patrones de malware antes de la infección y gestores de contraseñas que alertan de accesos sospechosos. Explica sus dos ventajas centrales: el análisis de enormes volúmenes de datos en tiempo real para detectar lo que un humano pasaría por alto (accesos desde ubicaciones inusuales, transferencias anómalas) y la respuesta automática a incidentes, que elimina la necesidad de un equipo vigilando 24/7; lo ilustra con un sistema de detección de intrusos que bloquea un acceso extraño en horario no laboral, notifica al responsable y genera informe en segundos. Advierte de dos cautelas: el manejo de datos que estas herramientas requieren (verificar cifrado, ubicación y accesos, cumplimiento del RGPD antes de adoptarlas) y que los cibercriminales también usan IA para sofisticar sus ataques, por lo que la tecnología debe combinarse con actualizaciones, estrategia global y formación de empleados. La IA automatiza, pero no sustituye el criterio humano.",
+    "temas": ["IA en ciberseguridad", "detección de amenazas", "respuesta automática", "phishing", "RGPD", "formación de empleados"],
+    "areas": ["ciberseguridad", "inteligencia-artificial"],
+    "nivel": "basico",
+    "publico_objetivo": "Pequeñas empresas sin equipo de seguridad dedicado que quieren protegerse con herramientas inteligentes."
+  }
+}

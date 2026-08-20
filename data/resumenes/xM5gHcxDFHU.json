@@ -1,0 +1,17 @@
+{
+  "resumen": "Taller extenso (208 min, en dos sesiones) de análisis de datos y cuadros de mando en Excel, impartido por Carlos Martínez Egea, ingeniero industrial con 20 años en directivos de Ferrovial, ACS y Elis. Enseña técnicas profesionales para construir cuadros de mando navegables y a prueba de usuarios: menús de navegación con vínculos insertados en objetos gráficos que llevan a cada hoja del archivo, gráficos avanzados con series en ejes secundarios y control del orden de apilamiento para lograr visualizaciones imposibles con los formatos estándar, y protección quirúrgica de hojas: bloquear todo excepto las celdas de interacción deseadas, garantizando que el usuario solo toque lo que debe. Muestra cómo construir cuadros de mando sin tablas dinámicas (rangos parametrizados con columnas auxiliares de códigos) y también el uso experto de las dinámicas: personalización del orden de secciones arrastrando desde el borde, y la comprensión de cómo la tabla identifica los registros de cada categoría en un origen de miles de filas. El objetivo declarado: preparar la información para responder con agilidad a las preguntas clave del negocio con elementos visualmente potentes y fáciles de interpretar.",
+  "temas": [
+    "cuadros de mando",
+    "Excel avanzado",
+    "visualización",
+    "protección de hojas",
+    "tablas dinámicas",
+    "navegación interactiva"
+  ],
+  "areas": [
+    "datos-y-business-intelligence",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "avanzado",
+  "publico_objetivo": "Perfiles técnicos y de gestión que construyen informes en Excel para dirección y quieren nivel profesional."
+}

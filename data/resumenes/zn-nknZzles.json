@@ -1,0 +1,18 @@
+{
+  "resumen": "Mesa redonda del Foro Asturias Digital 2026 con directivos de TSK (Juan Luis Carús), Windar (Yerái Fernández) y Asturfeito (Ricardo Rodríguez), moderada por Izertis, sobre cómo gestionan las empresas industriales asturianas un entorno impredecible: riesgo geopolítico, financiación cara, presión energética y fragmentación comercial. Comparten prácticas reales de gestión de riesgos (equipos por riesgo identificado, planificación anticipada con proveedores, cláusulas en ofertas de proyectos importantes) y qué datos vigilan: los operativos cercanos a la operación y los más difíciles, los de perspectivas de mercado a medio plazo. Abordan la escasez de talento como gran cuello de botella, con iniciativas para acercar a los estudiantes la realidad empresarial y prepararles para una evolución constante (el ejemplo de la soldadura y sus nuevas técnicas). Un testimonio destacado sobre gobernanza de la IA: una auditoría interna reveló empleados subiendo documentación corporativa con cuentas personales de ChatGPT y prompts duplicados, lo que llevó a crear un departamento que ordenara usos y protegiera la información. Cierran reivindicando el ecosistema asturiano: cadena de suministro regional competitiva, colaboración entre empresas y la consigna de aprender de los errores, adaptarse y no quedarse atrás, sin olvidar la ciberseguridad.",
+  "temas": [
+    "gestión de riesgos",
+    "incertidumbre",
+    "talento industrial",
+    "gobernanza de IA",
+    "cadena de suministro",
+    "resiliencia empresarial"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "industria-4.0",
+    "habilidades-y-liderazgo"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Directivos industriales que quieren contrastar cómo otras empresas gestionan riesgo, talento e IA."
+}

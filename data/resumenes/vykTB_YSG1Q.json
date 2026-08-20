@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (53 min) de introducción a Excel VBA para automatizar tareas y llevar las hojas de cálculo a otro nivel. Justifica cuándo compensa: procesos repetitivos con datos de mala calidad que hay que corregir, restructurar y resumir constantemente porque la información llega de una forma y se necesita en otra. Enseña el camino de entrada: la grabadora de macros, que traduce a código VBA todas las acciones realizadas (con demostración en directo de una macro que registra alumnos y otra que autoajusta anchos de columna), y explica por qué conviene ir más allá de la grabadora y aprender a programar: aplicar reglas de decisión complejas imposibles con fórmulas, generar archivos completos con un solo botón (incluyendo formato condicional automático según las notas), y construir formularios de entrada de datos que disparan la calidad de la información. Muestra casos avanzados como usar Excel con VBA a modo de pequeño gestor: planificaciones de cursos con estructuras variables que un Excel estático no soporta. Cierra presentando el itinerario formativo del COIIAS (bonificable por FUNDAE) que profundiza en VBA y Power Automate.",
+  "temas": [
+    "Excel",
+    "VBA",
+    "macros",
+    "automatización de tareas",
+    "formularios",
+    "calidad de datos"
+  ],
+  "areas": [
+    "productividad-y-colaboracion",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Usuarios habituales de Excel que pierden tiempo en tareas repetitivas y quieren automatizarlas."
+}

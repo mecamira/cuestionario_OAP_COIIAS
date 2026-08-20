@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (112 min) que enseña a diseñar un ecosistema de herramientas de IA con método, en vez de acumular aplicaciones sueltas: una de las mayores carencias detectadas por la OAP en formaciones anteriores. Desmonta la pregunta «¿cuál es la mejor herramienta?» con la analogía de la caja de herramientas: no hay una mejor herramienta en abstracto, sino la más adecuada para la tarea y el momento concreto (hoy, no necesariamente mañana). Recorre categorías del ecosistema con ejemplos reales de uso interno de la propia consultora: gestores de tareas y calendario conectados (Notion Calendar), herramientas más avanzadas evaluadas pero descartadas por no aportar suficiente (Superhuman), e integraciones dentro del entorno Microsoft. Insiste en la personalización de los modelos de IA por trabajador (tono, estructura, volumen de información) y en preguntar periódicamente al equipo qué tal le va con las herramientas asignadas. Incluye una advertencia de seguridad relevante y poco tratada hasta ahora: el prompt injection, mostrado con una demo de cómo una página web puede esconder instrucciones invisibles para el usuario que un agente de IA sí lee y podría obedecer. Cierra con un mensaje tranquilizador: no hay que agobiarse por la velocidad del cambio, basta con entender el ABC.",
+  "temas": [
+    "ecosistema de herramientas IA",
+    "selección de herramientas",
+    "personalización de modelos",
+    "prompt injection",
+    "gestión de proyectos con IA",
+    "Notion"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas que ya usan varias herramientas de IA sueltas y quieren organizarlas en un ecosistema coherente y seguro."
+}

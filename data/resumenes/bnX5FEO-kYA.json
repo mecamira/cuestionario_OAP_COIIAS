@@ -1,0 +1,19 @@
+{
+  "resumen": "Jornada de sensibilización sobre la importancia del sitio web y la presencia básica en internet para una pyme. Justifica el porqué: el marketing digital es hoy más efectivo que cualquier otro canal, fideliza (un cliente que te conoce repite y recomienda) y mejora la atención al cliente. Explica paso a paso los fundamentos: qué es un dominio y cómo comprobar su disponibilidad en red.es (dominios .es), la estructura del sitio web con el símil de una casa con habitaciones bien organizadas para que el usuario encuentre lo que busca, y la seguridad web (certificados, casos reales de webs hackeadas como la del SEPE en plena pandemia). Da pautas de contenido de calidad: textos sin faltas (con ayuda de ChatGPT, Copilot o Gemini para corregir), imágenes relevantes de alta calidad y vídeos comprimidos que no penalicen la carga. Orienta sobre cómo encargar la web: transmitir necesidades y expectativas concretas al diseñador y buscarlo en el catálogo de agentes digitalizadores de Acelera Pyme para financiarla con el Kit Digital. Cierra con el viaje del cliente digital y las palancas para optimizar la presencia online: SEO, redes sociales, publicidad online y email marketing, y la advertencia de que el usuario real nunca navega como el diseñador espera.",
+  "temas": [
+    "sitio web",
+    "dominio .es",
+    "presencia en internet",
+    "seguridad web",
+    "Kit Digital",
+    "SEO",
+    "viaje del cliente"
+  ],
+  "areas": [
+    "presencia-web-y-ecommerce",
+    "marketing-digital",
+    "ayudas-y-financiacion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes y autónomos sin web o con presencia digital mínima que quieren dar el primer paso con criterio."
+}

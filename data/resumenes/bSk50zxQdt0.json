@@ -1,0 +1,18 @@
+{
+  "resumen": "Cuarto webinar del ciclo de IA para marketing digital, sobre creación y optimización de páginas web con inteligencia artificial. Cubre el proceso completo: definir la arquitectura y secciones de la web preguntando a ChatGPT (con el truco de reformular la pregunta en lenguaje de marketing y no de programador, ejemplificado con una clínica estética), buscar inspiración de diseño en galerías profesionales (estructura, colores, maquetación, tipografías), elegir tipografías probándolas sobre fondo blanco con herramientas específicas, y generar imágenes e iconos a medida con generadores gratuitos como Perchance (ejemplo: icono plano de muebles de cocina en verde). Dedica un bloque a los textos: redactar fichas de producto y servicio con IA siguiendo buenos ejemplos reales (regalador.com como referencia de fichas amigables, en párrafos cortos y listados). Termina con principios de usabilidad: enlaces que parezcan enlaces (azul y subrayado), jerarquía clara, y sobre todo revisar cómo se ve la web en el móvil, que es donde la mayoría la consumirá; la pregunta no es si se ve en el móvil, sino si se ve bien. Orientado a que una pyme pueda dialogar con su diseñador o mejorar su web por sí misma.",
+  "temas": [
+    "diseño web",
+    "arquitectura de contenidos",
+    "generación de imágenes con IA",
+    "fichas de producto",
+    "usabilidad",
+    "diseño móvil",
+    "tipografía"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "presencia-web-y-ecommerce"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes que van a crear o renovar su web y quieren usar IA para diseñarla y redactar sus contenidos."
+}

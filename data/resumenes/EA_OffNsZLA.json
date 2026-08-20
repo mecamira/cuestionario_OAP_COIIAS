@@ -1,0 +1,17 @@
+{
+  "resumen": "Píldora tecnológica de 5 minutos sobre cómo la IA mejora la ciberseguridad de las pequeñas empresas. Muestra que la IA ya está presente en herramientas cotidianas: filtros de correo que bloquean phishing, antivirus que reconocen patrones de malware antes de la infección y gestores de contraseñas que alertan de accesos sospechosos. Explica sus dos ventajas centrales: el análisis de enormes volúmenes de datos en tiempo real para detectar lo que un humano pasaría por alto (accesos desde ubicaciones inusuales, transferencias anómalas) y la respuesta automática a incidentes, que elimina la necesidad de un equipo vigilando 24/7; lo ilustra con un sistema de detección de intrusos que bloquea un acceso extraño en horario no laboral, notifica al responsable y genera informe en segundos. Advierte de dos cautelas: el manejo de datos que estas herramientas requieren (verificar cifrado, ubicación y accesos, cumplimiento del RGPD antes de adoptarlas) y que los cibercriminales también usan IA para sofisticar sus ataques, por lo que la tecnología debe combinarse con actualizaciones, estrategia global y formación de empleados. La IA automatiza, pero no sustituye el criterio humano.",
+  "temas": [
+    "IA en ciberseguridad",
+    "detección de amenazas",
+    "respuesta automática",
+    "phishing",
+    "RGPD",
+    "formación de empleados"
+  ],
+  "areas": [
+    "ciberseguridad",
+    "inteligencia-artificial"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pequeñas empresas sin equipo de seguridad dedicado que quieren protegerse con herramientas inteligentes."
+}

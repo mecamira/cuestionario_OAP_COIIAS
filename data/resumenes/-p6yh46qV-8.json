@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (92 min) urgente en su momento y aún útil como referencia de GA4: la migración de Google Analytics Universal a Google Analytics 4. Explica por qué había que actuar de inmediato: Universal dejó de recibir datos el 1 de julio de 2023 y GA4 solo recoge datos desde que se crea la propiedad, así que configurarlo un año antes era la única forma de conservar histórico comparable. Detalla los siete ajustes imprescindibles para empezar a medir bien y las novedades de GA4: hasta 30 conversiones activables y desactivables (útil para campañas temporales como rebajas), mayor flexibilidad de audiencias (especialmente para Google Ads) y atribución multinivel que revela lo que Universal ocultaba: en un carrito abandonado recuperado por email, Universal solo veía la sesión display; GA4 muestra el camino completo. Propone convertir el cambio en ventaja competitiva: programar el envío semanal del cuadro de mando por email en PDF (con Looker Studio/Data Studio, o Power BI) para crear el hábito de decidir con datos sin pelearse con una interfaz más compleja que la de Universal. Cubre también vinculaciones avanzadas (Tag Manager, BigQuery, Search Console) y avisa de que GA4 seguiría evolucionando con cambios constantes.",
+  "temas": [
+    "Google Analytics 4",
+    "analítica web",
+    "migración",
+    "conversiones",
+    "atribución",
+    "cuadros de mando"
+  ],
+  "areas": [
+    "marketing-digital",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas con web que usan Google Analytics y quieren configurar y aprovechar bien GA4."
+}

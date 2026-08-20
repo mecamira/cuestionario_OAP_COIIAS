@@ -1,0 +1,17 @@
+{
+  "resumen": "Ponencia del Foro Asturias Digital 2026 impartida por CTIC QuantumLab (Luis Meijueiro y Pablo Gutiérrez) sobre tecnologías cuánticas como palanca de competitividad real. Explica cómo identificar un «problema cuántico»: aquellos con espacios de soluciones de tamaño exponencial, típicamente optimización (rutas logísticas) y simulación. Presenta las capacidades de CTIC, que cuenta con uno de los emuladores cuánticos más potentes a nivel nacional para hacer pruebas sin esperar al hardware real, defendiendo que empezar hoy es lo que generará la ventaja de mañana. Dedica un bloque importante a la ciberseguridad postcuántica: el aviso de que hacia 2030 los ordenadores cuánticos podrían romper la criptografía actual, la dificultad de migrar a nuevos estándares, y el proyecto de comunicaciones cuánticas seguras que se está desplegando en Asturias (parque tecnológico, universidad, administraciones) como base de un ecosistema regional. Recorre casos de uso en desarrollo: machine learning cuántico capaz de detectar patrones más complejos incluso con ruido, produciendo modelos más eficientes y compactos, y agricultura de precisión con detección temprana de enfermedades de cultivo para aplicar pesticidas solo donde hace falta. El mensaje: no es promesa, es una línea de trabajo ya en marcha.",
+  "temas": [
+    "computación cuántica",
+    "optimización",
+    "criptografía postcuántica",
+    "comunicaciones cuánticas",
+    "machine learning cuántico",
+    "casos de uso empresariales"
+  ],
+  "areas": [
+    "tecnologias-emergentes",
+    "ciberseguridad"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas que quieren saber si sus problemas de optimización o seguridad justifican explorar lo cuántico."
+}

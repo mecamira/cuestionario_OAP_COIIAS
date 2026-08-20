@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (73 min) de introducción a la salud digital (eHealth) como presente, no futuro, del mundo sanitario. Describe el ecosistema de actores (pagadores, intermediarios/aseguradoras, proveedores asistenciales, centrales de compra) según el marco de Wharton School, y usa encuestas en directo (Mentimeter) para que los asistentes valoren qué megatendencias tendrán mayor impacto en los sistemas sanitarios. Señala problemas estructurales que la tecnología puede resolver: la variabilidad clínica injustificada (grandes diferencias territoriales en intervenciones como prótesis de cadera sin métricas de impacto en calidad de vida que permitan financiar las mejores prácticas). Recorre tecnologías con casos reales: procesamiento del lenguaje natural con la empresa española Savana, que estructura el conocimiento oculto en los informes clínicos de texto libre de los hospitales; sensorización del hogar para que las personas mayores permanezcan en casa el mayor tiempo posible (con proyectos públicos de decenas de millones de euros para atender a miles de pacientes al año); y el concepto de smart hospital que integra datos, climatización y respuesta ante emergencias. Interesante tanto para el sector salud como para empresas tecnológicas que quieran entrar en él.",
+  "temas": [
+    "eHealth",
+    "salud digital",
+    "procesamiento del lenguaje natural",
+    "sensorización del hogar",
+    "smart hospital",
+    "sistemas sanitarios"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Profesionales del sector salud y empresas tecnológicas interesadas en el mercado de la salud digital."
+}

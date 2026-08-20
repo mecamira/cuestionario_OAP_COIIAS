@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (105 min) sobre los fundamentos de la metodología BIM: cómo ordenar personas, procesos y herramientas, impartido por el equipo de Miller&Co con proyectos internacionales. Muestra con obras reales el poder de la coordinación BIM: una torre de 70 pisos donde la misma columna se replica con una mínima coordinación de coordenadas, un proyecto de 250.000 metros cuadrados para el gobierno de Honduras, recorridos «endoscópicos» por dentro de modelos que integran archivos de distintas plataformas (Revit, Tekla, AutoCAD) en una única conjunción de datos comprensible para cualquiera, y una estructura mixta de hormigón y acero modelada en softwares distintos compatibilizados bajo un único criterio, con el concepto de «expedientes»: extraer una porción del modelo para su análisis minucioso. Explica las piezas de la gestión BIM: las plantillas (template) como cerebro organizativo del proyecto, y el BEP (BIM Execution Plan) con una analogía útil: igual que a un coche le importa si rodará por ciudad o autopista, hay que definir qué hará y qué NO hará el modelo desde la fase de factibilidad, porque después «tiene que hacer todo». Incluye reflexiones sobre el trabajo remoto en BIM y la formación disponible con el colegio.",
+  "temas": [
+    "BIM",
+    "coordinación de proyectos",
+    "BEP",
+    "modelado paramétrico",
+    "interoperabilidad",
+    "gestión de proyectos"
+  ],
+  "areas": [
+    "industria-4.0"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Ingenierías y estudios técnicos que quieren entender cómo se organiza de verdad un proyecto BIM."
+}

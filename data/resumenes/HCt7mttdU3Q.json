@@ -1,0 +1,17 @@
+{
+  "resumen": "Píldora tecnológica de 4 minutos sobre cómo usar la IA generativa de forma práctica siendo consciente de sus limitaciones. Recorre usos concretos por perfil profesional: una periodista que resume un informe de 100 páginas en segundos, un equipo de marketing que genera palabras clave y hace lluvia de ideas para campañas, desarrolladores que generan código y detectan errores, científicos que analizan datos y diseñan experimentos, profesores que crean contenido educativo interactivo y creativos que superan el bloqueo de la página en blanco con modelos como DALL-E o Stable Diffusion. La segunda mitad aborda los riesgos con claridad: las alucinaciones (afirmaciones falsas que obligan a revisar siempre el contenido generado), los sesgos heredados de los datos de entrenamiento, y el uso criminal de la IA en estafas con imágenes y vídeos falsos o voces sintéticas clonadas a partir de grabaciones. Concluye con dos consejos: verificar siempre lo generado y proteger la información propia y de los seres queridos al compartir contenido en internet.",
+  "temas": [
+    "IA generativa",
+    "casos de uso",
+    "alucinaciones",
+    "sesgos",
+    "deepfakes",
+    "estafas con IA"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Profesionales que quieren una visión equilibrada de los beneficios y riesgos de la IA generativa."
+}

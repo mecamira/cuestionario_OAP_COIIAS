@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar sobre cómo diseñar una hoja de ruta realista para implantar la inteligencia artificial en una empresa, centrada en casos de uso y en la gestión del cambio. Presenta el modelo de madurez en IA (inspirado en Gartner) con sus niveles —inexistente, reactivo, funcional, integral y ubicuo—, ayudando a cada empresa a situarse honestamente y a fijar objetivos alcanzables. Explica cómo identificar y priorizar casos de uso, la importancia de los datos como punto de partida (incluida la generación de datos sintéticos y el entrenamiento de GPTs personalizados con el contenido de la propia web o e-commerce), y cómo montar sprints de innovación para prototipar soluciones, con recomendaciones prácticas nacidas de la experiencia (repartir el sprint en al menos dos días). Recorre herramientas asequibles de prototipado y validación: generación de bocetos de producto a partir de descripciones, testeo con usuarios sintéticos, wireframes a mano alzada convertidos en interfaces (Uizard) y benchmarking de competidores. Cierra con la vigilancia tecnológica e inteligencia competitiva como proceso continuo (palabras clave, monitoreo, divulgación y toma de decisiones) y da paso al ciclo de webinars departamentales de IA.",
+  "temas": [
+    "hoja de ruta IA",
+    "madurez digital",
+    "casos de uso",
+    "sprints de innovación",
+    "prototipado con IA",
+    "vigilancia tecnológica",
+    "gestión del cambio"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Gerentes y responsables de innovación que quieren planificar la adopción de IA en su empresa de forma ordenada."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Segunda jornada del ciclo «Lanza tu Startup», dedicada a profundizar en el modelo Lean Startup. Repasa qué es un modelo de negocio y por qué una startup debe trabajar sobre el modelo más que sobre el producto. Desarrolla el customer development de Steve Blank con sus cuatro pasos, deteniéndose en el descubrimiento de clientes y el papel central del MVP (producto mínimo viable) para validar hipótesis con clientes reales cuanto antes: «no hay hechos dentro de tu oficina». Contrasta el desarrollo tradicional (mucha documentación, reuniones y desperdicio, con un time-to-market largo desde la idea hasta el mercado) con el desarrollo ágil e incremental, ilustrado con ejemplos como los lanzamientos de cohetes por hitos con pruebas incrementales. Aborda la gestión del dinero en la fase de búsqueda: ni el dinero ni la motivación son infinitos, por lo que hay que practicar bootstrapping (gastar lo mínimo con conocimiento de causa) para alargar al máximo el margen de búsqueda del modelo de negocio, y usar herramientas de medición para definir de antemano qué se considerará éxito (facturación, margen, países). Cierra con el caso de Google como propuesta diferenciadora frente a los portales sobrecargados de los 90.",
+  "temas": [
+    "lean startup",
+    "customer development",
+    "MVP",
+    "validación de hipótesis",
+    "time-to-market",
+    "bootstrapping",
+    "metodologías ágiles"
+  ],
+  "areas": [
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Emprendedores que quieren aplicar el método Lean Startup para validar su idea gastando lo mínimo."
+}

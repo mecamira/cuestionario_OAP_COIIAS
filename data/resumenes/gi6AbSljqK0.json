@@ -1,0 +1,15 @@
+{
+  "resumen": "Píldora tecnológica de 1 minuto sobre la evolución de internet de la Web 2.0 a la Web 3.0. Describe la Web 2.0 como la era de la interacción: los usuarios crean y comparten contenido en plataformas como Facebook, YouTube o Twitter, pero son las plataformas centralizadas quienes controlan los datos, generando dependencia de las grandes corporaciones. La Web3 propone descentralizar la web devolviendo el control al usuario: con tecnologías como blockchain, cada persona es dueña de sus datos y activos digitales sin depender de terceros, por ejemplo mediante una identidad digital propia utilizable en múltiples plataformas de forma segura y privada. Presenta este cambio como la construcción de un internet más justo donde la propiedad de los datos y las decisiones vuelven a manos de los usuarios.",
+  "temas": [
+    "Web 2.0",
+    "Web 3.0",
+    "descentralización",
+    "identidad digital",
+    "propiedad de los datos"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Quien quiera situar en un minuto qué cambia entre el internet actual y la Web3."
+}

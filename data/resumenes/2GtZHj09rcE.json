@@ -1,0 +1,16 @@
+{
+  "resumen": "Taller (118 min) sobre cómo integrar la IA de Google en el flujo de trabajo diario: Gemini dentro de Gmail, Docs, Sheets y Meet, y NotebookLM. Muestra la diferencia clave entre preguntar a Gemini en general o hacerlo desde la barra lateral dentro de un correo o documento concreto, donde la IA ya tiene el contexto de ese elemento sin tener que explicárselo. Enseña el uso de «refinar» texto en Docs (reformular, acortar, alargar, formalizar) con instrucciones propias, y recomienda usar siempre el modelo más potente cuando el objetivo es aprender algo nuevo, no solo salir del paso. Incluye una advertencia repetida y con ejemplos reales del entorno del ponente (vinilos publicitarios con imágenes de IA mal revisadas en la calle): hay que revisar siempre el contenido generado, texto, imagen o audio, antes de publicarlo. Presenta NotebookLM como un «cerebro privado» alimentado con los propios documentos del usuario, con el caso de uso de un abogado que lo utiliza para preparar casos judiciales a partir de toda la documentación de un expediente. Sesión con anécdotas personales del ponente sobre sus primeros pasos con IA generativa años atrás, cuando los modelos fallaban constantemente.",
+  "temas": [
+    "Google Workspace",
+    "Gemini",
+    "NotebookLM",
+    "revisión de contenido IA",
+    "Gmail y Docs con IA"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que usan Google Workspace y quieren aprovechar Gemini y NotebookLM en el día a día."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar del ciclo de IA departamental dedicado al área económico-financiera. Parte del análisis de impacto: según consultoras como McKinsey y Boston Consulting Group, finanzas es un departamento con impacto medio de la IA pero con coste de implantación bajo, porque la banca y el sector financiero llevan décadas usando algoritmos (árboles de decisión, regresión) antes incluso del deep learning, lo que se traduce en un retorno atractivo. Aplica el modelo de madurez (inexistente, reactivo, funcional, integral, ubicuo) al área financiera y subraya el prerrequisito esencial: asegurar la calidad e integridad de los datos financieros aunque todavía no se use IA, como base para poder aplicarla de forma óptima en el futuro. Recorre casos de uso concretos: previsión y análisis financiero, automatización de reclamaciones (ejemplo de reclamación de IVA automatizada que hace rentable lo que manualmente no compensaba), cumplimiento normativo asistido (documentar políticas, auditorías, formación del personal), detección de fraude, y copilots para asesores financieros y onboarding de clientes con tratamiento de información sensible. Anima a las empresas a empezar por casos de uso pequeños y compartir aprendizajes.",
+  "temas": [
+    "IA en finanzas",
+    "previsión financiera",
+    "automatización",
+    "calidad de datos",
+    "cumplimiento normativo",
+    "detección de fraude"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Responsables financieros y gerentes de pymes que quieren identificar casos de uso de IA en su área económica."
+}

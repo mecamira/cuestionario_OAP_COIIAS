@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (63 min) sobre la aplicación real de modelos de inteligencia artificial en empresas, con análisis de casos prácticos y mejores prácticas. Establece primero cuándo usar IA: solo cuando los patrones no pueden escribirse con reglas sencillas de programación y deben extraerse de los datos, y cuando hay datos suficientes (con una foto de una cara no se puede reconocer a la persona; hacen falta muchas y variadas). Repasa técnicas con sus usos empresariales: detección de anomalías (el modelo aprende lo normal y avisa de lo que se desvía), clustering para segmentar clientes de forma automática y reducción de dimensionalidad para visualizar clientes descritos por muchos parámetros. Su aportación más valiosa es la diferencia entre investigación y producción: en investigación los datos son fijos y públicos y prima la precisión; en producción son cambiantes y privados, prima la velocidad y el coste de inferencia, y los sesgos pasan de estudio opcional a riesgo crítico de negocio y reputación. Presenta el panorama de herramientas MLOps (elegir la adecuada es difícil y hay diagramas que ayudan según la fase del ciclo de vida) y lecciones aprendidas como replantear la variable objetivo del problema para maximizar el valor de negocio. Cierra con orientación para formarse en IA a través del Instituto de Inteligencia Artificial.",
+  "temas": [
+    "IA aplicada",
+    "casos de uso",
+    "MLOps",
+    "producción vs investigación",
+    "sesgos",
+    "segmentación de clientes"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas que ya entienden qué es la IA y quieren ver cómo se lleva a producción con éxito."
+}

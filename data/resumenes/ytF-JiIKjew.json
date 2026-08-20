@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 2 minutos que explica qué es un CRM (Customer Relationship Management) y por qué importa incluso a la empresa más pequeña. Parte de situaciones cotidianas —clientes interesados que se pierden por falta de seguimiento, información dispersa en correos y notas sueltas— para presentar el CRM como una libreta de direcciones superpotenciada: centraliza datos de contacto, interacciones previas, compras y fase del proceso de venta de cada cliente. Explica su valor por áreas: en ventas permite saber en qué etapa está cada cliente potencial; en marketing, personalizar ofertas según intereses reales; en atención al cliente, responder rápido sin que el cliente repita su historia. Desmonta el mito de que es cosa de grandes empresas citando opciones gratuitas o de bajo coste como HubSpot o Zoho CRM, y subraya la clave del éxito: la herramienta solo es útil si todo el equipo la adopta y mantiene la información actualizada.",
+  "temas": [
+    "CRM",
+    "gestión de clientes",
+    "seguimiento comercial",
+    "HubSpot",
+    "Zoho"
+  ],
+  "areas": [
+    "marketing-digital",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes que pierden oportunidades de venta por gestionar los clientes con correos y hojas sueltas."
+}

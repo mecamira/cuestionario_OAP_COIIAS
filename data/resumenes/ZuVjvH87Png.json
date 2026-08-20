@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 5 minutos que presenta la inteligencia artificial en general: sistemas capaces de tareas que normalmente requieren inteligencia humana (reconocimiento de voz, decisiones, comprensión del lenguaje), apoyados en machine learning y deep learning para identificar patrones y mejorar con el tiempo. Recorre aplicaciones por sectores: chatbots de atención al cliente en banca y telecomunicaciones, diagnóstico médico por imagen con visión artificial que rivaliza con los médicos, optimización de rutas e inventarios en logística (Amazon, Tesla y la conducción autónoma), y detección de fraude y automatización bursátil en finanzas. Plantea los retos principales: el sesgo de los algoritmos cuando los datos de entrenamiento son parciales, y la falta de transparencia y explicabilidad de los modelos profundos, crítica en medicina o justicia. Termina con las tendencias: integración de IA con IoT en hogares y fábricas conectadas, el auge de la IA ética (sistemas responsables, transparentes y justos) y el horizonte de la IA general capaz de adaptarse a múltiples tareas como un humano.",
+  "temas": [
+    "inteligencia artificial",
+    "machine learning",
+    "deep learning",
+    "chatbots",
+    "sesgo algorítmico",
+    "IA ética"
+  ],
+  "areas": [
+    "inteligencia-artificial"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Público general y empresas que buscan una introducción rápida y ordenada a la inteligencia artificial."
+}

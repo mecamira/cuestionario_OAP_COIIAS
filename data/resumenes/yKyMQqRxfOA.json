@@ -1,0 +1,14 @@
+{
+  "resumen": "Píldora tecnológica de 1 minuto sobre blockchain como tecnología que impulsa la Web3. La define como un libro de contabilidad digital distribuido en miles de ordenadores: cada transacción se almacena en un bloque conectado a los anteriores formando una cadena, y una vez dentro no puede alterarse ni eliminarse, lo que garantiza transparencia y seguridad. Explica su papel en la Web3: un internet descentralizado donde las transacciones las verifica una red de usuarios en lugar de una entidad central, eliminando intermediarios como bancos o redes sociales. Cierra con el ejemplo de los contratos inteligentes: programas que se ejecutan automáticamente al cumplirse condiciones, como una compraventa de vivienda resuelta de forma instantánea y segura sin la burocracia tradicional.",
+  "temas": [
+    "blockchain",
+    "Web3",
+    "descentralización",
+    "contratos inteligentes"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Quien busque una explicación exprés de qué es blockchain y por qué sustenta la Web3."
+}

@@ -1,0 +1,18 @@
+{
+  "resumen": "Ponencia práctica del Foro Asturias Digital 2026 de Iberastur (Luis Santiago, CTO) sobre captura de datos mediante drones, con exhibición incluida. Su filosofía: la tecnología no es lo importante, lo son las personas que la usan; y al cliente no se le vende el dron más caro, sino el que necesita (un dron pequeño con menos permisos y logística puede costar la mitad y resolver igual). Muestra el flujo completo: captura de datos de todo tipo (gases, cámaras térmicas e hiperespectrales, nubes de puntos), su «dinamización» poniéndolos en contexto, y la integración de todos los formatos en un único sistema de visualización (offline o en la nube) para que cliente y trabajadores no se pierdan entre programas. Recorre casos reales georreferenciados con precisión centimétrica (GPS + RTK): levantamientos fotogramétricos con modelos 3D texturizados de los que tomar mediciones y decisiones, replanteos de ingeniería y piping, inspección de filtros industriales, y un caso llamativo de termografía que detectó un sobrecalentamiento invisible al ojo en una fábrica antes de que provocara un incendio. Concluye conectando la captura de datos con modelos de IA y proyectos de innovación, incluida la toma de datos en lugares peligrosos.",
+  "temas": [
+    "drones",
+    "fotogrametría",
+    "termografía",
+    "captura de datos",
+    "inspección industrial",
+    "modelos 3D",
+    "georreferenciación"
+  ],
+  "areas": [
+    "industria-4.0",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas industriales y de ingeniería que quieren ver aplicaciones reales de los drones en inspección y obra."
+}

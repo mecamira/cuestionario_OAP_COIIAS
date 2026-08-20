@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 7 minutos que diferencia la facturación con medios digitales (usar plataformas tecnológicas para emitir, recibir y gestionar facturas en cualquier formato) de la factura electrónica (formato digital que cumple requisitos legales y técnicos específicos, incluidos estándares criptográficos). Repasa cómo la nube y la gestión documental permiten automatizar grandes volúmenes de facturas, los casos de uso por tamaño de empresa (multinacionales con millones de facturas, pymes con plataformas cloud sin necesidad de costosos ERP) y la obligatoriedad en España de facturar electrónicamente a la Administración a través de FACe. Menciona los retos (cumplimiento normativo, protección de datos, empresas sin herramientas adecuadas) y los beneficios: eficiencia, trazabilidad, integración con proveedores y clientes, y menor impacto ambiental. Cierra con las tendencias: IA para facturación basada en eventos (emitir automáticamente al cumplirse un contrato), gestión predictiva de cobros, detección de fraudes en tiempo real, y blockchain como libro contable inmutable con contratos inteligentes que ejecutan el pago cuando se cumplen las condiciones pactadas.",
+  "temas": [
+    "factura electrónica",
+    "facturación digital",
+    "FACe",
+    "automatización contable",
+    "IA en facturación",
+    "blockchain"
+  ],
+  "areas": [
+    "administracion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que quieren entender rápidamente la diferencia entre facturar en digital y la factura electrónica legal."
+}

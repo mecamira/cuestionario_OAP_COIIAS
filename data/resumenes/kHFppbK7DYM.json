@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (90 min) sobre CRM y email marketing dirigido a directivos y managers de marketing y ventas, centrado en recopilar y explotar datos de clientes para vender más. Explica los tipos de datos (transaccionales, comportamentales, de intereses) y su accionado: segmentación, campañas personalizadas e incluso precios dinámicos, con las cookies como base histórica del marketing digital. Orienta la elección de CRM por tamaño sin casarse con ninguna marca: desde 12 dólares/usuario para freelances hasta 50-150 para medianas con departamentos de marketing y ventas (que deberían trabajar juntos). Aborda con franqueza las claves de implantación: expectativas a medio-largo plazo (los beneficios no llegan al mes siguiente, primero hay que construir la base de datos) y el rechazo natural de los vendedores, cuyo valor histórico —la libreta con sus clientes— pasa a compartirse. Enseña a personalizar los campos según el negocio: el origen de la oportunidad importa si haces muchos eventos; las fechas de relación importan en ciclos de venta largos. En email marketing identifica los tres desafíos (más suscriptores, mejor segmentación, mejor comprensión del cliente) y da tácticas concretas: tests A/B de líneas de asunto (con resultados contraintuitivos), brevedad pensando en móvil y análisis de aperturas por dispositivo.",
+  "temas": [
+    "CRM",
+    "email marketing",
+    "segmentación",
+    "datos de clientes",
+    "implantación de CRM",
+    "tests A/B"
+  ],
+  "areas": [
+    "marketing-digital",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Directivos y responsables de marketing y ventas que quieren explotar los datos de sus clientes."
+}

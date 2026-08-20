@@ -1,0 +1,15 @@
+{
+  "resumen": "Píldora tecnológica de 1 minuto sobre la tokenización: el proceso de convertir un activo físico o digital en un token dentro de una blockchain. Explica su gran aportación: dividir activos grandes o costosos en partes pequeñas para facilitar su compra y venta, como ser dueño de una fracción de un edificio o de una obra de arte. Esto democratiza la inversión, permitiendo participar en mercados como el inmobiliario o el de coleccionables sin grandes cantidades de dinero. Añade que también pueden tokenizarse servicios (suscripciones, licencias) intercambiables en la blockchain de forma transparente, segura y sin intermediarios, y sitúa la tokenización como una de las grandes promesas de la Web3 cuyo impacto en la economía global apenas comienza.",
+  "temas": [
+    "tokenización",
+    "blockchain",
+    "inversión fraccionada",
+    "Web3",
+    "activos digitales"
+  ],
+  "areas": [
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Curiosos e inversores que quieren entender en un minuto qué es tokenizar un activo."
+}

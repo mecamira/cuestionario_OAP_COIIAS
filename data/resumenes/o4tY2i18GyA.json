@@ -1,0 +1,17 @@
+{
+  "resumen": "Continuación avanzada del webinar de ChatGPT, centrada en la transversalidad de la IA en los distintos departamentos de una organización y en el uso profesional de la herramienta. Repasa aplicaciones y software específico por área: RRHH (automatización de reclutamiento, cribado de currículums, chatbots de seguimiento de candidatos, herramientas como Textio), operaciones y producción (optimización de producción, mantenimiento y cadena de suministro con Project44, Locus Robotics), finanzas, marketing y atención al cliente. En la parte práctica muestra casos reales de productividad ofimática: redactar correos y plantillas para Outlook, generar y explicar macros VBA para PowerPoint y Excel, mejorar la legibilidad de código, estimaciones de costes, y técnicas de prompting avanzado aprovechando la mayor capacidad de empatía y adopción de roles de GPT-4. Incluye un concurso interactivo de preguntas para fijar conceptos y ejemplos de validación de prototipos simulando usuarios con la propia IA. El mensaje central: con la herramienta más básica ya se pueden ahorrar una o dos horas diarias de trabajo, antes incluso de acometer implantaciones de software específico o copilots corporativos.",
+  "temas": [
+    "ChatGPT avanzado",
+    "IA por departamentos",
+    "prompting avanzado",
+    "macros y VBA",
+    "automatización de tareas",
+    "GPT-4"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Profesionales que ya usan ChatGPT a nivel básico y quieren aplicarlo de forma sistemática en su departamento."
+}

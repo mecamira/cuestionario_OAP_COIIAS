@@ -1,0 +1,17 @@
+{
+  "resumen": "Jornada (111 min) para elegir plataforma de comercio electrónico con criterio. Repasa las ventajas del e-commerce para expandir actividad y llegar a nuevos mercados, y las decisiones clave de un proyecto de venta online: estrategia de promoción en un mercado ya saturado (lo que hace años funcionaba por falta de competencia ya no basta), política de gastos de envío coherente con el precio y naturaleza del producto (con ejemplos vividos como cobrar envío en frío por una lata de conserva), y elección del tipo de plataforma. Compara las opciones: plataformas estándar en la nube con cuota mensual y comisión por venta (ideales para empezar y probar con poca inversión, pero limitadas ante procesos de venta personalizados y caras con mucho volumen), soluciones open source instaladas y parametrizadas a medida (más control, pero con costes de puesta en marcha, configuración de envíos y mantenimiento de certificados de seguridad), y marketplaces generalistas como Amazon o especializados. Dedica un bloque a las obligaciones legales de la venta online: derecho de desistimiento de 14 días naturales (ampliable a 12 meses si no se informa), excepciones (productos personalizados, precintados, de higiene) y elementos de confianza: opiniones de clientes, medios de contacto visibles y transparencia.",
+  "temas": [
+    "ecommerce",
+    "plataformas de venta online",
+    "marketplaces",
+    "gastos de envío",
+    "derecho de desistimiento",
+    "open source vs SaaS",
+    "confianza online"
+  ],
+  "areas": [
+    "presencia-web-y-ecommerce"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Comercios y pymes que quieren empezar a vender online y no saben qué plataforma elegir."
+}

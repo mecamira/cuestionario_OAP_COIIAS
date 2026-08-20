@@ -1,0 +1,17 @@
+{
+  "resumen": "Jornada práctica (106 min) sobre WhatsApp Business como canal de marketing, ventas y atención al cliente para pymes. Enseña a configurar y optimizar el perfil de empresa: verificación del número (vale móvil o fijo, y puede convivir con el WhatsApp personal en el mismo teléfono), fotos de perfil que despierten curiosidad y palabras clave en el nombre. Recorre las herramientas exclusivas de la versión Business: catálogo de productos y servicios con imágenes, mensajes automáticos de bienvenida y ausencia (con criterios sobre cuándo excluir contactos habituales), respuestas rápidas y etiquetas para organizar contactos. Para el envío masivo compara listas de difusión (límite de 256 contactos, suficiente para una pyme bien segmentada por intereses, edad o región) y canales, y explica la integración con redes sociales y web (botón de WhatsApp que trae la conversación a tu canal) dentro de una estrategia omnicanal. Da pautas de redacción de mensajes: personalizar, cuidar la ortografía (apoyándose en IA para corregir) y recordar que al otro lado hay personas. Advierte de las diferencias regulatorias: funciones disponibles en Latinoamérica que en Europa están limitadas por protección de datos. Incluye medición de tasa de respuesta y feedback de clientes.",
+  "temas": [
+    "WhatsApp Business",
+    "atención al cliente",
+    "catálogo de productos",
+    "listas de difusión",
+    "mensajes automáticos",
+    "marketing omnicanal"
+  ],
+  "areas": [
+    "marketing-digital",
+    "presencia-web-y-ecommerce"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pequeños negocios que quieren profesionalizar la comunicación con clientes a través de WhatsApp."
+}

@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar (84 min) dirigido a directivos y mandos de empresas industriales sobre los pasos hacia una fábrica digital, desmontando la idea de que transformar una fábrica es solo robotizar líneas: va de gestionar y explotar la información del proceso productivo con trazabilidad desde el origen hasta el cliente. Recorre el ecosistema digital de planta con el ERP como centro y casos reales implantados: recepción de mercancía con tablet donde el almacenero da de alta números de serie sincronizados en tiempo real con el ERP descontando de cada línea de pedido; AGVs y carretones integrados con el planificador para el traslado de materiales a puestos de pretratamiento; digitalización de inspecciones de calidad que convierte datos en información (análisis de Pareto de fallos recurrentes, referencias con más incidencias, mejora continua) y su evolución con visión artificial y reconocimiento de imágenes; y los data warehouse o data lakes como espacio común donde los sistemas comparten su información de valor. Deja una tesis clara sobre arquitectura: el ERP gestiona costes a nivel corporativo, pero la gestión de la producción en planta debe delegarse al MES: muchas compañías intentan resolverlo todo con el ERP por ahorrar y ese paso aún no está claro en el mercado.",
+  "temas": [
+    "fábrica digital",
+    "MES",
+    "ERP",
+    "trazabilidad",
+    "inspecciones de calidad",
+    "AGV",
+    "data warehouse"
+  ],
+  "areas": [
+    "industria-4.0",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Directivos y mandos de producción, calidad y logística de empresas industriales en digitalización."
+}

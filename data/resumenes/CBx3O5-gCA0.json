@@ -1,0 +1,16 @@
+{
+  "resumen": "Séptima sesión (86 min) del ciclo «Lanza tu startup», sobre el encaje producto-mercado y la decisión de pivotar o perseverar. Contextualiza la velocidad brutal del cambio con una observación aguda: Netflix, Uber o Spotify no inventaron el producto (películas, transporte, música), reinventaron la forma de entregarlo. Enseña a dimensionar el mercado con el embudo TAM-SAM-SOM: mercado total posible, mercado disponible según tu canal de ventas (¿online? ¿Europa? ¿España?) y mercado obtenible realista. Continúa el customer discovery con la gestión sistemática de hipótesis del modelo de negocio: formularlas («creo que mi usuario será…», «creo que mi propuesta resuelve su principal problema», «creo que sus barreras y satisfacciones son…»), priorizarlas en una matriz de criticidad frente a incertidumbre (como buenos ingenieros, una matriz es nuestro salón de estar) y diseñar experimentos para validarlas, siendo exigentes: el objetivo no es vender un producto mediocre sino lograr encaje real problema-solución. Presenta técnicas de investigación como acompañar al cliente un día entero observando su comportamiento sin estorbar. Todo orientado a la decisión central del método: con los datos de los experimentos, pivotar o seguir.",
+  "temas": [
+    "encaje producto-mercado",
+    "pivotar",
+    "TAM-SAM-SOM",
+    "hipótesis",
+    "diseño de experimentos",
+    "customer discovery"
+  ],
+  "areas": [
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Emprendedores en fase de validación que deben decidir si su modelo funciona o toca pivotar."
+}

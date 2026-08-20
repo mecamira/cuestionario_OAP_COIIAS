@@ -1,0 +1,16 @@
+{
+  "resumen": "Píldora tecnológica de 1 minuto sobre el papel de la criptografía en la seguridad de los datos y de las transacciones blockchain. Explica el sistema de doble clave: la clave pública funciona como una dirección que puedes compartir, mientras la clave privada es tu contraseña secreta que asegura que solo tú accedas a tus activos digitales. Lo ilustra con Bitcoin, la primera criptomoneda descentralizada: cada transacción está protegida criptográficamente para que solo el propietario legítimo pueda gastar sus fondos, y queda registrada en la blockchain de forma inmutable, sin posibilidad de alterarla o eliminarla. Destaca el equilibrio que aporta la criptografía: privacidad de las transacciones y, al mismo tiempo, transparencia del sistema, lo que hace al ecosistema confiable, resistente y accesible.",
+  "temas": [
+    "criptografía",
+    "clave pública y privada",
+    "blockchain",
+    "Bitcoin",
+    "seguridad de datos"
+  ],
+  "areas": [
+    "ciberseguridad",
+    "tecnologias-emergentes"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Quien quiera entender en un minuto cómo la criptografía protege los datos y las criptomonedas."
+}

@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (129 min) que aclara la diferencia entre facturar con medios digitales y la factura electrónica propiamente dicha, un tema de plena actualidad por la Ley Crea y Crece. Explica la gradación: factura en Word/Excel con PDF es facturación digital pero no factura electrónica; la factura electrónica exige formato estructurado (XML/Facturae) que los sistemas informáticos puedan procesar automáticamente. Repasa la regulación vigente consultando en directo las fuentes oficiales (Agencia Tributaria, Ministerio de Transformación Digital), señalando que la propia normativa está aún en desarrollo y qué se sabe con certeza: habrá obligación de factura electrónica B2B y será en formato estructurado. Distingue los tres ámbitos —facturación con las Administraciones (FACe, ya obligatoria), entre empresas (B2B, calendario según facturación) y con consumidores— y advierte sobre la recepción: aunque tu empresa no esté aún obligada, tus proveedores pueden estarlo y deberás poder recibir sus facturas. Aborda la integración entre softwares de gestión (ERP, almacén, contabilidad) como el punto complicado, con el símil de comprar el coche entero o por piezas ensambladas, y da criterios para elegir soluciones y aprovechar el Kit Digital.",
+  "temas": [
+    "factura electrónica",
+    "facturación digital",
+    "Ley Crea y Crece",
+    "Facturae/XML",
+    "obligaciones fiscales",
+    "integración de software de gestión"
+  ],
+  "areas": [
+    "administracion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes y autónomos que deben prepararse para la obligatoriedad de la factura electrónica B2B."
+}

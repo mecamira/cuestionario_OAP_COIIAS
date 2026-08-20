@@ -1,0 +1,19 @@
+{
+  "resumen": "Segundo webinar (94 min) del itinerario de IA en el trabajo diario, dedicado a Power Query como solución al «trabajo invisible» de limpiar datos a mano: eliminar duplicados, corregir formatos, combinar y pivotar tablas. Ejercicio pedagógico inicial: distinguir si lo que se ve en pantalla es una tabla o una simple lista de datos, una diferencia que condiciona todo lo que se puede automatizar después. Muestra la corrección de errores de importación típicos (fechas o meses no reconocidos por estar en otro idioma o formato) y, sobre todo, el concepto clave de Power Query: cada paso de transformación queda grabado y comentado, de forma que la próxima vez que lleguen los datos —de enero, de febrero, de marzo— pasan automáticamente por toda la limpieza sin repetir el trabajo, y cualquier compañero que abra el archivo entiende qué se hizo y por qué. Introduce el lenguaje M para transformaciones que no cubre la interfaz visual, con la IA (Copilot) como traductor para no bloquearse cuando el lenguaje M se complica. Ejemplo práctico de generación de indicadores (medias, horas de parada) a partir de varios archivos unificados automáticamente con un flujo reutilizable.",
+  "temas": [
+    "Power Query",
+    "limpieza de datos",
+    "lenguaje M",
+    "automatización de informes",
+    "Copilot",
+    "Power BI"
+  ],
+  "areas": [
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "sustituye_a": [
+    "tAG8ls-iMsQ"
+  ],
+  "publico_objetivo": "Profesionales que trabajan con datos de varias fuentes y pierden tiempo limpiándolos manualmente cada vez."
+}

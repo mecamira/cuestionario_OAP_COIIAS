@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (85 min) del ciclo de Office 365 sobre el trabajo con archivos en la nube usando OneDrive y SharePoint. Explica las tres vías de acceso (web, sincronización local y app móvil para cualquier sistema) y la compartición con coautoría: coeditar el mismo documento en tiempo real, con el dato técnico de que caben hasta 99 personas simultáneas pero la recomendación práctica de no pasar de 10 para que la sincronización vaya fina. Enseña el trabajo con Office online (Word, Excel, PowerPoint idénticos a los locales con alguna funcionalidad menos) y una de las funciones más valiosas: el historial de versiones con hasta 500 versiones principales por documento, para volver a una versión correcta cuando algo se estropea. Cubre los detalles de la sincronización local: los estados de los iconos, la pausa manual (útil con conexiones lentas de 4G) y OneDrive como repositorio de copia de los equipos. Presenta SharePoint como los «sitios» de la organización: espacios con permisos donde conviven documentos, listas y aplicaciones de la suite (OneNote incluido), mostrando la creación de un sitio nuevo. Sesión pensada para abandonar definitivamente los adjuntos y las versiones infinitas por correo.",
+  "temas": [
+    "OneDrive",
+    "SharePoint",
+    "coautoría",
+    "historial de versiones",
+    "sincronización",
+    "archivos en la nube"
+  ],
+  "areas": [
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Equipos que quieren dominar el trabajo compartido con archivos en la nube de Microsoft 365."
+}

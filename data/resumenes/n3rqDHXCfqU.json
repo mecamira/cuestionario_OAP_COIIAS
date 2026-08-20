@@ -1,0 +1,18 @@
+{
+  "resumen": "Píldora tecnológica de 6 minutos sobre los sistemas ERP (Enterprise Resource Planning), impartida por un implantador profesional. Define el ERP como el software que gestiona las principales áreas de la empresa en un solo sistema, evitando herramientas aisladas que no comparten información. Detalla sus características esenciales: base de datos única y dato único (se introduce una sola vez), control de permisos, adaptabilidad a cambios fiscales (Verifactu, factura electrónica) y capacidad de exportar los datos. Clasifica los ERP por instalación (on-premise con control total frente a nube con menor inversión y actualizaciones automáticas) y por alcance (genéricos como SAP o Navision frente a verticales especializados por sector). Repasa el mercado español: SAP para gran empresa, Microsoft Dynamics con su integración con Office/Teams/Copilot, Oracle NetSuite, Sage, Wolters Kluwer A3, Cegid, y el open source Odoo en plena expansión. Da consejos de implantación: elegir implantador de confianza, invertir tiempo en la fase de consultoría y formación inicial, y no pretender que el ERP lo haga todo: integrarlo con CRM, BPM o intranets, cada herramienta para lo suyo.",
+  "temas": [
+    "ERP",
+    "gestión empresarial",
+    "SAP",
+    "Dynamics",
+    "Odoo",
+    "implantación de software",
+    "dato único"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "administracion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes que gestionan ventas, almacén y administración con programas aislados y se plantean un ERP."
+}

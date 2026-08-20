@@ -1,0 +1,18 @@
+{
+  "resumen": "Workshop (115 min) sobre la evolución de la gestión empresarial a través de sistemas ERP, con un enfoque muy práctico y de consultor. Explica el síntoma habitual de la falta de un ERP real: empresas que acumulan una «amalgama» de herramientas de business intelligence distintas porque cada departamento fue comprando la suya (Power BI aquí, Crystal Reports allá, Tableau más allá), disparando el coste de mantenimiento sin que nadie tenga visión completa. Detalla módulos concretos con ejemplos sectoriales, como el módulo de compras y licitaciones de una empresa eléctrica (gestión del ciclo de vida de una licitación con plazos y portal de contacto), y la consolidación financiera de una empresa con sociedades en España, Brasil, Estados Unidos y Francia, cada una con su propio centro de costes integrado en la matriz. Aporta un caso real completo: una startup de cargadores eléctricos que operaba solo con Excel y Office 365 e implantó un ERP de verdad en un proyecto de 5 meses. Es honesto sobre los costes ocultos: la gestión del cambio y la resistencia de perfiles muy veteranos hacen que el primer año y medio de un ERP tenga un rendimiento pobre antes de despegar. Cierra apuntando cómo la IA generativa y no generativa ya se está empezando a aplicar para ingestar y automatizar datos dentro de estos sistemas.",
+  "temas": [
+    "ERP",
+    "business intelligence",
+    "gestión del cambio",
+    "consolidación financiera",
+    "implantación de ERP",
+    "casos reales"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "datos-y-business-intelligence",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes que gestionan su operativa con Excel o herramientas sueltas y se plantean dar el salto a un ERP."
+}

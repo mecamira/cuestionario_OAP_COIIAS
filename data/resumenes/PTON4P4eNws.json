@@ -1,0 +1,19 @@
+{
+  "resumen": "Workshop (127 min) que desentraña qué es un CRM (Customer Relationship Management) y cómo aplicarlo en una pyme para gestionar la relación con clientes actuales y potenciales. Desde la experiencia del ponente con Dynamics, Salesforce y otros sistemas, analiza por qué muchas implantaciones antiguas de CRM fueron inversiones fallidas y qué hace falta para que hoy funcione: entender el CRM como base de datos que centraliza el dato de cliente y dinamiza el día a día comercial. Explica los criterios de elección: que permita construir objetos de negocio y workflows propios mediante low-code (soluciones a golpe de clic, sin desarrollo a medida), la importación de datos externos, la disponibilidad en varios idiomas (Salesforce y Dynamics funcionan en castellano, gallego, euskera y catalán) y la integración entre front office comercial y back office documental (planos, especificaciones, ofertas). Muestra cómo cada rol extrae valor distinto del CRM: el director comercial sigue objetivos de venta, el financiero la rentabilidad y márgenes, el de planta la predicción de demanda por estacionalidad. Incluye una reflexión crítica sobre aplicar IA sobre datos de mala calidad en CRM y demostraciones prácticas sobre oportunidades de venta.",
+  "temas": [
+    "CRM",
+    "gestión de clientes",
+    "low-code",
+    "procesos comerciales",
+    "fidelización",
+    "Salesforce/Dynamics",
+    "predicción de demanda"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "marketing-digital",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes con equipo comercial que quieren implantar o renovar un CRM evitando los errores clásicos."
+}

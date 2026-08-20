@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar del ciclo de IA departamental dedicado a Recursos Humanos. Recorre los casos de uso de IA a lo largo del ciclo de vida del empleado: reclutamiento y selección (cribado inteligente de candidaturas, programación y ordenación de entrevistas, videoentrevistas automatizadas), onboarding y offboarding automatizados, chatbots internos para dudas frecuentes de plantilla (vacaciones, derechos, software autorizado), formación personalizada, evaluación del desempeño con métricas de productividad y feedback, y gestión del talento. Presta especial atención a dos temas sensibles: la reducción de sesgos en diversidad e inclusión, donde defiende que las políticas y programas estructurados no bastan y el soporte de IA ayuda a garantizar equidad; y la privacidad y seguridad de los datos de empleados, comparando opciones como ChatGPT Plus, Azure OpenAI y Bing Chat Enterprise para entornos corporativos. Ilustra con casos reales, como L'Oréal con Seedlink Technology, que analiza respuestas abiertas sobre experiencias de fracaso y aprendizaje para evaluar el potencial de los candidatos más allá del currículum, o plataformas que recomiendan hábitos de mejora a cada equipo. Reflexiona sobre el equilibrio entre automatización y trato humano en la relación laboral.",
+  "temas": [
+    "IA en RRHH",
+    "reclutamiento",
+    "chatbots internos",
+    "evaluación del desempeño",
+    "sesgos y diversidad",
+    "privacidad de datos de empleados"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "habilidades-y-liderazgo"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Responsables de personas y gerentes que quieren automatizar procesos de RRHH manteniendo equidad y trato humano."
+}

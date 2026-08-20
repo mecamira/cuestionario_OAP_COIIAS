@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (83 min) de concienciación sobre los diez errores de ciberseguridad más habituales en las pymes y cómo prevenirlos. Pone precio al riesgo con datos de la dark web: una tarjeta de crédito completa se vende entre 5 y 50 dólares, una cuenta de Gmail entre 1 y 6, una de redes sociales unos 3, desmontando el «a mí quién me va a atacar». Repasa los errores comentados desde la experiencia del ponente (incluida su propia cuenta comprometida en una brecha): comprar firewall y antivirus y no gestionarlos («si no se configuran adecuadamente no sirven de nada»), no saber reconocer phishing (traducciones automáticas delatoras y errores ortográficos hechos adrede para esquivar los filtros antispam; ante la duda, consultar a sistemas), no cambiar contraseñas al sospechar compromiso (más allá de las rotaciones programadas), dispositivos sin cifrar (discos externos y USBs fáciles de perder, filtros de privacidad de pantalla para trabajar en público), backups sin separar físicamente (con la anécdota del incendio en el garaje del edificio), y sistemas obsoletos sin soporte (Windows XP/2000 aún en producción). Termina con una reflexión sectorial: en industria (madera, metal) la concienciación es mínima y la ciberseguridad nunca llega al consejo de administración, donde se deciden los temas importantes.",
+  "temas": [
+    "ciberseguridad",
+    "errores comunes",
+    "phishing",
+    "contraseñas",
+    "cifrado",
+    "backups",
+    "concienciación"
+  ],
+  "areas": [
+    "ciberseguridad"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes de cualquier sector que quieren un chequeo rápido de sus malas prácticas de seguridad."
+}

@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar del ciclo de IA departamental centrado en marketing, el área donde la IA generativa tiene mayor impacto. Explica por qué la producción de contenido (artículos de blog, redes sociales, publicidad gráfica y dinámica) es el caso de uso rey, y cómo la optimización automática de campañas transformará la publicidad: segmentación de audiencias, optimización de plan de medios, identificación de influencers, líneas de asunto y horas de envío de email, redacción de posts y variantes de banners con ajuste automático de presupuesto entre plataformas (Google Ads, Facebook Ads). Aborda la personalización como motor comercial con ejemplos como los motores de recomendación de Netflix y Amazon. Un bloque relevante trata la protección del contenido original de marca: en lugar de un ChatGPT genérico, entrenar modelos con fine-tuning sobre los propios contenidos para mantener el tono y voz de marca. Repasa herramientas concretas por tarea —Jasper para copy, Frase para CTAs, Canva para creatividades y prototipos, Shutterstock IA para composición gráfica, edición de vídeo con IA— y recomendaciones sobre cuándo usar cada una. Incluye participación en directo con experiencias de los asistentes.",
+  "temas": [
+    "IA en marketing",
+    "generación de contenido",
+    "optimización de campañas",
+    "personalización",
+    "fine-tuning y voz de marca",
+    "herramientas IA (Jasper, Canva)"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "marketing-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Equipos de marketing y comunicación de pymes que quieren incorporar IA a la creación de contenido y campañas."
+}

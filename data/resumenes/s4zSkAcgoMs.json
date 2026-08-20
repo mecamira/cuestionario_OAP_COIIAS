@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar (79 min) de introducción al big data y la ciencia de datos, con visión general de un proyecto de explotación de datos y aplicaciones reales. Dimensiona el fenómeno (un Tesla genera más datos que el Apolo 11; el 90% de los datos mundiales se ha creado en los últimos cinco años) y presenta el ecosistema open source como clave del avance: comunidades como Kaggle donde las empresas publican retos con compensación económica y librerías compartidas de machine learning. Explica de forma accesible los tipos de aprendizaje (supervisado y no supervisado) con ejercicios participativos, como clasificar el problema de predecir cuántas personas mirarán un escaparate según hora y día (regresión supervisada sobre histórico). Transmite dos lecciones críticas: el sobreajuste (un modelo que borda los datos de entrenamiento pero falla ante problemas nuevos) y que «la calidad de un modelo está limitada por la calidad de los datos usados para entrenarlo». Desglosa las fases del proyecto por peso real de tiempo: obtención y preparación de datos (la mayor parte), construcción y entrenamiento de modelos, perfeccionamiento y ajuste de hiperparámetros, y finalmente los resultados. Incluye la práctica estándar de partir los datos en 70% entrenamiento y 30% evaluación.",
+  "temas": [
+    "data science",
+    "big data",
+    "machine learning",
+    "aprendizaje supervisado",
+    "calidad de datos",
+    "sobreajuste",
+    "fases de un proyecto de datos"
+  ],
+  "areas": [
+    "datos-y-business-intelligence",
+    "inteligencia-artificial"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas y profesionales que quieren entender qué implica de verdad un proyecto de ciencia de datos."
+}

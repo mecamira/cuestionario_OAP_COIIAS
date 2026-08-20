@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (54 min) sobre qué hace diferentes a los proyectos de inteligencia artificial, con una analogía central: si la IA es un coche, los datos son la gasolina y la capacidad de cómputo el motor. Explica los ingredientes: tipos de datos (estructurados y no estructurados), la computación en paralelo con GPUs (las tarjetas gráficas de videojuegos que unos investigadores descubrieron ideales para redes neuronales, impulsando toda la revolución actual), infraestructura y conocimiento multidisciplinar. Su aportación clave es el contraste entre software tradicional (1.0) y software 2.0: en el primero, el esfuerzo está en programar y controlar la calidad; en el segundo, contraintuitivamente, el peso está en la adquisición y preparación de los datos: el modelo entrenado es un «programa» capaz de clasificar imágenes que nunca ha visto, y el éxito depende de que los datos sean adecuados, representativos y suficientes. Recorre el ciclo de vida completo con mejora continua y despliegue, explica las redes neuronales como simplificación extrema de las biológicas (y el debate sobre si escalar redes seguirá dando capacidades nuevas), y responde con prudencia sobre computación cuántica: aún es una promesa especulativa. Incluye orientación sobre formación en IA.",
+  "temas": [
+    "proyectos de IA",
+    "software 2.0",
+    "datos de entrenamiento",
+    "GPU",
+    "redes neuronales",
+    "ciclo de vida ML"
+  ],
+  "areas": [
+    "inteligencia-artificial"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas y técnicos que quieren entender en qué se diferencia un proyecto de IA de uno de software clásico."
+}

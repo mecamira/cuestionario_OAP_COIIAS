@@ -1,0 +1,17 @@
+{
+  "resumen": "Tercer webinar (91 min) del itinerario de IA en el trabajo diario, centrado en convertir notas dispersas, grabaciones y correos en documentación profesional en minutos con IA generativa. Demuestra un flujo real: partir directamente de un audio de una reunión (sin necesidad de transcribirlo primero a mano) para obtener un acta estructurada con temas tratados, y hacer lo mismo a partir de una simple captura de pantalla de un proceso o diagrama, pidiendo a la IA que «actúe como analista financiero» y documente un libro de Excel para que lo entienda cualquier compañero que se incorpore. Enseña a construir prompts efectivos por fases (informe ejecutivo, descripción de una imagen, diccionario de datos, documentación de fórmulas y conexiones DAX) en lugar de pedir todo de golpe. Menciona herramientas complementarias para detectar documentación desactualizada (Notion, Confluence, señales de archivos no modificados en mucho tiempo) y GitHub Copilot para generar documentación de código. El mensaje de fondo: gestionar documentación es algo que todos saben que deben hacer y nunca encuentran tiempo para ello, y la IA generativa elimina la excusa de partir de una plantilla vacía.",
+  "temas": [
+    "documentación con IA",
+    "actas de reunión automatizadas",
+    "prompts efectivos",
+    "documentación de procesos",
+    "Notion",
+    "Confluence"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Profesionales que gestionan informes, procesos o reuniones y nunca encuentran tiempo para documentarlos bien."
+}

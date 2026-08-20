@@ -1,0 +1,18 @@
+{
+  "resumen": "Jornada (101 min) organizada con Castro Alonso, Dianet y Aliset sobre los Espacios de Datos: el marco que permite a las organizaciones compartir datos entre sí de forma segura, gobernada y con un propósito concreto, más allá de tenerlos guardados sin explotar. Explica que compartir no significa regalar los datos: existen acuerdos que definen qué se comparte, con qué finalidad, durante cuánto tiempo y con qué medidas de anonimización para los datos sensibles, evitando que la información quede abierta sin control. Aborda directamente los miedos y barreras habituales de las empresas ante compartir datos, y los requisitos previos que muchas veces frenan el acceso a las ayudas: calidad e interoperabilidad de los datos (no sirve cualquier dato, tiene que estar estructurado y trabajado) y una gobernanza clara de accesos y riesgos. Presenta un caso de uso real del sector de la dependencia y la geriatría, un ámbito poco digitalizado que busca compartir datos de sensórica y analítica para un cuidado más eficiente, con especial atención a la protección reforzada de los datos sanitarios. Menciona el Kit de Espacios de Datos como ayuda pública para financiar la construcción de esta capa de interoperabilidad, que no es gratuita.",
+  "temas": [
+    "espacios de datos",
+    "compartición segura de datos",
+    "gobernanza del dato",
+    "interoperabilidad",
+    "ayudas públicas",
+    "sector sociosanitario"
+  ],
+  "areas": [
+    "datos-y-business-intelligence",
+    "ayudas-y-financiacion",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas que se plantean colaborar o compartir datos con otras organizaciones y no saben por dónde empezar con garantías."
+}

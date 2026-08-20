@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (68 min) sobre las oportunidades de negocio de la inteligencia artificial, con el doble objetivo de conocer su potencial y entender qué se puede automatizar y qué no. Cuenta el origen de la revolución actual: el hardware de consumo (tarjetas gráficas) que abarató entrenar modelos grandes, con Nvidia y su CEO Jensen Huang como visionarios. Presenta casos de uso al alcance de cualquier empresa: predicción para adaptarse a lo que viene, detección de anomalías en datos de clientes y ventas (correlacionadas con problemas y errores que salen a la luz automáticamente) y segmentación de clientes. Explora la IA generativa con ejemplos como la creación de poemas: el modelo no fue entrenado para eso sino para comprender el lenguaje, y aborda el debate de si esta «repetición como un loro» convergerá con el razonamiento a medida que crezca la escala. Trata la ética con pragmatismo: el famoso dilema del coche autónomo es teórico y en la práctica no se da; el desarrollo de la conducción autónoma se ha ralentizado por razones más terrenales. Desmitifica los requisitos: ya no hacen falta equipos de ingenieros carísimos ni conocimientos muy profundos, aunque sí saber qué objetivo se persigue y si los datos pueden sostenerlo. Responde preguntas sobre IA frente a BPM en la gestión de procesos.",
+  "temas": [
+    "oportunidades de IA",
+    "automatización",
+    "detección de anomalías",
+    "IA generativa",
+    "ética de la IA",
+    "GPU"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que quieren identificar qué oportunidades concretas les ofrece la IA sin grandes inversiones."
+}

@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar (70 min) sobre sistemas ERP impartido por un implantador con larga experiencia. Define qué es un ERP y su ecosistema: el MES como «dueño y señor de la fábrica» que interconecta el ERP con la planta (los ERP no saben arrancar máquinas ni detectar averías), y los SGA avanzados de gestión de almacén que van más allá del módulo estándar. Enfoca los motivos de implantación desde la realidad de las empresas vivas: nacen pequeñas, crecen adaptando parches y llega un punto en que lo de hoy no se parece a lo de hace años. Detalla los factores de elección (tamaño de plantilla, complejidad de procesos, sector, entre aplicativos cerrados básicos y suites configurables) y las fases de implantación, subrayando la consultoría como la fase que determina el éxito: cuanto mejor documentado esté el manual de requerimientos funcionales, menores serán los gaps entre expectativas y entrega, con el documento GAP-FIT detallando las personalizaciones necesarias. Alerta de los riesgos clásicos: contratar por horas en lugar de contrato de obra (las ampliaciones infinitas), y el «cambiazo comercial»: el equipo brillante de la preventa desaparece tras la firma y aparece un júnior de un año de experiencia. Sesión concreta y sin humo, con turno de preguntas.",
+  "temas": [
+    "ERP",
+    "MES",
+    "SGA",
+    "implantación",
+    "consultoría",
+    "requerimientos funcionales",
+    "riesgos de proyecto"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "industria-4.0"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes industriales y de servicios que van a seleccionar o implantar un ERP y quieren evitar los fracasos típicos."
+}

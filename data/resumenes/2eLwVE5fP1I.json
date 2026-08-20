@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (95 min) sobre automatización robótica de procesos (RPA): liberar al trabajador de tareas administrativas monótonas para que se centre en lo que aporta valor. Traza el paralelismo con la robótica industrial: igual que las máquinas asumieron las tareas físicas repetitivas, el RPA asume las digitales: responder correos, pasar datos de Excel a otro sistema, navegar webs recopilando información, generar informes. Aporta un criterio de decisión claro que distingue tecnologías: BPM para procesos (largos, con varias personas implicadas, modelados con la notación estándar BPMN que cualquier herramienta entiende) y RPA para tareas; una pyme o un autónomo donde los procesos los hacen una o dos personas suele necesitar RPA directamente, no BPM. Propone el ciclo virtuoso: documentar el proceso (dónde empieza, quién interviene, dónde acaba), modelarlo, medir con indicadores, robotizar las tareas más repetitivas y con más cuellos de botella, y seguir midiendo para calcular el retorno de cada automatización. Termina con demos en directo: una plataforma BPM web sin instalación y un robot RPA programado por grabación (el sistema registra las acciones del usuario y las repite: abre la web, hace login y ejecuta mientras tú estás a otra cosa), mostrando que para casos sencillos el software es muy amigable.",
+  "temas": [
+    "RPA",
+    "automatización",
+    "BPM",
+    "procesos vs tareas",
+    "robots software",
+    "retorno de inversión"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas con carga administrativa repetitiva que quieren evaluar la automatización con RPA."
+}

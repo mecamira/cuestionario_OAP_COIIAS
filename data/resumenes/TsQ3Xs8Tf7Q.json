@@ -1,0 +1,17 @@
+{
+  "resumen": "Workshop (110 min) sobre vigilancia tecnológica para pymes: cómo mantenerse al día de avances tecnológicos, tendencias, movimientos de la competencia y cambios regulatorios de forma sistemática. Define la vigilancia como esfuerzo sistemático y organizado de observación, captación, análisis, difusión y explotación de información, y desmonta la idea de que requiere grandes sistemas: en toda empresa alguien ya hace estas tareas informalmente (como el compañero al que todos preguntan cuando falla internet); la clave es protocolizarlo. Guía el proceso paso a paso: definir necesidades de información en un documento compartido y editable por el equipo (vale Google Docs, Word en Office 365 o una intranet), identificar fuentes, y automatizar la captación con lectores RSS, incluyendo trucos como Kill the Newsletter para convertir boletines de correo en feeds. Hace demostración en directo de un lector de feeds organizado por temáticas (blog, e-commerce, innovación), con etiquetado, carpetas, widgets de panel personalizados, búsqueda, exportación a PDF y las funciones avanzadas de pago que incorporan IA. El objetivo: que cualquier pyme monte su sistema de vigilancia con coste mínimo y lo convierta en decisiones de negocio.",
+  "temas": [
+    "vigilancia tecnológica",
+    "inteligencia competitiva",
+    "RSS",
+    "automatización de información",
+    "fuentes de información",
+    "toma de decisiones"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital",
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Pymes que quieren sistematizar cómo se informan de su mercado, tecnología y competencia."
+}

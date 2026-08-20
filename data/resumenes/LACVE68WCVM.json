@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar completo (126 min) sobre firma electrónica y certificado digital, de lo conceptual a lo práctico. Explica qué es un certificado de firma electrónica según la normativa (datos de validación vinculados a una persona física), cómo funciona técnicamente la firma —huella digital del documento, cifrado con la clave privada y validación con la parte pública del certificado— y para qué sirve el cifrado en las comunicaciones (garantizar que solo el destinatario lee los datos, VPNs, canales seguros). Detalla el proceso de solicitud y descarga del certificado de la Fábrica Nacional de Moneda y Timbre, con avisos prácticos aprendidos por experiencia: hacer todo el proceso desde el mismo equipo y navegador, hacer copia de seguridad para usarlo en otros dispositivos, y tener Autofirma abierto antes de firmar para evitar errores. Repasa el software necesario (Autofirma, @firma, DNI electrónico, lectores de tarjeta homologados) y los certificados de representación para actuar en nombre de empresas, incluyendo su uso desde el extranjero. Muestra demostraciones en directo de firma y validación, y casos de uso con la Administración y en procesos empresariales, destacando el ahorro de tiempo y desplazamientos.",
+  "temas": [
+    "firma electrónica",
+    "certificado digital",
+    "FNMT",
+    "Autofirma",
+    "cifrado",
+    "trámites con la Administración",
+    "certificado de representación"
+  ],
+  "areas": [
+    "administracion-digital"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Autónomos y pymes que necesitan obtener y usar el certificado digital para trámites y firma de documentos."
+}

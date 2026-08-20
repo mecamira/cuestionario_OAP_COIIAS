@@ -1,0 +1,15 @@
+{
+  "resumen": "Píldora tecnológica de 3 minutos que explica qué es el e-commerce, cómo funciona y por qué consolidarlo es una necesidad para cualquier negocio. Presenta el comercio electrónico como una tienda abierta 24 horas accesible desde cualquier parte del mundo, y repasa las tres vías principales de aplicarlo: tienda online propia sin intermediarios (como hace Nike para controlar toda la experiencia del cliente), marketplaces como Amazon o Etsy para ganar visibilidad sin gran inversión inicial, y venta directa desde redes sociales como Instagram o Facebook con catálogos interactivos. Cierra con las tendencias que marcan el futuro del sector: compras por voz con asistentes como Alexa, realidad aumentada para probar productos antes de comprarlos y recomendaciones personalizadas basadas en compras anteriores, apuntando a experiencias de compra cada vez más inmediatas e intuitivas.",
+  "temas": [
+    "ecommerce",
+    "tienda online",
+    "marketplaces",
+    "social commerce",
+    "tendencias de compra"
+  ],
+  "areas": [
+    "presencia-web-y-ecommerce"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Negocios que aún no venden online y quieren una introducción rápida al comercio electrónico."
+}

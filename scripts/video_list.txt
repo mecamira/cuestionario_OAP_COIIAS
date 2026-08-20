@@ -1,0 +1,203 @@
+# id|categoria|serie
+# categorias: pildora, webinar, curso, charla
+I54m2P3knWI|webinar|OAP COIIAS 2025-2026
+BqgfEJTC2_Y|webinar|OAP COIIAS 2025-2026
+gMiqajKK6hY|webinar|OAP COIIAS 2025-2026
+o4tY2i18GyA|webinar|OAP COIIAS 2025-2026
+9GxWXS4IZNg|webinar|OAP COIIAS 2025-2026
+U8stiZXxqp4|webinar|OAP COIIAS 2025-2026
+11DefZw1kj0|webinar|OAP COIIAS 2025-2026
+nNzNE3s33sQ|webinar|OAP COIIAS 2025-2026
+CA03TQU_7qg|webinar|OAP COIIAS 2025-2026
+q_D9WqSh_Gs|webinar|OAP COIIAS 2025-2026
+LACVE68WCVM|webinar|OAP COIIAS 2025-2026
+zgEz_bqq9Jw|webinar|OAP COIIAS 2025-2026
+6oR8Cdi3GBU|webinar|OAP COIIAS 2025-2026
+bnX5FEO-kYA|webinar|OAP COIIAS 2025-2026
+MpX-aJrdhhg|webinar|OAP COIIAS 2025-2026
+PIQJaqRH8Tg|webinar|OAP COIIAS 2025-2026
+HS65tOQzjcY|webinar|OAP COIIAS 2025-2026
+unvFDvjobM8|webinar|OAP COIIAS 2025-2026
+bSk50zxQdt0|webinar|OAP COIIAS 2025-2026
+4o9KpyEA0U0|webinar|OAP COIIAS 2025-2026
+eRp_RLgEzGY|webinar|OAP COIIAS 2025-2026
+MsXnlSGtYzY|webinar|OAP COIIAS 2025-2026
+1QZFGFjDuZI|webinar|OAP COIIAS 2025-2026
+9FkTpNbyh9k|webinar|OAP COIIAS 2025-2026
+PTON4P4eNws|webinar|OAP COIIAS 2025-2026
+N_Y5cKSaFHI|webinar|OAP COIIAS 2025-2026
+dPlsTR_qYic|webinar|OAP COIIAS 2025-2026
+OsbxbgkcmY8|webinar|OAP COIIAS 2025-2026
+rfbHlyHTF9U|webinar|OAP COIIAS 2025-2026
+oqK5bAYmcNo|webinar|OAP COIIAS 2025-2026
+5RY0VovjBZQ|webinar|OAP 2023-2025
+LGqQBbwFtII|webinar|OAP 2023-2025
+aSJe86KvIZA|webinar|OAP 2023-2025
+8WZ2gwfqZng|webinar|OAP 2023-2025
+TsQ3Xs8Tf7Q|webinar|OAP 2023-2025
+6lMkVgXsnrg|webinar|OAP 2023-2025
+AuDJUJFuYmI|webinar|OAP 2023-2025
+tAG8ls-iMsQ|webinar|OAP 2023-2025
+Uljt4TKhIUc|webinar|OAP 2023-2025
+I3hvzLkSrdk|webinar|OAP 2023-2025
+4DDRjMkXSnA|webinar|OAP 2023-2025
+-QwnQDcg_gw|pildora|Pildoras Tecnologicas
+HCt7mttdU3Q|pildora|Pildoras Tecnologicas
+ytF-JiIKjew|pildora|Pildoras Tecnologicas
+HIHeusSG24E|pildora|Pildoras Tecnologicas
+EWya5oOwDgw|pildora|Pildoras Tecnologicas
+n3rqDHXCfqU|pildora|Pildoras Tecnologicas
+-nvR1-PKMPc|pildora|Pildoras Tecnologicas
+5hjjuA4D934|pildora|Pildoras Tecnologicas
+v4KVoOP8MGU|pildora|Pildoras Tecnologicas
+xyGHv09etYQ|pildora|Pildoras Tecnologicas
+j2VRcyRib70|pildora|Pildoras Tecnologicas
+ZuVjvH87Png|pildora|Pildoras Tecnologicas
+TFYmhAbCHHw|pildora|Pildoras Tecnologicas
+412ZjsobXxk|pildora|Pildoras Tecnologicas
+MO6zRkJZ6S8|pildora|Pildoras Tecnologicas
+EZK3y27ox6g|pildora|Pildoras Tecnologicas
+6_e1cu6nEX4|pildora|Pildoras Tecnologicas
+3g34xMtTwPQ|pildora|Pildoras Tecnologicas
+yKyMQqRxfOA|pildora|Pildoras Tecnologicas
+gi6AbSljqK0|pildora|Pildoras Tecnologicas
+raTlrXbNVhQ|pildora|Pildoras Tecnologicas
+VEM_8jLVYOc|pildora|Pildoras Tecnologicas
+EA_OffNsZLA|pildora|Pildoras Tecnologicas
+mDb9ju-S6qU|pildora|Pildoras Tecnologicas
+MgM-tliOK0k|charla|Foro Asturias Digital 2026
+jNNPmEhUqEw|charla|Foro Asturias Digital 2026
+Ssg_2sFUM4E|charla|Foro Asturias Digital 2026
+QRNDlxpIzxQ|charla|Foro Asturias Digital 2026
+JUaGaDEA_do|charla|Foro Asturias Digital 2026
+zn-nknZzles|charla|Foro Asturias Digital 2026
+HeCs1hAmKwQ|webinar|Webinars
+vykTB_YSG1Q|webinar|Webinars
+UmUbLURkGrs|webinar|Webinars
+6VjJQPECnBI|webinar|Webinars
+5c5wkoxpmmc|webinar|Webinars
+rDAmc3EoVRA|webinar|Webinars
+tTUsmHuWuSY|webinar|Webinars
+PJBviUtNWyc|webinar|Webinars
+Pk-97xMUmL8|webinar|Webinars
+1w8tIpYgOwU|webinar|Webinars
+tRVxlPFoMvc|webinar|Webinars
+MU_a8ItyupI|webinar|Webinars
+6xTEJ1_g3-g|webinar|Webinars
+61xeMzWkZP0|webinar|Webinars
+ITgkIIve6eE|webinar|Webinars
+YJ7g0nrXDpA|webinar|Webinars
+OXeUc1zwPp4|webinar|Webinars
+C88JDGKgu7M|curso|Microsoft Teams
+7iVLTsXlhpo|curso|Microsoft Teams
+6Vn8P14wwAI|webinar|Webinars
+aTh7m43oCqQ|webinar|Webinars
+LVcwCJzMQCw|webinar|Webinars
+bv4f5tevITE|webinar|Webinars
+n_tl59_J-7o|curso|Microsoft Teams
+jtVi0W9mnrk|curso|Microsoft Teams
+-ZGDbDdlp8E|webinar|Webinars
+s4zSkAcgoMs|webinar|Webinars
+NuwufjKnwyQ|webinar|Webinars
+EfNFiX_Qu5M|webinar|Webinars
+ag9gS9dHQr0|webinar|Webinars
+oBqZpkWdraQ|webinar|Webinars
+RsPjz_QSYAk|webinar|Webinars
+1zwEufHtiRU|webinar|Webinars
+p-iFaF0eVwg|webinar|Webinars
+FQ2PPh38uz4|webinar|Webinars
+iYYc5a6a8dU|webinar|Webinars
+9jUSfeCQWpk|webinar|Webinars
+mlSx42IAKis|webinar|Webinars
+TGTOUeli6tI|webinar|Webinars
+9bzPGDM5wjE|webinar|Webinars
+kHFppbK7DYM|webinar|Webinars
+1274Funa6PA|webinar|Webinars
+tcLgHl2Bnx8|webinar|Webinars
+b9Xq323gDk8|webinar|Webinars
+W74XiE7Hv_E|webinar|Webinars
+XNSlTipysfI|webinar|Webinars
+6sIQEGNGRRA|webinar|Webinars
+vU1CvMZ83aw|webinar|Webinars
+fu-vdIgDFsA|webinar|Webinars
+mXh_1o1W3Fw|webinar|Webinars
+fR_0AdiPf74|curso|Office 365
+kxjPCYJb6CE|webinar|Webinars
+-p6yh46qV-8|webinar|Webinars
+yizJ9qgosCQ|charla|Conferencias
+I4pqCO-UZBc|webinar|Webinars
+nKDru_oWWOE|webinar|Webinars
+qYgWt0kF5tA|webinar|Webinars
+nLCLlV9ZL6w|webinar|Webinars
+9_LfksKFNXA|curso|Office 365
+IQcPAmgNWt8|curso|Office 365
+uKQlRJXjBN8|curso|Office 365
+mXEgAG-yavg|curso|Office 365
+iBqEHYmpj4Q|curso|Office 365
+MMOdLhzIomQ|curso|Lanza tu startup
+CBx3O5-gCA0|curso|Lanza tu startup
+U-sO9Fy2rWc|webinar|Webinars
+Jpavbn9V0Ao|webinar|Webinars
+pwxON72LQug|webinar|Webinars
+Riwrx-I0_yE|webinar|Webinars
+YPj4IRKJqw8|webinar|Webinars
+-8AkbsfnTYg|webinar|Webinars
+RDaM-k3Jq8A|webinar|Webinars
+70-fd1i7Q_A|curso|Lanza tu startup
+rR6AuQzF4lQ|curso|Lanza tu startup
+rHr4HY4e1K4|webinar|Webinars
+GtoS-t1a77c|webinar|Webinars
+pNEIryh-Hfw|webinar|Webinars
+2eLwVE5fP1I|webinar|Webinars
+UT2ztIXr2m4|webinar|Webinars
+1j8qwh0j-vQ|webinar|Webinars
+YFoZ_WgXyvI|curso|Lanza tu startup
+YpgWGFNxXw0|curso|Lanza tu startup
+NhT2TLhmHfg|webinar|Webinars
+hgUkPdEfemg|webinar|Webinars
+reT6tEuWlnE|webinar|Webinars
+xM5gHcxDFHU|webinar|Webinars
+f-UGhY05CcA|curso|Lanza tu startup
+iqNtMhgVT-A|curso|Lanza tu startup
+PPvqZWjvHDM|webinar|Webinars
+IcY8S1QYy7Q|webinar|Webinars
+q40UhjgRj3o|webinar|Webinars
+lyrUyh_STVE|webinar|Webinars
+gbPB32qSiI8|webinar|Webinars
+d6LSIbnp5V8|webinar|Webinars
+bIej-uyZW1U|webinar|Webinars
+k08_dziCczY|webinar|Webinars
+EyXRqLTWkbQ|webinar|Webinars
+qTeSkPXd3Rg|webinar|Webinars
+IVLTL-RsOqk|webinar|Webinars
+MzOx-yiYaQw|webinar|Webinars
+w6rsOv7p1aA|webinar|Webinars
+JmFLYbi9Kos|webinar|Webinars
+qMgvqT0IQcQ|webinar|Webinars
+tSvOdRGTBRs|webinar|Webinars
+uJ40moE4kZY|webinar|Webinars
+PsJLiOQuXQI|webinar|Webinars
+KD9EhW4T8dY|charla|Conferencias
+
+# --- Bloque nuevo 2025-2026: IA, agentes, datos, copilots (añadido tras feedback del usuario) ---
+nyMvfPtrRd0|webinar|IA: Ecosistema y Agentes
+8sLat0N5Ue0|webinar|IA: Ecosistema y Agentes
+dswj3ByT0aM|webinar|IA: Ecosistema y Agentes
+xHcb3NUHqkE|webinar|IA: Ecosistema y Agentes
+QzAsVTLOuJE|webinar|Datos y Analitica con IA
+CF_tnKM7uSY|webinar|Datos y Analitica con IA
+LldJ3q1oDXk|webinar|Datos y Analitica con IA
+nr5CNOcSirI|webinar|Datos y Analitica con IA
+15AysoFJy3o|webinar|Datos y Analitica con IA
+YXJvGVqNKSQ|webinar|Datos y Analitica con IA
+WRYR_jwMB7I|webinar|Automatizacion con Power Automate
+Qxi418FJhsQ|webinar|Automatizacion con Power Automate
+2GtZHj09rcE|webinar|IA de Google: Gemini y NotebookLM
+P32P9ShFJSU|webinar|IA de Google: Gemini y NotebookLM
+mj_v-uIZGVY|webinar|Claude, la IA de Anthropic
+jbVFH0PqCoQ|webinar|Claude, la IA de Anthropic
+pQKew4DQGps|webinar|Espacios de Datos
+
+# --- Añadidos 2026-08-19: ERP y gestión documental (feedback usuario) ---
+8ricsN5rBDo|webinar|ERP y Gestion Empresarial
+keEeYAuWtTw|webinar|Gestion Documental con IA

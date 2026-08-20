@@ -1,0 +1,22 @@
+# Datos crudos de la tuberia de autoria (reproducibles con scripts/fetch_material.py)
+material/
+
+# Volcado de auditoria temporal (scripts/dump_by_area.py)
+scripts/_by_area.txt
+
+# App (Vite + React)
+app/node_modules/
+app/dist/
+app/.env
+app/.env.local
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db

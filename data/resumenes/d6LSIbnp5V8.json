@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (67 min) de presentación del programa Business Excel para Ingenieros, que desmonta la autopercepción de nivel alto de Excel entre perfiles técnicos: muy pocos lo usan de forma realmente eficiente. Expone la filosofía del programa en tres ideas: hacer que Excel trabaje por ti (la «ley del mínimo esfuerzo» bien entendida: diseñar fórmulas y soluciones que absorban el trabajo repetitivo), construir soluciones robustas que sigan siendo válidas cuando los datos de origen crezcan, decrezcan o cambien de estructura, sin rediseñar continuamente, y dominar el camino de los datos al resultado: los usuarios suelen saber qué quieren obtener pero no cómo llegar, y ese camino se recorre manipulando información con funciones. Añade dos carencias típicas del perfil técnico: la representación gráfica (alumnos con gran destreza analítica cuya presentación de resultados «deja que desear», perdiendo el valor añadido ante la dirección) y el trabajo con datos compartidos y conexiones a orígenes externos, cada vez más crítico. Formato 100% práctico con grabaciones para repasar. El mensaje final vale por sí solo: aunque no aprendas a hacerlo todo, saber qué puede y qué no puede hacer una herramienta tan potente ya cambia las decisiones.",
+  "temas": [
+    "Excel",
+    "productividad",
+    "diseño de soluciones",
+    "fórmulas",
+    "representación de información",
+    "formación técnica"
+  ],
+  "areas": [
+    "productividad-y-colaboracion",
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Ingenieros y perfiles técnicos que usan Excel a diario con más esfuerzo del necesario."
+}

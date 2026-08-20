@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (78 min) de demostración intensiva de Power BI que recorre el flujo completo de trabajo con casos reales. Con un fichero de nóminas muestra la conexión a orígenes y los pasos automáticos que aplica Power Query al absorber los datos; enseña una técnica avanzada llamativa: conectarse a una página web como origen de datos para extraer sus tablas (por ejemplo, un listado de equivalencias publicado online) y elegir el conjunto que interesa. Demuestra la automatización de la corrección de errores: una consulta de direcciones con países mal escritos se combina con una tabla de correcciones, de forma que los datos llegan corregidos automáticamente en cada actualización. Explica la creación de medidas cuando el dato no existe en la tabla (calcular el total de venta a partir de unidades y precio) y la organización de informes en múltiples hojas (visión global de empresa más vistas de producción, ventas y otras áreas). Cierra presentando el programa formativo de Power BI del COIIAS con un test de autoevaluación de nivel para los asistentes. Sesión hermana del webinar «Experto en Power BI», con más énfasis en Power Query y la preparación de datos.",
+  "temas": [
+    "Power BI",
+    "Power Query",
+    "corrección automática de datos",
+    "orígenes de datos web",
+    "medidas",
+    "informes"
+  ],
+  "areas": [
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Usuarios de Excel que quieren ver en directo cómo Power BI automatiza la limpieza y análisis de datos."
+}

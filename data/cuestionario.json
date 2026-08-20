@@ -1,0 +1,493 @@
+{
+  "meta": {
+    "titulo": "Test de Madurez Digital",
+    "subtitulo": "Oficina Acelera Pyme del COIIAS · con foco en Inteligencia Artificial",
+    "descripcion": "Responde a estas preguntas sencillas para conocer el nivel de digitalización de tu empresa, con especial atención a cómo usas la Inteligencia Artificial. Tardarás unos 7-8 minutos. Tus datos son de uso exclusivo de la Oficina Acelera Pyme del COIIAS. Al final recibirás tu puntuación, por áreas, y recomendaciones de contenidos formativos concretos.",
+    "duracion_estimada_min": 8,
+    "version": "3.2",
+    "fecha": "2026-08-19",
+    "notas_version": "v3: exclusión de píldoras en recomendaciones; D4/D6 reforzadas; lenguaje inclusivo con autónomos. v3.1: D7 (Industria 4.0) deja de ocultarse por sector, opción 'no me aplica' por pregunta. v3.2: (1) se sustituye 'ejemplos_recomendacion' por dimensión por 'recomendaciones' por pregunta y por respuesta (varios vídeos posibles por respuesta), tras auditar el catálogo completo de 197 vídeos pregunta a pregunta; (2) q9 (publicidad digital) gana una opción 'no me aplica' porque no todas las empresas hacen publicidad digital y antes ese caso se confundía con 'no uso IA para ello'; (3) introducción simplificada (se quita la enumeración de perfiles de empresa) y se remarca la exclusividad de los datos; (4) cta_resultado explica que el acceso a los vídeos recomendados requiere alta gratuita en la Plataforma de Contenidos de la OAP COIIAS."
+  },
+
+  "reglas_recomendador": {
+    "excluir_categoria": ["pildora"],
+    "motivo_exclusion_pildora": "Las píldoras tecnológicas (1-10 min) son buenas como introducción rápida pero no aportan suficiente profundidad como recomendación de seguimiento tras el test. Se mantienen en el catálogo (útiles como enlace introductorio dentro de otro material o en la web general) pero el recomendador nunca las debe proponer como resultado del diagnóstico.",
+    "preferir_vigente_sobre_sustituido": "Si dos o más vídeos cubren la misma necesidad y uno tiene vigencia='sustituido', no recomendarlo salvo que no exista ninguna alternativa 'vigente' para esa necesidad concreta.",
+    "preguntas_no_aplicables": "Algunas preguntas (D7 al completo, y q9 en D2) incluyen una opción 'no me aplica'. Esa opción no suma ni resta puntos, no descuenta del máximo de su dimensión y no lleva recomendación asociada, en vez de ocultar toda la dimensión/pregunta por el perfil declarado. Si TODAS las preguntas de una dimensión se marcan como no aplicables, esa dimensión no debe aparecer en el resultado (0/0 no es un dato, es 'no evaluable').",
+    "recomendaciones_por_pregunta": "Cada pregunta lleva un campo 'recomendaciones' con una lista de ids de vídeo por cada valor de respuesta posible (0, 1, 2). Puede haber más de un vídeo por respuesta: son alternativas o complementos, no hay que recomendar todos a la vez, el recomendador real (LLM) debe elegir según el resto de respuestas y el perfil. Estas listas se construyeron revisando el catálogo completo (197 vídeos, 173 sin contar píldoras) agrupado por área, no solo los vídeos ya usados en versiones anteriores del test."
+  },
+
+  "perfil_empresa": {
+    "descripcion": "Datos de contexto, de uso exclusivo de la Oficina Acelera Pyme del COIIAS: no se comparten con terceros. No puntúan; se usan para personalizar recomendaciones (p. ej. priorizar contenido de ciberseguridad industrial) y para que el equipo OAP pueda enviar el informe y dar seguimiento si el usuario lo solicita. No se pide NIF/CIF en el test público por minimización de datos. El test funciona igual para un autónomo que para una gran empresa: el tamaño incluye explícitamente a autónomos y las preguntas usan 'tú y tu equipo, si lo tienes'.",
+    "campos": [
+      { "id": "nombre_contacto", "label": "Nombre y apellidos", "tipo": "texto", "obligatorio": true },
+      { "id": "empresa", "label": "Nombre o razón social de la empresa (o tu nombre si eres autónomo)", "tipo": "texto", "obligatorio": true },
+      { "id": "email", "label": "Email", "tipo": "email", "obligatorio": true },
+      { "id": "telefono", "label": "Teléfono", "tipo": "tel", "obligatorio": false },
+      { "id": "codigo_postal", "label": "Código postal", "tipo": "texto", "obligatorio": true },
+      {
+        "id": "tamano_empresa", "label": "Número de trabajadores", "tipo": "select", "obligatorio": true,
+        "opciones": [
+          { "value": "autonomo-menos-3", "label": "Autónomo/a o menos de 3 trabajadores" },
+          { "value": "3-9", "label": "Entre 3 y 9 trabajadores" },
+          { "value": "10-49", "label": "Entre 10 y 49 trabajadores" },
+          { "value": "50-249", "label": "Entre 50 y 249 trabajadores" },
+          { "value": "250-mas", "label": "250 o más trabajadores" }
+        ]
+      },
+      {
+        "id": "sector", "label": "Sector de actividad principal", "tipo": "select", "obligatorio": true,
+        "opciones": [
+          { "value": "industrial", "label": "Industria / fabricación / producción" },
+          { "value": "construccion", "label": "Construcción / ingeniería / instalaciones" },
+          { "value": "comercio", "label": "Comercio / retail" },
+          { "value": "hosteleria-turismo", "label": "Hostelería / turismo" },
+          { "value": "servicios-profesionales", "label": "Servicios profesionales (consultoría, asesoría, etc.)" },
+          { "value": "otro", "label": "Otro" }
+        ],
+        "nota": "Se usa para adaptar recomendaciones (p. ej. contenido de ciberseguridad específico para industria). No oculta ninguna pregunta: la dimensión de procesos productivos e Industria 4.0 se muestra a todo el mundo y cada empresa decide, pregunta a pregunta, si le aplica."
+      },
+      {
+        "id": "rol_contacto", "label": "¿Cuál es tu rol?", "tipo": "select", "obligatorio": false,
+        "opciones": [
+          { "value": "gerencia", "label": "Gerencia / dirección general" },
+          { "value": "mando-intermedio", "label": "Mando intermedio / responsable de área" },
+          { "value": "autonomo-emprendedor", "label": "Autónomo / emprendedor" },
+          { "value": "otro", "label": "Otro" }
+        ]
+      }
+    ]
+  },
+
+  "dimensiones": [
+    {
+      "id": "d1-ia-dia-a-dia",
+      "nombre": "IA en el día a día, agentes y automatización",
+      "descripcion": "Uso real de IA generativa, criterio de gobierno de datos, agentes y automatización de tareas. Dimensión reforzada: es donde la OAP concentra su contenido más reciente.",
+      "areas_json": ["inteligencia-artificial", "estrategia-y-transformacion-digital", "productividad-y-colaboracion"],
+      "max_puntos": 10,
+      "nota_recomendador": "Si el perfil de la empresa apunta a un departamento concreto (finanzas, RRHH, marketing, TI), valorar también los webinars de 'IA en el Departamento de...' (U8stiZXxqp4, nNzNE3s33sQ, 11DefZw1kj0, q_D9WqSh_Gs) como complemento, aunque no estén ligados a una pregunta específica de esta dimensión. Si se sabe qué ecosistema de IA usa la empresa, hay contenido dedicado por herramienta: Claude (mj_v-uIZGVY, jbVFH0PqCoQ), Google/Gemini/NotebookLM (2GtZHj09rcE, P32P9ShFJSU), Microsoft Copilot (nr5CNOcSirI).",
+      "preguntas": [
+        {
+          "id": "q1", "texto": "¿Usas tú (y tu equipo, si lo tienes) herramientas de IA generativa (ChatGPT, Copilot, Gemini, Claude...) en el trabajo diario?",
+          "opciones": [
+            { "label": "Sí, de forma habitual y con cierto criterio", "valor": 2 },
+            { "label": "Alguna vez, de forma puntual y sin mucho criterio", "valor": 1 },
+            { "label": "No, o no lo sé con seguridad", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["gMiqajKK6hY", "OsbxbgkcmY8"],
+            "1": ["OsbxbgkcmY8", "mj_v-uIZGVY"],
+            "2": ["o4tY2i18GyA", "jbVFH0PqCoQ", "YXJvGVqNKSQ"]
+          }
+        },
+        {
+          "id": "q2", "texto": "¿Tienes claro qué información de la empresa NO se debe introducir en una herramienta de IA?",
+          "opciones": [
+            { "label": "Sí, lo tengo claro (datos de clientes, contratos, etc.)", "valor": 2 },
+            { "label": "Más o menos, pero no está hablado con el equipo (si lo tienes)", "valor": 1 },
+            { "label": "No nos lo hemos planteado", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["dswj3ByT0aM", "k08_dziCczY"],
+            "1": ["dswj3ByT0aM"],
+            "2": ["q_D9WqSh_Gs"]
+          }
+        },
+        {
+          "id": "q3", "texto": "Cuando usas herramientas de IA, ¿lo haces con cuentas corporativas con garantías de protección de datos, o con cuentas personales gratuitas?",
+          "opciones": [
+            { "label": "Con cuentas corporativas con esas garantías", "valor": 2 },
+            { "label": "No lo sé con seguridad", "valor": 1 },
+            { "label": "Con cuentas personales gratuitas", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["dswj3ByT0aM"],
+            "1": ["dswj3ByT0aM"],
+            "2": ["q_D9WqSh_Gs"]
+          }
+        },
+        {
+          "id": "q4", "texto": "¿Has probado agentes de IA o herramientas de automatización (Power Automate, Zapier, Make...) que ejecuten tareas por sí solas, más allá de chatear?",
+          "opciones": [
+            { "label": "Sí, ya automatizamos alguna tarea real con ellas", "valor": 2 },
+            { "label": "Las conozco pero no las he probado en serio", "valor": 1 },
+            { "label": "No, solo uso el chat de vez en cuando", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["WRYR_jwMB7I", "8sLat0N5Ue0"],
+            "1": ["8sLat0N5Ue0", "Qxi418FJhsQ"],
+            "2": ["Qxi418FJhsQ", "xHcb3NUHqkE", "jbVFH0PqCoQ"]
+          }
+        },
+        {
+          "id": "q5", "texto": "Cuando aparece una nueva herramienta de IA, ¿tienes algún criterio para decidir si la incorporas?",
+          "opciones": [
+            { "label": "Sí, evalúo antes de sumar otra herramienta más", "valor": 2 },
+            { "label": "Las voy probando sin mucho criterio", "valor": 1 },
+            { "label": "Voy acumulando herramientas sueltas sin evaluar", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["9GxWXS4IZNg", "nyMvfPtrRd0"],
+            "1": ["nyMvfPtrRd0"],
+            "2": ["YXJvGVqNKSQ", "P32P9ShFJSU"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d2-ia-marketing-web",
+      "nombre": "IA en marketing, contenido y web",
+      "descripcion": "Uso de IA en creación de contenido, marca, web, SEO y publicidad digital. Dimensión reforzada: se apoya en el ciclo completo de webinars 'Herramientas de IA para...' de la OAP, que casa prácticamente 1:1 con cada pregunta.",
+      "areas_json": ["marketing-digital", "presencia-web-y-ecommerce"],
+      "max_puntos": 8,
+      "nota_recomendador": "q9 tiene una opción 'no me aplica' para empresas que no hacen publicidad digital (decisión de negocio legítima, no un déficit de madurez). No confundir con la opción de valor 0, que es para quien SÍ hace publicidad pero sin IA.",
+      "preguntas": [
+        {
+          "id": "q6", "texto": "¿Usas IA para crear contenido para tu negocio (redes sociales, blog, imágenes, vídeo)?",
+          "opciones": [
+            { "label": "Sí, de forma habitual y con una estrategia detrás", "valor": 2 },
+            { "label": "Alguna vez, de forma puntual", "valor": 1 },
+            { "label": "No uso IA para esto", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["unvFDvjobM8", "8WZ2gwfqZng"],
+            "1": ["unvFDvjobM8"],
+            "2": ["HS65tOQzjcY"]
+          }
+        },
+        {
+          "id": "q7", "texto": "¿Has usado IA para trabajar tu marca (nombre, logo, colores) o para diseñar/mejorar tu página web?",
+          "opciones": [
+            { "label": "Sí, la he usado para eso con buen resultado", "valor": 2 },
+            { "label": "La he probado un poco, sin mucho más", "valor": 1 },
+            { "label": "No la he usado para esto", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["HS65tOQzjcY", "bSk50zxQdt0"],
+            "1": ["HS65tOQzjcY", "bSk50zxQdt0"],
+            "2": ["iYYc5a6a8dU"]
+          }
+        },
+        {
+          "id": "q8", "texto": "¿Usas IA para mejorar cómo te encuentran en Google (palabras clave, contenido optimizado, SEO)?",
+          "opciones": [
+            { "label": "Sí, de forma habitual", "valor": 2 },
+            { "label": "Alguna vez, sin mucha sistemática", "valor": 1 },
+            { "label": "No lo hago", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["4o9KpyEA0U0", "rDAmc3EoVRA"],
+            "1": ["4o9KpyEA0U0"],
+            "2": ["-p6yh46qV-8"]
+          }
+        },
+        {
+          "id": "q9", "texto": "¿Usas IA para crear o mejorar tus campañas de publicidad digital (anuncios, segmentación, creatividades)?",
+          "opciones": [
+            { "label": "Sí, de forma habitual", "valor": 2 },
+            { "label": "Alguna vez, de forma puntual", "valor": 1 },
+            { "label": "Hago publicidad digital, pero no uso IA para ello", "valor": 0 },
+            { "label": "No me aplica: no hago publicidad digital", "valor": null, "no_aplica": true }
+          ],
+          "recomendaciones": {
+            "0": ["eRp_RLgEzGY", "oBqZpkWdraQ"],
+            "1": ["eRp_RLgEzGY"],
+            "2": ["kHFppbK7DYM", "-p6yh46qV-8"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d3-datos-analitica",
+      "nombre": "Datos y analítica (con y sin IA)",
+      "descripcion": "Cuadros de mando, automatización de la limpieza de datos y uso de IA como analista. Dimensión reforzada.",
+      "areas_json": ["datos-y-business-intelligence"],
+      "max_puntos": 8,
+      "nota_recomendador": "Nunca recomendar aquí Business Excel para Ingenieros (d6LSIbnp5V8), Webinar Excel definitivo (pNEIryh-Hfw) ni Automatización de la Gestión de Datos con Power Query (tAG8ls-iMsQ): los tres tienen vigencia='sustituido' por QzAsVTLOuJE y CF_tnKM7uSY.",
+      "preguntas": [
+        {
+          "id": "q10", "texto": "¿Usas cuadros de mando o informes para tomar decisiones (ventas, producción, finanzas)?",
+          "opciones": [
+            { "label": "Sí, con herramientas como Power BI, Excel avanzado o similar", "valor": 2 },
+            { "label": "Uso Excel básico, pero sin automatizar nada", "valor": 1 },
+            { "label": "Decido según la experiencia, sin datos organizados", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["NuwufjKnwyQ", "UmUbLURkGrs"],
+            "1": ["I3hvzLkSrdk", "AuDJUJFuYmI"],
+            "2": ["Uljt4TKhIUc", "4DDRjMkXSnA"]
+          }
+        },
+        {
+          "id": "q11", "texto": "¿Sigues limpiando y uniendo datos a mano cada vez (copiar, pegar, corregir formatos), o ese proceso está automatizado (Power Query o similar)?",
+          "opciones": [
+            { "label": "Está automatizado: se repite solo cuando llegan datos nuevos", "valor": 2 },
+            { "label": "Lo hago a mano, pero de forma ordenada", "valor": 1 },
+            { "label": "A mano y empezando de cero cada vez", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["CF_tnKM7uSY"],
+            "1": ["CF_tnKM7uSY", "QzAsVTLOuJE"],
+            "2": ["vykTB_YSG1Q"]
+          }
+        },
+        {
+          "id": "q12", "texto": "¿Usas IA para analizar tus datos (detectar anomalías, explicar qué ha pasado, sugerir qué hacer)?",
+          "opciones": [
+            { "label": "Sí, de forma habitual", "valor": 2 },
+            { "label": "Lo he probado puntualmente", "valor": 1 },
+            { "label": "No", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["15AysoFJy3o"],
+            "1": ["15AysoFJy3o", "1zwEufHtiRU"],
+            "2": ["YXJvGVqNKSQ"]
+          }
+        },
+        {
+          "id": "q13", "texto": "Cuando tus datos vienen de varios sitios (ventas, banco, tienda online...), ¿los juntas en algún sitio común?",
+          "opciones": [
+            { "label": "Sí, los centralizo y depuro de forma habitual", "valor": 2 },
+            { "label": "A veces, copiando y pegando manualmente", "valor": 1 },
+            { "label": "No, cada dato vive en su propio sitio", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["pQKew4DQGps", "I3hvzLkSrdk"],
+            "1": ["AuDJUJFuYmI"],
+            "2": ["YXJvGVqNKSQ"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d4-estrategia-presencia",
+      "nombre": "Estrategia, vigilancia y presencia digital",
+      "descripcion": "Rumbo digital, seguimiento del entorno competitivo y web activa. Ampliada en v3 con una pregunta de vigilancia tecnológica apoyada en contenido más sustancioso.",
+      "areas_json": ["estrategia-y-transformacion-digital", "emprendimiento-e-innovacion", "presencia-web-y-ecommerce"],
+      "max_puntos": 6,
+      "nota_recomendador": "aSJe86KvIZA (elegir plataforma de ecommerce) en q15 se recomienda solo si en el perfil o en otras respuestas se detecta que la empresa vende o quiere vender online.",
+      "preguntas": [
+        {
+          "id": "q14", "texto": "¿Tienes un plan o estrategia de digitalización, aunque sea sencillo?",
+          "opciones": [
+            { "label": "Sí, está definido y con objetivos, aunque sea en una hoja", "valor": 2 },
+            { "label": "Tengo ideas pero no lo he puesto por escrito", "valor": 1 },
+            { "label": "No, voy digitalizando sobre la marcha, según surge", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["qTeSkPXd3Rg", "YJ7g0nrXDpA"],
+            "1": ["nKDru_oWWOE"],
+            "2": ["rHr4HY4e1K4", "9FkTpNbyh9k"]
+          }
+        },
+        {
+          "id": "q15", "texto": "¿Tienes una página web activa y actualizada?",
+          "opciones": [
+            { "label": "Sí, actualizada y se ve bien en el móvil", "valor": 2 },
+            { "label": "Sí, pero está desactualizada o descuidada", "valor": 1 },
+            { "label": "No tengo página web", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["bnX5FEO-kYA", "nLCLlV9ZL6w"],
+            "1": ["bSk50zxQdt0"],
+            "2": ["iYYc5a6a8dU", "aSJe86KvIZA"]
+          }
+        },
+        {
+          "id": "q16", "texto": "¿Sigues de alguna forma las tendencias tecnológicas y los movimientos de tu competencia en tu sector?",
+          "opciones": [
+            { "label": "Sí, lo hago de forma habitual y organizada", "valor": 2 },
+            { "label": "Alguna vez miro, sin sistemática", "valor": 1 },
+            { "label": "No lo hago", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["TsQ3Xs8Tf7Q", "rDAmc3EoVRA"],
+            "1": ["TsQ3Xs8Tf7Q"],
+            "2": ["5c5wkoxpmmc"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d5-ciberseguridad-cumplimiento",
+      "nombre": "Ciberseguridad y cumplimiento normativo",
+      "descripcion": "Chequeo breve: copias de seguridad y cumplimiento normativo básico. Para sector industrial, el recomendador debe priorizar el material específico sobre el genérico.",
+      "areas_json": ["ciberseguridad", "administracion-digital"],
+      "max_puntos": 4,
+      "nota_recomendador": "Si perfil.sector es industrial o construcción, priorizar/añadir las recomendaciones de 'recomendacion_sector' (ciberseguridad en entornos industriales, incluida la IA como riesgo/oportunidad) por encima de las recomendaciones genéricas de q17, independientemente del valor de la respuesta.",
+      "recomendacion_sector": {
+        "sectores": ["industrial", "construccion"],
+        "ids": ["LGqQBbwFtII", "5RY0VovjBZQ"]
+      },
+      "preguntas": [
+        {
+          "id": "q17", "texto": "¿Tienes copias de seguridad automáticas de tu información importante?",
+          "opciones": [
+            { "label": "Sí, automáticas y compruebo que funcionan", "valor": 2 },
+            { "label": "Sí, pero manuales o sin comprobar si funcionan", "valor": 1 },
+            { "label": "No tengo, o no lo sé con seguridad", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["mXh_1o1W3Fw", "k08_dziCczY"],
+            "1": ["mXh_1o1W3Fw"],
+            "2": ["I54m2P3knWI"]
+          }
+        },
+        {
+          "id": "q18", "texto": "¿Tienes revisado el cumplimiento normativo básico (protección de datos, factura electrónica)?",
+          "opciones": [
+            { "label": "Sí, revisado por un profesional", "valor": 2 },
+            { "label": "Creo que sí, pero no estoy del todo seguro", "valor": 1 },
+            { "label": "No lo he revisado nunca", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["zgEz_bqq9Jw", "-ZGDbDdlp8E", "MsXnlSGtYzY"],
+            "1": ["MsXnlSGtYzY"],
+            "2": ["LACVE68WCVM"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d6-productividad-personas",
+      "nombre": "Productividad, sistemas y personas",
+      "descripcion": "Trabajo colaborativo en la nube, sistemas de gestión centralizados y formación digital del equipo. Ampliada en v3 con una pregunta sobre ERP apoyada en contenido más sustancioso que la píldora genérica.",
+      "areas_json": ["productividad-y-colaboracion", "habilidades-y-liderazgo"],
+      "max_puntos": 6,
+      "nota_recomendador": "8ricsN5rBDo (ERP, 114 min) es la recomendación real para quien necesita ERP, aunque no está marcado 'sustituye_a' de la píldora equivalente porque las píldoras ya quedan excluidas por la regla general. En q21, si el perfil apunta a un departamento concreto, complementar con los webinars 'IA en el Departamento de...' (nNzNE3s33sQ, U8stiZXxqp4, 11DefZw1kj0, q_D9WqSh_Gs).",
+      "preguntas": [
+        {
+          "id": "q19", "texto": "¿Trabajas (tú y tu equipo, si lo tienes) con documentos compartidos en la nube (Office 365, Google Workspace...)?",
+          "opciones": [
+            { "label": "Sí, de forma habitual", "valor": 2 },
+            { "label": "Algo, mezclado con email o memorias USB", "valor": 1 },
+            { "label": "No, trabajamos con archivos locales en cada ordenador", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["iBqEHYmpj4Q", "RDaM-k3Jq8A"],
+            "1": ["uKQlRJXjBN8"],
+            "2": ["n_tl59_J-7o"]
+          }
+        },
+        {
+          "id": "q20", "texto": "¿Tienes un sistema (ERP) que centralice la gestión de tu negocio (ventas, compras, almacén, finanzas), o trabajas con herramientas sueltas y Excel?",
+          "opciones": [
+            { "label": "Sí, tengo un ERP implantado", "valor": 2 },
+            { "label": "Algunas partes están conectadas, el resto son herramientas sueltas", "valor": 1 },
+            { "label": "Todo en Excel o herramientas sueltas sin conectar", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["8ricsN5rBDo", "I4pqCO-UZBc"],
+            "1": ["8ricsN5rBDo"],
+            "2": ["keEeYAuWtTw"]
+          }
+        },
+        {
+          "id": "q21", "texto": "¿Recibe tu equipo (o recibes tú) formación en herramientas o competencias digitales, incluida la IA?",
+          "opciones": [
+            { "label": "Sí, de forma periódica", "valor": 2 },
+            { "label": "De vez en cuando, sin plan definido", "valor": 1 },
+            { "label": "No recibimos formación digital", "valor": 0 }
+          ],
+          "recomendaciones": {
+            "0": ["reT6tEuWlnE", "gbPB32qSiI8"],
+            "1": ["gbPB32qSiI8"],
+            "2": ["IcY8S1QYy7Q"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d7-industria4",
+      "nombre": "Procesos productivos e Industria 4.0",
+      "descripcion": "Sobre digitalización de planta y procesos físicos. Se muestra a todo el mundo, independientemente del sector: cada pregunta tiene una opción 'no me aplica' que la excluye del cálculo (no penaliza) en vez de decidir por sector si la dimensión entera se ve o no. Si ambas preguntas se marcan como no aplicables, la dimensión no debe aparecer en el resultado.",
+      "areas_json": ["industria-4.0", "tecnologias-emergentes"],
+      "max_puntos": 4,
+      "nota_recomendador": "6lMkVgXsnrg (computación cuántica/big data/IA en industria) y 5RY0VovjBZQ (IA y ciberseguridad industrial) cruzan con d1 y d5 respectivamente; pueden recomendarse desde varias dimensiones a la vez si el sector es industrial.",
+      "preguntas": [
+        {
+          "id": "q22", "texto": "¿Tienes tus procesos de producción u obra conectados o monitorizados digitalmente (sensores, ERP-MES, control remoto)?",
+          "opciones": [
+            { "label": "Sí, buena parte está conectado y monitorizado", "valor": 2 },
+            { "label": "Solo algunas máquinas o procesos puntuales", "valor": 1 },
+            { "label": "No, todo el control es manual", "valor": 0 },
+            { "label": "No me aplica: mi actividad no tiene procesos de producción ni de obra", "valor": null, "no_aplica": true }
+          ],
+          "recomendaciones": {
+            "0": ["hgUkPdEfemg", "FQ2PPh38uz4"],
+            "1": ["FQ2PPh38uz4"],
+            "2": ["6lMkVgXsnrg", "I4pqCO-UZBc"]
+          }
+        },
+        {
+          "id": "q23", "texto": "¿Has explorado tecnologías como BIM, drones, robótica colaborativa o gemelos digitales para tu actividad?",
+          "opciones": [
+            { "label": "Sí, ya usamos alguna de estas tecnologías", "valor": 2 },
+            { "label": "Las conozco pero no las hemos probado", "valor": 1 },
+            { "label": "No las conozco", "valor": 0 },
+            { "label": "No me aplica: ninguna de estas tecnologías tiene sentido en mi actividad", "valor": null, "no_aplica": true }
+          ],
+          "recomendaciones": {
+            "0": ["w6rsOv7p1aA", "JmFLYbi9Kos"],
+            "1": ["JmFLYbi9Kos"],
+            "2": ["MzOx-yiYaQw", "CA03TQU_7qg", "U-sO9Fy2rWc"]
+          }
+        }
+      ]
+    }
+  ],
+
+  "areas_no_puntuadas": {
+    "ayudas-y-financiacion": "No se evalúa como dimensión de madurez: se recomienda de forma transversal (Kit Digital, Bono Pyme UNICO, Kit de Espacios de Datos...) según tamaño de empresa y resultados generales, no según una respuesta concreta."
+  },
+
+  "resultado": {
+    "descripcion": "El % de cada dimensión = puntos obtenidos / máximo aplicable, donde el máximo aplicable descuenta las preguntas que el usuario marcó como 'no me aplica' (ver reglas_recomendador.preguntas_no_aplicables). El % global es la suma de puntos obtenidos / suma de máximos aplicables de todas las dimensiones con al menos una pregunta aplicable. Las dimensiones d1, d2 y d3 concentran 26 de los 46 puntos posibles en el caso general (~57%), reflejando el peso real del contenido más reciente de la OAP.",
+    "umbral_nivel_dimension": [
+      { "max_pct": 39, "nivel_recomendado": "basico" },
+      { "max_pct": 74, "nivel_recomendado": "intermedio" },
+      { "max_pct": 100, "nivel_recomendado": "avanzado" }
+    ],
+    "tiers_globales": [
+      {
+        "id": "rojo",
+        "label": "Empezando",
+        "min_pct": 0, "max_pct": 39,
+        "color": "#D64541",
+        "titular": "Tu empresa está empezando su digitalización.",
+        "descripcion": "Es el punto de partida de la mayoría de pymes: hay margen de mejora en casi todas las áreas, y eso también significa que cualquier paso que des va a notarse mucho. Lo prioritario es elegir 2 o 3 focos concretos, no abordarlo todo a la vez."
+      },
+      {
+        "id": "ambar",
+        "label": "En camino",
+        "min_pct": 40, "max_pct": 74,
+        "color": "#E8A33D",
+        "titular": "Tu empresa está en camino.",
+        "descripcion": "Ya tienes bases digitales, pero hay huecos concretos que están limitando el resultado. Las barras por dimensión te muestran exactamente dónde. Cerrar dos o tres de esos huecos puede tener un impacto grande."
+      },
+      {
+        "id": "verde",
+        "label": "Bien encaminada",
+        "min_pct": 75, "max_pct": 100,
+        "color": "#76BC21",
+        "titular": "Tu empresa está bien encaminada en su digitalización.",
+        "descripcion": "Tienes un nivel de madurez digital por encima de la media de las pymes asturianas. Toca ya no tanto sentar bases como optimizar, integrar y escalar lo que ya funciona, especialmente en el uso de IA."
+      }
+    ]
+  },
+
+  "plataforma_contenidos": {
+    "nombre": "Plataforma de Contenidos de la OAP COIIAS",
+    "url": "https://www.coiias.es/Eventos/Inscripcion.aspx?IdMenu=efdef883-963b-49e7-94ef-ab2be94bc083&Cod=8C976376-AB87-4510-A06B-79CA1A55DC8B&Idioma=es-ES",
+    "acceso": "Libre y gratuito, igual que la realización de este test.",
+    "nota": "El test recomienda títulos concretos del catálogo, pero para poder VER esos vídeos (y el resto del catálogo) hace falta darse de alta en esta plataforma. El resultado del test debe dejarlo explícito y enlazar directamente al alta, no solo mencionar los títulos."
+  },
+
+  "cta_resultado": {
+    "texto_recomendaciones": "Estos son los contenidos formativos que más te pueden ayudar según tus respuestas. Para verlos, date de alta gratis en la Plataforma de Contenidos de la OAP COIIAS: es libre y gratuita, igual que este test, y da acceso a estos vídeos y a todo el catálogo formativo del COIIAS.",
+    "boton_plataforma": "Darme de alta en la Plataforma de Contenidos",
+    "texto_informe": "Si nos dejas tu email, te enviamos un informe descargable con tu puntuación y estas recomendaciones. Para cualquier otra duda, puedes escribir a otd@coiias.es.",
+    "boton_informe": "Recibir mi informe personalizado"
+  }
+}

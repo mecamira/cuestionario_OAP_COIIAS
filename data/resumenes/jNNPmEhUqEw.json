@@ -1,0 +1,17 @@
+{
+  "resumen": "Ponencia del Foro Asturias Digital 2026 del divulgador Edrian.exe sobre la «obsolescencia artificial»: la velocidad vertiginosa del cambio en IA generativa, ilustrada con la evolución del meme de Will Smith comiendo espaguetis desde 2023 hasta los modelos actuales. Contrasta el hype con datos: un gráfico traducido en segundos con ChatGPT muestra la brecha entre la adopción real medida en empresas y el ruido mediático, y cita el estudio del MIT de 2025 según el cual el 95% de los proyectos empresariales de IA no midieron retorno o no lo tuvieron, advirtiendo que consultoras y grandes tecnológicas venden «la IA de Dios» porque su negocio es hoy. Ofrece un método práctico para decidir qué automatizar: mapear las tareas propias en dos ejes (tiempo que consumen frente a expertise que requieren) y empezar por las que exigen poco conocimiento experto. Muestra sus flujos reales: un agente programado en hora y media que analiza sus vídeos y le manda informes de potencial viral por WhatsApp, y un pipeline de edición automática que le pregunta por Telegram antes de publicar. Recuerda las obligaciones legales (DPA firmado con Anthropic para proteger datos de clientes, el reglamento europeo RIA que casi todos ignoran) y cierra con su lema: somos humanos trabajando con IA, no al revés.",
+  "temas": [
+    "IA generativa",
+    "adopción real vs hype",
+    "automatización de flujos",
+    "agentes personalizados",
+    "retorno de inversión",
+    "reglamento IA"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas que quieren adoptar IA con expectativas realistas y criterios prácticos de por dónde empezar."
+}

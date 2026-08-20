@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar (86 min) sobre los aspectos legales prácticos en la creación y desarrollo de una startup, impartido por especialistas jurídicos. Recorre la constitución de la sociedad: número de socios, aportaciones de capital y su relación con el poder societario (participaciones en la SL, acciones en la SA) y responsabilidades. Dedica un bloque amplio a la propiedad intelectual del software: los derechos de autor del código desarrollado por trabajadores corresponden a la empresa (recomendando inscribirlo en el Registro de la Propiedad Intelectual para blindar la titularidad), y qué regular cuando el desarrollo se subcontrata a otra empresa. Explica la protección del know-how como secreto empresarial: requisitos legales (acceso restringido a personas clave y medidas técnicas y organizativas que impidan su revelación: cifrado, controles de acceso). Trata las licencias de uso de software (exclusividad, territorio, duración, sublicencias) con un aviso crítico: sin contrato, la cesión de derechos de explotación se presume por solo 5 años y limitada al territorio español, pudiendo acabar el activo legalmente en manos de la competencia. Cubre además marcas y signos distintivos, los textos legales de las plataformas digitales (no copiar los del vecino) y las brechas de seguridad, incluyendo ransomware con casos reales como el del Hospital Clínic de Barcelona.",
+  "temas": [
+    "constitución de sociedades",
+    "propiedad intelectual",
+    "software",
+    "know-how",
+    "licencias",
+    "marcas",
+    "protección de datos"
+  ],
+  "areas": [
+    "emprendimiento-e-innovacion",
+    "administracion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Fundadores de startups y empresas tecnológicas que quieren blindar legalmente su proyecto desde el inicio."
+}

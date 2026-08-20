@@ -1,0 +1,16 @@
+{
+  "resumen": "Segundo taller (125 min) del bloque de IA de Google, centrado en construir una aplicación funcional completa con el modo Build de Google AI Studio, sin conocimientos previos de programación. Muestra de principio a fin cómo pasar de una idea a una app desplegada en internet, con base de datos, autenticación y conexión a servicios de Google (Search, Maps), describiendo simplemente lo que se quiere obtener. Explica de forma práctica y sin tecnicismos el papel de Firebase como sistema de base de datos que Gemini utiliza por debajo cuando se le pide guardar información, incluyendo su capa gratuita y en qué momento empieza a tener coste real (solo con miles de usuarios activos). Demuestra funcionalidades avanzadas como generación de imágenes editadas (con el aviso honesto de resultados imperfectos, como teñir solo el pelo sin las cejas) e interacción en tiempo real con la cámara del dispositivo para que el modelo interprete lo que ve. Aterriza todo en un ejemplo completo: una app de recomendaciones que integra búsqueda y mapas para sugerir sitios reales cerca del usuario. Pensado para quien quiere prototipar una idea de producto digital sin depender de un equipo de desarrollo.",
+  "temas": [
+    "Google AI Studio",
+    "creación de apps sin código",
+    "Firebase",
+    "Gemini",
+    "prototipado de producto"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Emprendedores y profesionales que quieren prototipar una aplicación propia sin saber programar."
+}

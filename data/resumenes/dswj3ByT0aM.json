@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar (95 min) sobre confianza digital: privacidad, seguridad y ética en el uso de datos e inteligencia artificial. Repasa casos reales de gran impacto para concienciar: el escándalo de Cambridge Analytica (perfilado psicológico masivo de más de 80 millones de personas para campañas ultrapersonalizadas) y ciberataques que paralizaron administraciones y hospitales españoles, incluido un caso que exigió pagar 4 millones de euros para desencriptar bases de datos. Aterriza la lección clave en el terreno de la IA: buena parte de la lentitud de los desarrollos de IA no está en los modelos sino en estructurar y preparar bien las bases de datos a las que van a acceder, especialmente cuando varios agentes acceden a distintas carpetas o tipos de información. Da un criterio muy práctico y con casos frecuentes: el riesgo de las cuentas gratuitas y personales de ChatGPT/Gemini/Claude para uso corporativo (no son privadas ni seguras) frente a las versiones corporativas con contrato de protección de datos (DPA), y qué preguntas hacerse para elegir modelo cuando la empresa ya ofrece varias opciones. Un webinar de sentido común, sin tecnicismos, sobre cómo no comprometer la confianza digital de la empresa al adoptar IA.",
+  "temas": [
+    "privacidad y ética en IA",
+    "protección de datos",
+    "DPA",
+    "cuentas corporativas vs personales",
+    "ciberseguridad",
+    "casos reales de brechas"
+  ],
+  "areas": [
+    "ciberseguridad",
+    "inteligencia-artificial"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que ya usan IA generativa y necesitan criterios claros de privacidad y seguridad antes de escalar su uso."
+}

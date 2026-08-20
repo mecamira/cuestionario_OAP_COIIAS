@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (66 min) que presenta Power BI y responde a la eterna pregunta «¿Excel o Power BI?». Explica el problema de partida: datos que llegan de orígenes distintos con formas distintas (ERP, e-commerce, programas de gestión de almacén hechos en casa cuyas tablas no se pueden cambiar en origen) y que hay que modelar para poder preguntarles cosas: ventas, rendimientos por máquina, comparativas de tiendas. Introduce el modelo en estrella (tabla principal de hechos con tablas de dimensión alrededor) y el caso real de tres fábricas con sistemas construidos por sus propios medios. Da un consejo metodológico valioso: antes de abrir Power BI, sentarse con una hoja en blanco y decidir qué sería útil ver en el día a día, porque el mejor cuadro de mando es el que responde a lo que necesitas. Muestra los cálculos con inteligencia de tiempo en DAX (calcular una medida compleja una vez y compararla automáticamente con la semana, mes o año anterior) y la galería de elementos visuales adicionales creados por la comunidad que se pueden agregar al informe. Es la sesión de presentación del curso completo de Power BI del COIIAS.",
+  "temas": [
+    "Power BI",
+    "modelado de datos",
+    "modelo en estrella",
+    "DAX",
+    "cuadros de mando",
+    "inteligencia de tiempo"
+  ],
+  "areas": [
+    "datos-y-business-intelligence"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas que viven en Excel y quieren evaluar el salto a Power BI para analizar sus datos."
+}

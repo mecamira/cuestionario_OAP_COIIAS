@@ -1,0 +1,16 @@
+{
+  "resumen": "Webinar (92 min) con las claves para seleccionar plataformas tecnológicas con criterio profesional. Repasa la tipología de plataformas (pasarelas de pago como PayPal, plataformas de gestión transversales, ERP, herramientas departamentales) y advierte contra el error habitual: departamentos que contratan «su ERP» de forma aislada para resolver su contabilidad, creyendo tener un ERP cuando solo cubren los procesos financieros. Defiende el orden correcto: analizar y homogeneizar primero los procesos (huyendo de la frase lapidaria «siempre se ha hecho así»), definir los nuevos y solo entonces buscar la plataforma que mejor los cubra. Detalla la evaluación de ofertas: criterios comunes y ponderados para comparar proveedores, valorar la metodología de implantación (¿es sólida, coherente, con planificación clara?), aprovechar las demos y defensas para resolver dudas, y diseñar el modelo económico del contrato (precios unitarios por perfil o por paquetes, líneas base, premios y penalizaciones). Dedica un bloque a la gestión del cambio: identificar qué procesos cambian más y qué colectivos se ven más afectados para planificar su involucración, porque las plataformas las usan personas y ese es el principal motivo de fracaso.",
+  "temas": [
+    "selección de software",
+    "plataformas tecnológicas",
+    "análisis de procesos",
+    "gestión del cambio",
+    "evaluación de proveedores",
+    "contratos tecnológicos"
+  ],
+  "areas": [
+    "estrategia-y-transformacion-digital"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Pymes a punto de contratar un ERP, CRM u otra plataforma que quieren evitar los errores clásicos de selección."
+}

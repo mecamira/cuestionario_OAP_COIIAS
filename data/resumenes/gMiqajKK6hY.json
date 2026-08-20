@@ -1,0 +1,17 @@
+{
+  "resumen": "Webinar introductorio y muy práctico sobre ChatGPT y extensiones de IA para el trabajo diario en la pyme. Explica qué es ChatGPT y su impacto en la productividad y el empleo (con estudios sobre automatización de tareas rutinarias), y compara herramientas complementarias de búsqueda con IA como Perplexity, Bing Chat y Google Bard para obtener información actualizada frente al contenido estático del modelo. Dedica una parte importante a las buenas prácticas de privacidad y RGPD: riesgos de introducir datos sensibles, transferencias de datos fuera de la UE y la recomendación de anonimizar información de clientes antes de pegarla en la herramienta. Enseña fundamentos de escritura de prompts eficaces (dar contexto, adjetivos y adverbios que acotan la respuesta, asignar identidad o rol para adaptar el tono) y muestra extensiones de navegador y complementos útiles, como ChatGPT para búsquedas enriquecidas o ChatGPT Writer para redactar correos integrado con Outlook y Gmail. Sesión participativa con encuestas en directo (Mentimeter) sobre los usos y temores de los asistentes. Es la puerta de entrada ideal a la IA generativa para quien parte de cero.",
+  "temas": [
+    "ChatGPT",
+    "IA generativa",
+    "prompts",
+    "extensiones de navegador",
+    "privacidad y RGPD",
+    "productividad personal"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "productividad-y-colaboracion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Profesionales y empresas sin experiencia previa en IA que quieren empezar a usar ChatGPT con seguridad."
+}

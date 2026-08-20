@@ -1,0 +1,17 @@
+{
+  "resumen": "Ponencia estrella del Foro Asturias Digital 2026 a cargo de Midudev (Miguel Ángel Durán), divulgador con más de 640.000 suscriptores, sobre la democratización de la IA para los negocios. Con demostraciones en directo, muestra que detrás de aplicaciones aparentemente mágicas hay pocas líneas de código conectándose a servicios como OpenAI, y que ya no hace falta ser una gran empresa ni un perfil técnico. Enseña agentes que controlan el ordenador (leer archivos de una carpeta, conectarse a calendario, correo y documentos para responder preguntas), el fenómeno del vibe coding con herramientas como v0 (crear aplicaciones conversando con la IA, con la advertencia honesta de la brecha entre expectativa y realidad del «créame un Airbnb sin errores»), y un traductor con transcripción y subtítulos en tiempo real construido desde cero que funciona sin servicios externos. Aporta también la cara de seguridad: fallos críticos en Linux (presente desde 2017) y GitHub descubiertos gracias a IA. Su mensaje final es de oportunidad: donde muchos ven despidos por IA, él ve oportunidades que la gente deja pasar por desconocimiento o incertidumbre, y el momento de aprovecharlas es ahora.",
+  "temas": [
+    "IA para negocios",
+    "agentes de IA",
+    "vibe coding",
+    "programación con IA",
+    "democratización tecnológica",
+    "seguridad"
+  ],
+  "areas": [
+    "inteligencia-artificial",
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "basico",
+  "publico_objetivo": "Empresas y profesionales que quieren ver con ejemplos reales lo accesible que es ya construir con IA."
+}

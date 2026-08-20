@@ -1,0 +1,18 @@
+{
+  "resumen": "Webinar (87 min) sobre los principales retos legales de la empresa tecnológica, con vocación práctica. Cubre el registro de marcas y nombres comerciales, incluyendo información útil poco conocida: las subvenciones (hasta el 75%) para registro que estaban empezando a resolverse positivamente, y la comparación de tasas según la oficina donde se registre (OEPM, EUIPO, WIPO). Aborda la fuga de conocimiento cuando se van trabajadores clave: mitigarla con planes de continuidad de negocio y traslado documentado de competencias. Explica patentes y modelos de utilidad, y una figura valiosa para el software: el contrato de escrow (depósito del código ante tercero de confianza que acredita la autoría en fecha cierta sin hacerlo público, con acceso restringido a supuestos pactados, protegiendo el secreto empresarial). Repasa la LOPDGDD y la garantía de derechos digitales (desconexión digital fuera del horario laboral, protección de datos de menores, datos tras el fallecimiento) y advierte de lo fácil que es ser denunciado: cualquier usuario puede presentar una denuncia ante la AEPD desde el sofá de casa adjuntando el enlace de la web, y derivar en sanción. Termina con los textos legales de webs y e-commerce y el contrato de licencia de uso para aplicaciones con distintos tipos de usuarios.",
+  "temas": [
+    "marcas",
+    "patentes",
+    "escrow de software",
+    "LOPDGDD",
+    "desconexión digital",
+    "AEPD",
+    "licencias de uso"
+  ],
+  "areas": [
+    "administracion-digital",
+    "emprendimiento-e-innovacion"
+  ],
+  "nivel": "intermedio",
+  "publico_objetivo": "Empresas tecnológicas y startups que quieren revisar si tienen sus activos y obligaciones legales cubiertos."
+}
