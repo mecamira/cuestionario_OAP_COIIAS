@@ -1,0 +1,55 @@
+rules_version = '2';
+
+// Reglas de acceso para el cuestionario de la OAP COIIAS.
+//
+// - `create` publico y sin autenticar: cualquiera puede enviar una
+//   respuesta del test, con una validacion de forma minima (no de negocio:
+//   las reglas no tienen acceso a data/cuestionario.json, asi que no pueden
+//   comprobar los 23 ids de pregunta exactos). Es una barrera anti-abuso,
+//   no la validacion completa.
+// - `read`/`update` solo para usuarios autenticados (cualquier cuenta del
+//   equipo COIIAS dada de alta en Firebase Auth): es lo que usa el
+//   dashboard privado.
+// - `delete` nunca, desde la app.
+//
+// Endurecimiento recomendado como siguiente paso (no en esta fase):
+// Firebase App Check con reCAPTCHA v3, para frenar trafico no-navegador
+// contra el endpoint publico de creacion.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /respuestas/{respuestaId} {
+      allow create: if request.auth == null && esRespuestaValida(request.resource.data);
+      allow read, update: if request.auth != null;
+      allow delete: if false;
+    }
+
+    function esRespuestaValida(data) {
+      return data.keys().hasAll(['perfil', 'respuestas', 'resultado', 'informe', 'meta'])
+        && data.perfil is map
+        && data.perfil.nombre_contacto is string
+        && data.perfil.nombre_contacto.size() > 0
+        && data.perfil.nombre_contacto.size() < 200
+        && data.perfil.empresa is string
+        && data.perfil.empresa.size() > 0
+        && data.perfil.empresa.size() < 200
+        && data.perfil.email is string
+        && data.perfil.email.matches('^[^@\\s]+@[^@\\s]+[.][^@\\s]+$')
+        && data.perfil.tamano_empresa in
+             ['autonomo-menos-3', '3-9', '10-49', '50-249', '250-mas']
+        && data.perfil.sector in
+             ['industrial', 'construccion', 'comercio', 'hosteleria-turismo', 'servicios-profesionales', 'otro']
+        && data.respuestas is map
+        && data.resultado is map
+        && data.resultado.tier in ['rojo', 'ambar', 'verde']
+        && data.informe is map
+        && data.informe.generado == false
+        && data.informe.enviado == false
+        && data.informe.empresa_respondio == false
+        // fuerza serverTimestamp(): bloquea fechas de creacion falseadas por el cliente
+        && data.meta is map
+        && data.meta.creado_en == request.time;
+    }
+  }
+}

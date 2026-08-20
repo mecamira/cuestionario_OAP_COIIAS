@@ -6,14 +6,37 @@ digitalización de empresas y asesorarlas con el material didáctico del canal
 
 ## Fases del proyecto
 
-1. **JSON de material didáctico** (en curso): metadatos + resumen largo de cada
-   vídeo didáctico del canal, pensado para que una IA lo recorra con agilidad.
-2. Web pública en Netlify con el cuestionario dinámico.
-3. Sección privada (equipo COIIAS) con dashboard de resultados.
-4. Firebase (Firestore + Auth) como base de datos.
+1. **Completada.** JSON de material didáctico: metadatos + resumen largo de
+   cada vídeo del canal (`data/videos.json`, 197 vídeos), pensado para que una
+   IA lo recorra con agilidad.
+2. **Completada.** Cuestionario dinámico (`data/cuestionario.json`) y
+   prototipo autocontenido de referencia (`docs/prototipo-cuestionario.html`).
+3. **Completada.** App real (React + Vite, en `app/`) con el cuestionario
+   público escribiendo en Firestore, y un dashboard privado (Firebase Auth)
+   para el equipo COIIAS: listado/filtro de respuestas, detalle con
+   puntuación y recomendaciones, control del ciclo del informe
+   (generado/enviado/respondido) y un editor de informe imprimible a PDF.
+4. **Pendiente de credenciales reales.** El código está construido y probado
+   contra los emuladores locales de Firebase (ver `app/README.md`); falta
+   que el proyecto de Firebase real exista y se compartan sus 6 valores de
+   configuración para desplegar con datos reales (ver sección "Siguiente
+   paso" más abajo).
 5. Recomendador IA por resultado (vía Netlify Function) que explora el JSON y
-   justifica los vídeos recomendados.
-6. Informe HTML autogenerado y editable para enviar a la empresa.
+   justifica los vídeos recomendados — futuro, no empezado.
+6. Ampliar el editor de informe con generación asistida por IA del texto —
+   futuro; hoy el texto inicial es una plantilla determinista y el equipo lo
+   edita a mano antes de exportar a PDF.
+
+## App (`app/`)
+
+React + Vite. El cuestionario público vive en `/`, el dashboard privado en
+`/dashboard` (login con Firebase Auth, una cuenta por persona del equipo).
+Consume `data/cuestionario.json` y `data/videos.json` directamente — no los
+duplica — y porta fielmente la lógica de puntuación/recomendación del
+prototipo (`app/src/lib/scoring.ts`).
+
+Ver `app/README.md` para instrucciones de desarrollo local, emuladores de
+Firebase y cómo desplegar con un proyecto de Firebase real.
 
 ## Fase 1 — Estructura
 

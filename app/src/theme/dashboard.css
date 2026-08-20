@@ -1,0 +1,152 @@
+/* Estilos del dashboard privado. Reutiliza los tokens de theme/tokens.css
+   (colores, tipografia) pero con un layout de tabla/panel en vez de la
+   tarjeta unica del cuestionario publico. */
+
+.dash-envoltorio {
+  min-height: 100vh;
+  background: var(--papel);
+  padding: 24px 20px 60px;
+}
+
+.dash-cabecera {
+  max-width: 1100px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.dash-cabecera-marca {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dash-cabecera-marca img { height: 26px; }
+.dash-cabecera-marca span {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--tinta);
+}
+.dash-usuario {
+  display: flex; align-items: center; gap: 12px;
+  font-size: 13.5px; color: var(--tinta-suave);
+}
+
+.dash-panel {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: var(--superficie);
+  border: 1px solid var(--linea);
+  border-radius: 10px;
+  box-shadow: var(--sombra);
+  overflow: hidden;
+}
+
+.dash-login-envoltorio {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  background: var(--papel); padding: 24px 16px;
+}
+.dash-login-tarjeta {
+  width: 100%; max-width: 380px;
+  background: var(--superficie); border: 1px solid var(--linea); border-radius: 10px;
+  box-shadow: var(--sombra); padding: 30px 28px;
+}
+.dash-login-tarjeta h1 { font-size: 20px; margin-top: 14px; }
+.dash-login-tarjeta p.sub { margin-top: 6px; color: var(--tinta-suave); font-size: 13.5px; }
+.dash-login-error {
+  margin-top: 14px; padding: 10px 12px; border-radius: 6px;
+  background: var(--rojo-suave); color: var(--rojo); font-size: 13.5px;
+}
+.dash-login-tarjeta .btn-primario { margin-top: 18px; width: 100%; justify-content: center; }
+.dash-link-discreto {
+  background: none; border: none; color: var(--azul); font-size: 13px; cursor: pointer;
+  padding: 0; margin-top: 12px; text-decoration: underline; text-underline-offset: 2px;
+}
+
+/* ============ FILTROS Y BUSQUEDA ============ */
+.dash-filtros {
+  display: flex; flex-wrap: wrap; gap: 10px; padding: 18px 20px;
+  border-bottom: 1px solid var(--linea); background: var(--superficie-alt);
+}
+.dash-filtros input, .dash-filtros select {
+  font: inherit; font-size: 13.5px; padding: 8px 11px;
+  border: 1.5px solid var(--linea-fuerte); border-radius: 6px;
+  background: var(--superficie); color: var(--tinta);
+}
+.dash-filtros input { flex: 1; min-width: 180px; }
+.dash-contador { padding: 10px 20px; font-size: 13px; color: var(--tinta-suave); }
+
+/* ============ TABLA DE RESPUESTAS ============ */
+.dash-tabla-wrap { overflow-x: auto; }
+.dash-tabla { width: 100%; border-collapse: collapse; font-size: 14px; }
+.dash-tabla th {
+  text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: .04em;
+  color: var(--tinta-suave); font-weight: 500; padding: 10px 16px;
+  border-bottom: 1px solid var(--linea); white-space: nowrap;
+}
+.dash-tabla td { padding: 12px 16px; border-bottom: 1px solid var(--linea); vertical-align: middle; }
+.dash-tabla tbody tr { cursor: pointer; transition: background .12s var(--ease); }
+.dash-tabla tbody tr:hover { background: var(--azul-suave); }
+.dash-tabla tbody tr:last-child td { border-bottom: none; }
+.dash-empresa-nombre { font-weight: 500; color: var(--tinta); }
+.dash-empresa-sub { font-size: 12.5px; color: var(--tinta-suave); }
+
+.dash-badge {
+  display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px;
+  border-radius: 100px; font-size: 11.5px; font-weight: 500; white-space: nowrap;
+}
+.dash-badge .punto { width: 6px; height: 6px; border-radius: 50%; }
+.dash-badge.ok { background: var(--verde-suave); color: var(--verde-texto); }
+.dash-badge.ok .punto { background: var(--verde-texto); }
+.dash-badge.pendiente { background: var(--ambar-suave); color: var(--ambar); }
+.dash-badge.pendiente .punto { background: var(--ambar); }
+.dash-badge.no { background: var(--superficie-alt); color: var(--tinta-suave); border: 1px solid var(--linea); }
+.dash-badge.no .punto { background: var(--linea-fuerte); }
+
+.dash-estado-fila { display: flex; gap: 6px; flex-wrap: wrap; }
+.dash-vacio { padding: 60px 20px; text-align: center; color: var(--tinta-suave); }
+
+/* ============ DETALLE DE RESPUESTA ============ */
+.dash-detalle-cabecera {
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 16px;
+  padding: 22px 24px; border-bottom: 1px solid var(--linea);
+}
+.dash-detalle-cabecera h2 { font-size: 21px; }
+.dash-detalle-meta { margin-top: 6px; font-size: 13.5px; color: var(--tinta-suave); }
+.dash-detalle-meta span + span::before { content: "·"; margin: 0 6px; }
+
+.dash-detalle-cuerpo { padding: 22px 24px; display: flex; flex-direction: column; gap: 26px; }
+.dash-seccion h3 { font-size: 15px; margin-bottom: 12px; }
+.dash-perfil-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px;
+}
+.dash-perfil-item { font-size: 13.5px; }
+.dash-perfil-item .label { color: var(--tinta-suave); font-size: 12px; text-transform: uppercase; letter-spacing: .03em; }
+.dash-perfil-item .valor { margin-top: 2px; color: var(--tinta); }
+
+.dash-informe-controles {
+  display: flex; flex-direction: column; gap: 12px;
+  background: var(--superficie-alt); border: 1px solid var(--linea); border-radius: 8px; padding: 16px;
+}
+.dash-toggle-fila { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.dash-toggle-texto { font-size: 13.5px; }
+.dash-toggle-texto .fecha { display: block; font-size: 12px; color: var(--tinta-suave); margin-top: 2px; }
+.dash-switch {
+  position: relative; width: 40px; height: 22px; border-radius: 100px;
+  background: var(--linea-fuerte); border: none; cursor: pointer; flex: none;
+  transition: background .15s var(--ease);
+}
+.dash-switch::after {
+  content: ""; position: absolute; top: 2px; left: 2px; width: 18px; height: 18px;
+  border-radius: 50%; background: #fff; transition: transform .15s var(--ease);
+}
+.dash-switch.on { background: var(--verde); }
+.dash-switch.on::after { transform: translateX(18px); }
+.dash-notas textarea { min-height: 70px; resize: vertical; }
+
+.dash-volver {
+  background: none; border: none; color: var(--tinta-suave); font-size: 13.5px;
+  cursor: pointer; display: flex; align-items: center; gap: 6px; padding: 0;
+}
+.dash-volver:hover { color: var(--tinta); }
